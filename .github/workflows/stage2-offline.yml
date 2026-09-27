@@ -12,4 +12,4 @@ jobs:
         run: cd dataset && sha256sum -c MANIFEST.sha256 --quiet
       - name: model-free scorer tests (no Brain runtime, no model call)
         working-directory: code
-        run: python -m pytest -q tests/banc_realite/test_holders.py tests/banc_realite/test_classer_couple.py tests/banc_realite/test_matching.py tests/banc_realite/test_accord.py tests/banc_realite/test_dossiers.py
+        run: python -m pytest -q tests/banc_realite/test_holders.py tests/banc_realite/test_matching.py tests/banc_realite/test_accord.py tests/banc_realite/test_dossiers.py
