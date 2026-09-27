@@ -1,0 +1,107 @@
+{
+  "schema": "gold-escalations/1.0.0",
+  "dossier": "greenloop",
+  "escalations": [
+    {
+      "id": "gl-e0001",
+      "situation": "gl-s0333",
+      "why_a_human_must_decide": "Operations marked the account closed and sites inactive without an attached customer termination notice, while the signed agreement says a system inactive status does not replace a termination notice.",
+      "refers_to": [
+        "gl-u0002",
+        "gl-s0333",
+        "gl-s0481"
+      ]
+    },
+    {
+      "id": "gl-e0002",
+      "situation": "gl-s0545",
+      "why_a_human_must_decide": "A transfer of routes and account relationships is described, but the signed agreement requires prior written customer consent and the pack does not contain that consent.",
+      "refers_to": [
+        "gl-u0001",
+        "gl-s0545",
+        "gl-s0485"
+      ]
+    },
+    {
+      "id": "gl-e0003",
+      "situation": "gl-s0498",
+      "why_a_human_must_decide": "An internal rate table is approved for billing preparation, including a Quarry Tower change to GBP 24.67, while the signed agreement says a revised price takes effect only through a written change signed by both parties; customer signature and amendment fields are blank.",
+      "refers_to": [
+        "gl-s0498",
+        "gl-s0475"
+      ]
+    },
+    {
+      "id": "gl-e0004",
+      "situation": "gl-s0524",
+      "why_a_human_must_decide": "INV-2025-069 prints due on receipt, 8.7 percent yearly interest and a GBP 58.71 recovery charge, while the signed agreement prints 30 days, 4.6 percent and no fixed recovery fee, and says a shorter term on a later invoice changes the agreement only if both parties sign an amendment.",
+      "refers_to": [
+        "gl-s0472",
+        "gl-s0473",
+        "gl-s0474",
+        "gl-s0524"
+      ]
+    },
+    {
+      "id": "gl-e0005",
+      "situation": "gl-s0550",
+      "why_a_human_must_decide": "The corrected certificate and review headline carry 20.415 t and 3761 Nm³ while the same review's detailed schedule carries 20.405 t and 3763 Nm³; a human must decide which published figure is issued to the customer.",
+      "refers_to": [
+        "gl-d0035",
+        "gl-d0036"
+      ]
+    },
+    {
+      "id": "gl-e0006",
+      "situation": "gl-s0160",
+      "why_a_human_must_decide": "Container count for WT-GL-SH-MAR-Q7N is 2 on the final ticket, the register, the CSV and the customer review, and 3 on the weigh-ticket index table and its transcription note.",
+      "refers_to": [
+        "gl-d0001"
+      ]
+    },
+    {
+      "id": "gl-e0007",
+      "situation": "gl-s0525",
+      "why_a_human_must_decide": "The treatment invoice description states 1.091 tonnes while the quantity column states 1.137 t; both cannot be billed as the quantity without a human choice.",
+      "refers_to": [
+        "gl-u0011"
+      ]
+    },
+    {
+      "id": "gl-e0008",
+      "situation": "gl-s0553",
+      "why_a_human_must_decide": "Finance has a June 2025 billing draft of 52 visits while the register records the account closed at the end of May and sites inactive; a human must decide whether a June invoice may be issued.",
+      "refers_to": [
+        "gl-u0007",
+        "gl-s0553",
+        "gl-s0333"
+      ]
+    },
+    {
+      "id": "gl-e0009",
+      "situation": "gl-s0495",
+      "why_a_human_must_decide": "Operations announce a September 2025 restart of two sites and issue INV-2025-086 after the same operations file has entered a closed status without customer notice.",
+      "refers_to": [
+        "gl-s0495",
+        "gl-s0333"
+      ]
+    },
+    {
+      "id": "gl-e0010",
+      "situation": "gl-s0081",
+      "why_a_human_must_decide": "The visit labelled Hearth with blank site_code shares a ticket-reference prefix HO with Hearth office; the customer review forbids collapsing the unassigned label.",
+      "refers_to": [
+        "gl-u0004",
+        "gl-s0081"
+      ]
+    },
+    {
+      "id": "gl-e0011",
+      "situation": "gl-s0552",
+      "why_a_human_must_decide": "Estimated kilograms are published beside weighed kilograms; a human must keep those statuses apart if a later system would treat billed or certified mass as weighed.",
+      "refers_to": [
+        "gl-s0552"
+      ]
+    }
+  ]
+}

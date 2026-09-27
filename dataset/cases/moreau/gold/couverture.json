@@ -1,0 +1,66 @@
+{
+  "par_piece": {
+    "01-contrat-travail-cdi.md": {
+      "assertions": 2,
+      "questions": 4
+    },
+    "02-avenant-temps-plein.md": {
+      "assertions": 3,
+      "questions": 5
+    },
+    "03-bulletins-paie-nov-dec-2023.md": {
+      "assertions": 2,
+      "questions": 8
+    },
+    "04-planning-heures-sup.md": {
+      "assertions": 3,
+      "questions": 6
+    },
+    "05-convocation-entretien-prealable.md": {
+      "assertions": 3,
+      "questions": 5
+    },
+    "06-pv-entretien-prealable.md": {
+      "assertions": 5,
+      "questions": 11
+    },
+    "07-lettre-licenciement.md": {
+      "assertions": 4,
+      "questions": 11
+    },
+    "08-mise-en-demeure-salarie.md": {
+      "assertions": 2,
+      "questions": 5
+    },
+    "09-attestation-collegue.md": {
+      "assertions": 3,
+      "questions": 4
+    },
+    "10-requete-prudhomale.md": {
+      "assertions": 7,
+      "questions": 13
+    },
+    "11-conclusions-defense-employeur.md": {
+      "assertions": 7,
+      "questions": 11
+    },
+    "12-echange-email.md": {
+      "assertions": 1,
+      "questions": 1
+    }
+  },
+  "par_forme": {
+    "chronologie": 5,
+    "citation": 7,
+    "contradiction": 4,
+    "date": 7,
+    "delai": 5,
+    "montant": 10,
+    "non_etabli": 7,
+    "qualification": 5
+  },
+  "totaux": {
+    "assertions": 42,
+    "questions": 50
+  }
+}

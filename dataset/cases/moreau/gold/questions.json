@@ -1,0 +1,946 @@
+{
+  "schema": "gold-questions/1.0.0",
+  "dossier": "moreau",
+  "questions": [
+    {
+      "id": "MOR-Q01",
+      "shape": "citation",
+      "question": "Quel motif principal la lettre de licenciement invoque-t-elle pour le comportement vis-à-vis du client ?",
+      "answer": "La lettre invoque un comportement inapproprié vis-à-vis du client LUMO SA le 19 décembre 2023 (07-lettre-licenciement.md).",
+      "supporting_assertions": [
+        "MOR-A39"
+      ],
+      "must_mention": [
+        "LUMO SA",
+        "19 décembre 2023",
+        "comportement inapproprié"
+      ],
+      "must_not_claim": [
+        "Le témoin Benali confirme l'incident LUMO."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "La lettre exacte fixe le motif opposable invoqué par l'employeur."
+    },
+    {
+      "id": "MOR-Q02",
+      "shape": "citation",
+      "question": "Quelle clause d'horaires figure dans l'avenant au contrat du 1er mars 2022 ?",
+      "answer": "L'avenant porte la durée hebdomadaire à 35 heures (temps plein) avec répartition indicative lundi au vendredi, 8 h 30 - 12 h 00 et 13 h 30 - 17 h 00 (02-avenant-temps-plein.md).",
+      "supporting_assertions": [
+        "MOR-A05"
+      ],
+      "must_mention": [
+        "35 heures",
+        "8 h 30",
+        "17 h 00"
+      ],
+      "must_not_claim": [
+        "28 heures demeure la durée après l'avenant."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Les horaires contractuels conditionnent l'appréciation des retards invoqués."
+    },
+    {
+      "id": "MOR-Q03",
+      "shape": "citation",
+      "question": "Quels termes exacts Benali atteste avoir entendus le 8 novembre 2023 ?",
+      "answer": "Benali atteste les termes « Si ça ne va pas, la porte est large, on trouvera quelqu'un de plus motivé. » (09-attestation-collegue.md).",
+      "supporting_assertions": [
+        "MOR-A24"
+      ],
+      "must_mention": [
+        "la porte est large",
+        "8 novembre 2023"
+      ],
+      "must_not_claim": [
+        "Benali confirme l'incident LUMO du 19 décembre."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "La lettre exacte du propos conditionne la qualification de harcèlement moral."
+    },
+    {
+      "id": "MOR-Q04",
+      "shape": "date",
+      "question": "Sous quelle forme la convocation à l'entretien préalable est-elle datée ?",
+      "answer": "La convocation est datée « Orléans-sur-Clain, le 2 janvier 2024 » (05-convocation-entretien-prealable.md).",
+      "supporting_assertions": [
+        "MOR-A13"
+      ],
+      "must_mention": [
+        "2 janvier 2024"
+      ],
+      "must_not_claim": [
+        "2024-01-02 est la forme figurant dans la convocation."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "L'or conserve la forme littérale du document, pas une conversion ISO."
+    },
+    {
+      "id": "MOR-Q05",
+      "shape": "date",
+      "question": "Quelle est la forme de date de l'entretien préalable dans le procès-verbal ?",
+      "answer": "Le PV indique « Date : vendredi 12 janvier 2024 - 10 h 05 à 10 h 48 » (06-pv-entretien-prealable.md).",
+      "supporting_assertions": [
+        "MOR-A16"
+      ],
+      "must_mention": [
+        "12 janvier 2024"
+      ],
+      "must_not_claim": [
+        "2024-01-12 remplace la forme du PV."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "La chronologie procédurale repose sur les dates telles qu'écrites."
+    },
+    {
+      "id": "MOR-Q06",
+      "shape": "date",
+      "question": "Quelle forme de date porte la notification de licenciement ?",
+      "answer": "La lettre est datée « Orléans-sur-Clain, le 28 janvier 2024 » (07-lettre-licenciement.md).",
+      "supporting_assertions": [
+        "MOR-A20"
+      ],
+      "must_mention": [
+        "28 janvier 2024"
+      ],
+      "must_not_claim": [
+        "Le licenciement est notifié le 2024-01-28 dans la lettre."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "Le délai de saisine se calcule à partir de la date telle qu'écrite."
+    },
+    {
+      "id": "MOR-Q07",
+      "shape": "date",
+      "question": "Sous quelle forme la requête prud'homale indique-t-elle la saisine ?",
+      "answer": "La requête indique « Date de saisine : 5 mars 2024 » et est signée « Fait à Orléans-sur-Clain, le 5 mars 2024 » (10-requete-prudhomale.md).",
+      "supporting_assertions": [
+        "MOR-A41",
+        "MOR-A42"
+      ],
+      "must_mention": [
+        "5 mars 2024",
+        "24/01984"
+      ],
+      "must_not_claim": [
+        "2024-03-05 est la seule forme figurant dans la requête."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Le R.G. et la date de saisine doivent être cités dans la forme du document."
+    },
+    {
+      "id": "MOR-Q08",
+      "shape": "date",
+      "question": "Quelle forme de date figure sur la mise en demeure du salarié ?",
+      "answer": "La mise en demeure est datée « Orléans-sur-Clain, le 15 février 2024 » (08-mise-en-demeure-salarie.md).",
+      "supporting_assertions": [
+        "MOR-A22"
+      ],
+      "must_mention": [
+        "15 février 2024"
+      ],
+      "must_not_claim": [
+        "2024-02-15 remplace la forme de la mise en demeure."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "La mise en demeure intervient entre notification et saisine."
+    },
+    {
+      "id": "MOR-Q09",
+      "shape": "delai",
+      "question": "Combien de jours séparent la convocation (2 janvier 2024) de l'entretien préalable (12 janvier 2024) ?",
+      "answer": "Dix jours séparent la convocation du 2 janvier 2024 et l'entretien du 12 janvier 2024.",
+      "supporting_assertions": [
+        "MOR-A13",
+        "MOR-A15",
+        "MOR-A16"
+      ],
+      "must_mention": [
+        "2 janvier 2024",
+        "12 janvier 2024",
+        "10"
+      ],
+      "must_not_claim": [
+        "L'entretien a eu lieu le jour même de la convocation."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Le respect des délais procéduraux dépend de l'intervalle entre les deux actes."
+    },
+    {
+      "id": "MOR-Q10",
+      "shape": "delai",
+      "question": "Quel intervalle sépare l'entretien préalable (12 janvier 2024) et la notification du licenciement (28 janvier 2024) ?",
+      "answer": "Seize jours séparent l'entretien du 12 janvier 2024 et la notification du 28 janvier 2024.",
+      "supporting_assertions": [
+        "MOR-A16",
+        "MOR-A20"
+      ],
+      "must_mention": [
+        "12 janvier 2024",
+        "28 janvier 2024",
+        "16"
+      ],
+      "must_not_claim": [
+        "Le licenciement a été notifié le jour de l'entretien."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "La procédure distingue convocation, entretien et notification."
+    },
+    {
+      "id": "MOR-Q11",
+      "shape": "delai",
+      "question": "Combien de jours séparent la notification du licenciement (28 janvier 2024) et la saisine (5 mars 2024) ?",
+      "answer": "Trente-sept jours séparent la notification du 28 janvier 2024 et la saisine du 5 mars 2024.",
+      "supporting_assertions": [
+        "MOR-A20",
+        "MOR-A41"
+      ],
+      "must_mention": [
+        "28 janvier 2024",
+        "5 mars 2024"
+      ],
+      "must_not_claim": [
+        "La saisine intervient dans les sept jours suivant le licenciement."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "La recevabilité prud'homale repose sur le respect du délai annuel à compter de la notification."
+    },
+    {
+      "id": "MOR-Q12",
+      "shape": "montant",
+      "question": "Quel salaire brut mensuel l'avenant fixe-t-il et sous quelle forme chiffrée ?",
+      "answer": "L'avenant porte la rémunération brute mensuelle de base à 2 450,00 euros (02-avenant-temps-plein.md).",
+      "supporting_assertions": [
+        "MOR-A04"
+      ],
+      "must_mention": [
+        "2 450,00 euros"
+      ],
+      "must_not_claim": [
+        "2450 € sans séparateur est la forme du document."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "Le montant contractuel sert de base aux calculs d'heures supplémentaires."
+    },
+    {
+      "id": "MOR-Q13",
+      "shape": "montant",
+      "question": "Quel montant brut le relevé salarié revendique-t-il pour 86 heures supplémentaires ?",
+      "answer": "Le relevé indique « Montant brut revendiqué : 1 720,00 euros » pour 86 heures (04-planning-heures-sup.md).",
+      "supporting_assertions": [
+        "MOR-A11",
+        "MOR-A10"
+      ],
+      "must_mention": [
+        "1 720,00 euros",
+        "86 heures"
+      ],
+      "must_not_claim": [
+        "1720 € est la forme exacte figurant dans le relevé."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "La demande chiffrée doit être restituée avec l'unité et la forme du document."
+    },
+    {
+      "id": "MOR-Q14",
+      "shape": "montant",
+      "question": "Quel solde la mise en demeure réclame-t-elle au titre des heures supplémentaires ?",
+      "answer": "La mise en demeure réclame « la somme de 1 120,00 euros bruts » (08-mise-en-demeure-salarie.md).",
+      "supporting_assertions": [
+        "MOR-A23"
+      ],
+      "must_mention": [
+        "1 120,00 euros"
+      ],
+      "must_not_claim": [
+        "1120 € est la forme littérale de la mise en demeure."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "Le solde réclamé diffère des montants reconnus par l'employeur."
+    },
+    {
+      "id": "MOR-Q15",
+      "shape": "montant",
+      "question": "Quelle indemnité pour licenciement sans cause réelle et sérieuse la requête demande-t-elle ?",
+      "answer": "La requête demande « la somme de 14 700,00 € » à ce titre (10-requete-prudhomale.md).",
+      "supporting_assertions": [
+        "MOR-A30"
+      ],
+      "must_mention": [
+        "14 700,00 €"
+      ],
+      "must_not_claim": [
+        "14700 € est la forme exacte de la requête."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "L'indemnité demandée doit être citée avec la ponctuation du document."
+    },
+    {
+      "id": "MOR-Q16",
+      "shape": "montant",
+      "question": "Combien d'heures supplémentaires l'employeur reconnaît-il dans ses conclusions ?",
+      "answer": "Les conclusions indiquent que « L'employeur reconnaît 64 heures supplémentaires » (11-conclusions-defense-employeur.md).",
+      "supporting_assertions": [
+        "MOR-A33"
+      ],
+      "must_mention": [
+        "64 heures"
+      ],
+      "must_not_claim": [
+        "L'employeur reconnaît 86 heures supplémentaires."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "La contradiction sur le volume d'heures repose sur des chiffres opposables."
+    },
+    {
+      "id": "MOR-Q17",
+      "shape": "montant",
+      "question": "Quel montant brut les bulletins de novembre 2023 inscrivent-ils pour 12 heures supplémentaires ?",
+      "answer": "Le bulletin de novembre 2023 inscrit « 12 h 20,00 240,00 € » pour les heures supplémentaires (03-bulletins-paie-nov-dec-2023.md).",
+      "supporting_assertions": [
+        "MOR-A07"
+      ],
+      "must_mention": [
+        "12 h",
+        "240,00 €"
+      ],
+      "must_not_claim": [
+        "18 h ont été payées en novembre 2023."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Les bulletins matérialisent une partie seulement des heures revendiquées."
+    },
+    {
+      "id": "MOR-Q18",
+      "shape": "montant",
+      "question": "Quel montant brut les bulletins de décembre 2023 inscrivent-ils pour 18 heures supplémentaires ?",
+      "answer": "Le bulletin de décembre 2023 inscrit « 18 h 20,00 360,00 € » (03-bulletins-paie-nov-dec-2023.md).",
+      "supporting_assertions": [
+        "MOR-A08"
+      ],
+      "must_mention": [
+        "18 h",
+        "360,00 €"
+      ],
+      "must_not_claim": [
+        "12 h ont été payées en décembre 2023."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "La somme des bulletins (30 h) entre en contradiction avec les 86 h revendiquées."
+    },
+    {
+      "id": "MOR-Q19",
+      "shape": "contradiction",
+      "question": "Quels volumes d'heures supplémentaires le dossier fait-il coexister sans les trancher ?",
+      "answer": "Le dossier fait coexister 86 h revendiquées par la salariée, 64 h reconnues par l'employeur et 30 h déjà régularisées sur les bulletins nov./déc. 2023.",
+      "supporting_assertions": [
+        "MOR-A10",
+        "MOR-A33",
+        "MOR-A34",
+        "MOR-A07",
+        "MOR-A08"
+      ],
+      "must_mention": [
+        "86",
+        "64",
+        "30"
+      ],
+      "must_not_claim": [
+        "Le dossier tranche en faveur de 86 heures.",
+        "Seules 30 heures sont dues."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "C1 exige de tenir les trois chiffres sans désigner un gagnant."
+    },
+    {
+      "id": "MOR-Q20",
+      "shape": "contradiction",
+      "question": "Que dit l'employeur sur l'incident LUMO et que dit Benali dans son attestation ?",
+      "answer": "L'employeur invoque un comportement inapproprié vis-à-vis de LUMO SA le 19 décembre 2023 ; Benali déclare n'avoir assisté à l'échange téléphonique et ne pouvoir en témoigner.",
+      "supporting_assertions": [
+        "MOR-A39",
+        "MOR-A26"
+      ],
+      "must_mention": [
+        "LUMO SA",
+        "19 décembre 2023",
+        "ne puis en témoigner"
+      ],
+      "must_not_claim": [
+        "Benali confirme l'incident LUMO.",
+        "L'attestation corrobore le grief LUMO."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "C2 oppose un grief employeur à une attestation qui exclut tout témoignage sur LUMO."
+    },
+    {
+      "id": "MOR-Q21",
+      "shape": "contradiction",
+      "question": "Comment la salariée qualifie-t-elle le climat et comment l'employeur qualifie-t-il le propos du 8 novembre 2023 ?",
+      "answer": "La salariée dénonce un climat de pression et des propos dénigrants ; l'employeur estime que les propos, à les supposer établis, ne caractérisent pas des agissements répétés de harcèlement moral.",
+      "supporting_assertions": [
+        "MOR-A19",
+        "MOR-A36"
+      ],
+      "must_mention": [
+        "pression",
+        "harcèlement moral",
+        "agissements répétés"
+      ],
+      "must_not_claim": [
+        "Le dossier établit le harcèlement moral.",
+        "L'employeur reconnaît le harcèlement moral."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "C3 oppose deux qualifications juridiques sans trancher."
+    },
+    {
+      "id": "MOR-Q22",
+      "shape": "chronologie",
+      "question": "Quelle est la suite des actes de la procédure disciplinaire entre convocation et notification ?",
+      "answer": "Convocation du 2 janvier 2024, entretien préalable du 12 janvier 2024, notification du licenciement le 28 janvier 2024.",
+      "supporting_assertions": [
+        "MOR-A13",
+        "MOR-A16",
+        "MOR-A20"
+      ],
+      "must_mention": [
+        "2 janvier 2024",
+        "12 janvier 2024",
+        "28 janvier 2024"
+      ],
+      "must_not_claim": [
+        "Le licenciement a été notifié avant l'entretien."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "L'ordre procédural conditionne la validité du licenciement."
+    },
+    {
+      "id": "MOR-Q23",
+      "shape": "chronologie",
+      "question": "Quelle chronologie relie embauche, passage à temps plein et saisine prud'homale ?",
+      "answer": "Embauche en CDI le 15 septembre 2019, passage à 35 h au 1er mars 2022, saisine du CPH le 5 mars 2024 (R.G. 24/01984).",
+      "supporting_assertions": [
+        "MOR-A01",
+        "MOR-A06",
+        "MOR-A05",
+        "MOR-A41",
+        "MOR-A42"
+      ],
+      "must_mention": [
+        "15 septembre 2019",
+        "1er mars 2022",
+        "5 mars 2024",
+        "24/01984"
+      ],
+      "must_not_claim": [
+        "La salariée a été engagée le 2019-09-15 dans le contrat."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "La durée du contrat et la saisine s'appuient sur des dates en forme documentaire."
+    },
+    {
+      "id": "MOR-Q24",
+      "shape": "chronologie",
+      "question": "Dans quel ordre interviennent notification du licenciement, mise en demeure et saisine ?",
+      "answer": "Licenciement notifié le 28 janvier 2024, mise en demeure du 15 février 2024, saisine du 5 mars 2024.",
+      "supporting_assertions": [
+        "MOR-A20",
+        "MOR-A22",
+        "MOR-A41"
+      ],
+      "must_mention": [
+        "28 janvier 2024",
+        "15 février 2024",
+        "5 mars 2024"
+      ],
+      "must_not_claim": [
+        "La mise en demeure précède la notification du licenciement."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "La séquence contentieuse structure les prétentions respectives."
+    },
+    {
+      "id": "MOR-Q25",
+      "shape": "qualification",
+      "question": "Pour quel motif la lettre de licenciement qualifie-t-elle la rupture ?",
+      "answer": "La lettre notifie un licenciement pour cause réelle et sérieuse (07-lettre-licenciement.md).",
+      "supporting_assertions": [
+        "MOR-A21"
+      ],
+      "must_mention": [
+        "cause réelle et sérieuse"
+      ],
+      "must_not_claim": [
+        "Le licenciement est qualifié de faute grave dans la lettre."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "La qualification employeur fixe le cadre de la contestation."
+    },
+    {
+      "id": "MOR-Q26",
+      "shape": "qualification",
+      "question": "Que demande la requête prud'homale sur le licenciement et sur le harcèlement moral ?",
+      "answer": "La requête demande de dire le licenciement dépourvu de cause réelle et sérieuse et invoque des agissements répétés au sens de l'article L.1152-1.",
+      "supporting_assertions": [
+        "MOR-A29",
+        "MOR-A28"
+      ],
+      "must_mention": [
+        "dépourvu de cause réelle et sérieuse",
+        "L.1152-1"
+      ],
+      "must_not_claim": [
+        "La requête se borne à demander le rappel d'heures supplémentaires."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "La qualification demanderesse dépasse le seul contentieux des heures."
+    },
+    {
+      "id": "MOR-Q27",
+      "shape": "qualification",
+      "question": "Quelle position l'employeur prend-il sur le harcèlement moral dans ses conclusions ?",
+      "answer": "L'employeur estime que les propos du 8 novembre 2023 ne caractérisent pas, à eux seuls, des agissements répétés au sens de l'article L.1152-1.",
+      "supporting_assertions": [
+        "MOR-A36"
+      ],
+      "must_mention": [
+        "agissements répétés",
+        "L.1152-1"
+      ],
+      "must_not_claim": [
+        "L'employeur admet le harcèlement moral."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "La défense oppose une qualification restrictive à celle de la salariée."
+    },
+    {
+      "id": "MOR-Q28",
+      "shape": "non_etabli",
+      "question": "Le dossier établit-il que Benali a assisté à l'appel LUMO du 19 décembre 2023 ?",
+      "answer": "Non : Benali déclare n'avoir assisté à l'échange téléphonique du 19 décembre 2023 avec LUMO SA et ne pouvoir en témoigner.",
+      "supporting_assertions": [],
+      "must_mention": [
+        "ne puis en témoigner",
+        "19 décembre 2023"
+      ],
+      "must_not_claim": [
+        "Benali confirme le comportement inapproprié vis-à-vis de LUMO."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Un grief employeur n'est pas établi par une attestation qui exclut tout témoignage."
+    },
+    {
+      "id": "MOR-Q29",
+      "shape": "non_etabli",
+      "question": "Le dossier permet-il d'affirmer que 86 heures supplémentaires ont été intégralement payées ?",
+      "answer": "Non : seules 30 h apparaissent sur les bulletins nov./déc. 2023 (12 h + 18 h), tandis que la salariée revendique 86 h et l'employeur en reconnaît 64.",
+      "supporting_assertions": [
+        "MOR-A07",
+        "MOR-A08",
+        "MOR-A09",
+        "MOR-A33"
+      ],
+      "must_mention": [
+        "86",
+        "30",
+        "64"
+      ],
+      "must_not_claim": [
+        "86 heures ont été payées sur les bulletins.",
+        "Le solde de 86 h est acquis."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "Confondre heures revendiquées et heures payées fausse l'analyse du solde."
+    },
+    {
+      "id": "MOR-Q30",
+      "shape": "non_etabli",
+      "question": "Le dossier établit-il le montant exact des dommages-intérêts pour harcèlement moral déjà payés ?",
+      "answer": "Non : la requête demande 3 000,00 € de dommages-intérêts pour harcèlement moral, sans pièce de paiement ou de condamnation antérieure.",
+      "supporting_assertions": [
+        "MOR-A32"
+      ],
+      "must_mention": [
+        "3 000,00 €",
+        "demande"
+      ],
+      "must_not_claim": [
+        "3 000 € ont déjà été versés à la salariée."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Une demande contentieuse n'est pas un fait établi de paiement."
+    },
+    {
+      "id": "MOR-Q31",
+      "shape": "non_etabli",
+      "question": "Le dossier permet-il de trancher si les 22 heures contestées par l'employeur étaient autorisées ?",
+      "answer": "Non : l'employeur conteste 22 h faute d'autorisation préalable, sans pièce autonome d'autorisation ou de refus pour chaque heure.",
+      "supporting_assertions": [
+        "MOR-A38"
+      ],
+      "must_mention": [
+        "22 heures",
+        "autorisation préalable"
+      ],
+      "must_not_claim": [
+        "Les 22 heures étaient autorisées par écrit.",
+        "Les 22 heures sont dues par l'employeur."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "La charge de la preuve sur l'autorisation n'est pas tranchée par une pièce unique."
+    },
+    {
+      "id": "MOR-Q32",
+      "shape": "non_etabli",
+      "question": "Le dossier établit-il que la salariée a insulté le client LUMO lors de l'appel du 19 décembre 2023 ?",
+      "answer": "Non : l'employeur invoque un comportement inapproprié, la salariée nie tout propos insultant au PV, et Benali exclut tout témoignage sur l'appel.",
+      "supporting_assertions": [
+        "MOR-A39",
+        "MOR-A16",
+        "MOR-A24"
+      ],
+      "must_mention": [
+        "comportement inapproprié",
+        "nie tout propos insultant",
+        "ne puis en témoigner"
+      ],
+      "must_not_claim": [
+        "L'insulte envers LUMO est établie.",
+        "Benali confirme l'insulte."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "Un grief disciplinaire n'est pas établi lorsque les voix se contredisent sans pièce neutre."
+    },
+    {
+      "id": "MOR-Q33",
+      "shape": "citation",
+      "question": "Quelle qualification professionnelle le contrat de travail initial mentionne-t-il ?",
+      "answer": "Le contrat engage la salariée en qualité de Technicienne de maintenance industrielle (01-contrat-travail-cdi.md).",
+      "supporting_assertions": [
+        "MOR-A01"
+      ],
+      "must_mention": [
+        "Technicienne de maintenance industrielle"
+      ],
+      "must_not_claim": [
+        "La salariée est ingénieure maintenance dans le contrat."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "La qualification contractuelle figure dans la pièce fondatrice."
+    },
+    {
+      "id": "MOR-Q34",
+      "shape": "citation",
+      "question": "Quel SIREN le contrat et la requête prud'homale mentionnent-ils pour l'employeur ?",
+      "answer": "Le contrat mentionne le n° 749 382 615 ; la requête reprend « SIREN 749 382 615 ».",
+      "supporting_assertions": [
+        "MOR-A02",
+        "MOR-A42"
+      ],
+      "must_mention": [
+        "749 382 615"
+      ],
+      "must_not_claim": [
+        "749382615 sans espaces est la forme du contrat."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "L'identification de l'employeur doit reprendre la forme des pièces."
+    },
+    {
+      "id": "MOR-Q35",
+      "shape": "date",
+      "question": "Quelle forme de date le contrat initial donne-t-il à l'embauche ?",
+      "answer": "Le contrat engage la salariée « à compter du 15 septembre 2019 » (01-contrat-travail-cdi.md).",
+      "supporting_assertions": [
+        "MOR-A01"
+      ],
+      "must_mention": [
+        "15 septembre 2019"
+      ],
+      "must_not_claim": [
+        "2019-09-15 figure dans le contrat."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "L'ancienneté se lit dans la forme littérale du contrat."
+    },
+    {
+      "id": "MOR-Q36",
+      "shape": "delai",
+      "question": "Combien de temps sépare la mise en demeure (15 février 2024) et la saisine (5 mars 2024) ?",
+      "answer": "Dix-neuf jours séparent la mise en demeure du 15 février 2024 et la saisine du 5 mars 2024.",
+      "supporting_assertions": [
+        "MOR-A22",
+        "MOR-A41"
+      ],
+      "must_mention": [
+        "15 février 2024",
+        "5 mars 2024"
+      ],
+      "must_not_claim": [
+        "La saisine précède la mise en demeure."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "La mise en demeure précède l'instance sans la remplacer."
+    },
+    {
+      "id": "MOR-Q37",
+      "shape": "montant",
+      "question": "Quel taux horaire majoré à 25 % l'avenant fixe-t-il pour les heures supplémentaires ?",
+      "answer": "L'avenant indique que les heures supplémentaires majorées à 25 % sont rémunérées sur la base de 20,00 euros de l'heure.",
+      "supporting_assertions": [
+        "MOR-A04"
+      ],
+      "must_mention": [
+        "20,00 euros",
+        "25 %"
+      ],
+      "must_not_claim": [
+        "16,00 euros est le taux des heures supplémentaires majorées."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Le taux HS sert au calcul des montants revendiqués et reconnus."
+    },
+    {
+      "id": "MOR-Q38",
+      "shape": "montant",
+      "question": "Quel montant maximal l'employeur estime-t-il encore dû au titre des heures supplémentaires ?",
+      "answer": "Les conclusions estiment le solde maximal susceptible d'être dû à 680,00 € bruts.",
+      "supporting_assertions": [
+        "MOR-A35"
+      ],
+      "must_mention": [
+        "680,00 €"
+      ],
+      "must_not_claim": [
+        "680 € est la somme réclamée par la salariée."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "La défense chiffre un plafond distinct du solde de 1 120 € réclamé."
+    },
+    {
+      "id": "MOR-Q39",
+      "shape": "chronologie",
+      "question": "Quand le propos « la porte est large » est-il situé par rapport au relevé d'heures ?",
+      "answer": "Le propos est situé le 8 novembre 2023 ; le relevé d'heures est transmis le 8 janvier 2024 selon le PV et le relevé salarié.",
+      "supporting_assertions": [
+        "MOR-A27",
+        "MOR-A09",
+        "MOR-A16"
+      ],
+      "must_mention": [
+        "8 novembre 2023",
+        "8 janvier 2024"
+      ],
+      "must_not_claim": [
+        "Le propos et le relevé sont contemporains du licenciement."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "La chronologie relie faits disciplinaires et contentieux des heures."
+    },
+    {
+      "id": "MOR-Q40",
+      "shape": "qualification",
+      "question": "Quelle assistante la salariée avait-elle à l'entretien préalable selon le PV ?",
+      "answer": "M. Karim BENALI, technicien, a assisté la salariée (06-pv-entretien-prealable.md).",
+      "supporting_assertions": [
+        "MOR-A17"
+      ],
+      "must_mention": [
+        "Karim BENALI",
+        "assistant"
+      ],
+      "must_not_claim": [
+        "Me Ferrand a assisté la salariée à l'entretien préalable."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "Confondre conseil et assistant fausse la procédure."
+    },
+    {
+      "id": "MOR-Q41",
+      "shape": "non_etabli",
+      "question": "Le dossier établit-il que le courriel de réclamation LUMO du 20 décembre 2023 est versé au dossier ?",
+      "answer": "Non : le PV mentionne un courriel de réclamation non annexé ; aucune pièce du dossier ne reproduit ce courriel.",
+      "supporting_assertions": [
+        "MOR-A18",
+        "MOR-A39"
+      ],
+      "must_mention": [
+        "non annexé",
+        "courriel"
+      ],
+      "must_not_claim": [
+        "Le courriel LUMO du 20 décembre est produit au dossier."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Un grief invoqué sans pièce versée ne peut être affirmé comme établi."
+    },
+    {
+      "id": "MOR-Q42",
+      "shape": "citation",
+      "question": "Quelle formule la convocation emploie-t-elle pour l'objet de la réunion ?",
+      "answer": "La convocation porte pour objet « convocation à un entretien préalable à un éventuel licenciement » (05-convocation-entretien-prealable.md).",
+      "supporting_assertions": [
+        "MOR-A14"
+      ],
+      "must_mention": [
+        "entretien préalable",
+        "éventuel licenciement"
+      ],
+      "must_not_claim": [
+        "La convocation notifie directement le licenciement."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "La convocation n'est pas une notification de rupture."
+    },
+    {
+      "id": "MOR-Q43",
+      "shape": "date",
+      "question": "Quelle forme de date l'attestation de Benali porte-t-elle ?",
+      "answer": "L'attestation est signée « À Orléans-sur-Clain, le 20 février 2024 » (09-attestation-collegue.md).",
+      "supporting_assertions": [
+        "MOR-A25"
+      ],
+      "must_mention": [
+        "20 février 2024"
+      ],
+      "must_not_claim": [
+        "2024-02-20 remplace la forme de l'attestation."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "La date de l'attestation postérieure au licenciement limite sa portée probatoire sur certains griefs."
+    },
+    {
+      "id": "MOR-Q44",
+      "shape": "delai",
+      "question": "Quel intervalle sépare le propos du 8 novembre 2023 et l'incident LUMO invoqué le 19 décembre 2023 ?",
+      "answer": "Quarante et un jours séparent le 8 novembre 2023 et le 19 décembre 2023.",
+      "supporting_assertions": [
+        "MOR-A27",
+        "MOR-A39"
+      ],
+      "must_mention": [
+        "8 novembre 2023",
+        "19 décembre 2023"
+      ],
+      "must_not_claim": [
+        "Les deux faits sont simultanés."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Rapprocher des faits distants peut fausser la qualification d'ensemble."
+    },
+    {
+      "id": "MOR-Q45",
+      "shape": "contradiction",
+      "question": "Quel solde d'heures la salariée réclame-t-elle et quel plafond l'employeur propose-t-il ?",
+      "answer": "La salariée réclame 1 120,00 € bruts de solde ; l'employeur limite subsidiairement tout rappel à 680,00 € bruts.",
+      "supporting_assertions": [
+        "MOR-A23",
+        "MOR-A35"
+      ],
+      "must_mention": [
+        "1 120,00",
+        "680,00"
+      ],
+      "must_not_claim": [
+        "Les deux parties s'accordent sur 1 120 €."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "Le contentieux chiffré oppose deux montants sans trancher."
+    },
+    {
+      "id": "MOR-Q46",
+      "shape": "chronologie",
+      "question": "Quelle est l'ordre des pièces paie et du relevé salarié sur la période sept.-déc. 2023 ?",
+      "answer": "Les bulletins nov./déc. 2023 paient partiellement des HS ; le relevé salarié couvre sept.-déc. 2023 et est transmis le 8 janvier 2024.",
+      "supporting_assertions": [
+        "MOR-A07",
+        "MOR-A08",
+        "MOR-A09"
+      ],
+      "must_mention": [
+        "novembre 2023",
+        "décembre 2023",
+        "8 janvier 2024"
+      ],
+      "must_not_claim": [
+        "Le relevé a été établi avant les bulletins de paie."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "La chronologie paie / relevé éclaire la régularisation partielle."
+    },
+    {
+      "id": "MOR-Q47",
+      "shape": "qualification",
+      "question": "Quel fondement la requête invoque-t-elle pour les heures supplémentaires impayées ?",
+      "answer": "La requête invoque les articles L.1235-3, L.3121-28 et L.1152-1 du code du travail.",
+      "supporting_assertions": [
+        "MOR-A28"
+      ],
+      "must_mention": [
+        "L.3121-28",
+        "heures supplémentaires"
+      ],
+      "must_not_claim": [
+        "Seul l'article L.1235-3 est invoqué pour les heures supplémentaires."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Les fondements juridiques structurent les prétentions."
+    },
+    {
+      "id": "MOR-Q48",
+      "shape": "montant",
+      "question": "Quel montant l'employeur reconnaît-il pour 64 heures au taux de 20,00 € ?",
+      "answer": "Les conclusions indiquent un montant de 1 280,00 € bruts pour 64 heures au taux de 20,00 €.",
+      "supporting_assertions": [
+        "MOR-A33"
+      ],
+      "must_mention": [
+        "1 280,00 €",
+        "64 heures",
+        "20,00 €"
+      ],
+      "must_not_claim": [
+        "1 720,00 € est le montant reconnu par l'employeur."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Le montant reconnu diffère du montant revendiqué."
+    },
+    {
+      "id": "MOR-Q49",
+      "shape": "citation",
+      "question": "Que mentionne l'e-mail du 22 février 2024 sur les heures supplémentaires ?",
+      "answer": "L'e-mail indique « 86 heures supplémentaires déclarées, dont une partie seulement apparaît sur mes bulletins de novembre et décembre » (12-echange-email.md).",
+      "supporting_assertions": [
+        "MOR-A12"
+      ],
+      "must_mention": [
+        "86 heures supplémentaires",
+        "novembre et décembre"
+      ],
+      "must_not_claim": [
+        "L'e-mail établit le paiement intégral des 86 heures."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "L'e-mail reprend la revendication sans la prouver par lui-même."
+    },
+    {
+      "id": "MOR-Q50",
+      "shape": "non_etabli",
+      "question": "Le dossier permet-il d'affirmer que la salariée a été en arrêt maladie pour harcèlement moral ?",
+      "answer": "Non : les conclusions de l'employeur relèvent l'absence d'arrêt de travail, de signalement à la médecine du travail et d'écrit contemporain.",
+      "supporting_assertions": [
+        "MOR-A37"
+      ],
+      "must_mention": [
+        "aucun arrêt de travail",
+        "médecine du travail"
+      ],
+      "must_not_claim": [
+        "Un arrêt maladie pour harcèlement moral figure au dossier."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Absence de pièce médicale ou sociale limite l'établissement du préjudice."
+    }
+  ]
+}

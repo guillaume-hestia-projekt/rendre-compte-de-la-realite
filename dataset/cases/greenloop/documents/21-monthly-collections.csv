@@ -1,0 +1,159 @@
+month,site_label,site_code,collections_recorded,collections_planned,containers,capacity,invoice_reference,basis,weighed_visits,not_weighed_visits,tare_only_visits,not_collected_visits,weighed_kg,estimated_kg,total_kg,raw_sum_kg,mean_kg,mean_source_month
+2024-01,Station House,SITE-SH,11,12,,,INV-2024-053,monthly invoice transcription,,,,,,,,,,
+2024-01,Mill Road,SITE-MR,10,10,,,INV-2024-053,monthly invoice transcription,,,,,,,,,,
+2024-01,Roast Kitchen,SITE-RK,10,10,,,INV-2024-053,monthly invoice transcription,,,,,,,,,,
+2024-01,Quarry Tower,SITE-QT,4,4,,,INV-2024-053,monthly invoice transcription,,,,,,,,,,
+2024-01,Beacon Court,SITE-BC,4,5,,,INV-2024-053,monthly invoice transcription,,,,,,,,,,
+2024-01,West Yard,SITE-WY,4,4,,,INV-2024-053,monthly invoice transcription,,,,,,,,,,
+2024-01,Paper Hall,SITE-PH,4,4,,,INV-2024-053,monthly invoice transcription,,,,,,,,,,
+2024-01,Hearth office,SITE-HO,4,4,,,INV-2024-053,monthly invoice transcription,,,,,,,,,,
+2024-01,Hearth counter,SITE-HS,5,6,,,INV-2024-053,monthly invoice transcription,,,,,,,,,,
+2024-02,Station House,SITE-SH,10,10,,,INV-2024-054,monthly invoice transcription,,,,,,,,,,
+2024-02,Mill Road,SITE-MR,9,9,,,INV-2024-054,monthly invoice transcription,,,,,,,,,,
+2024-02,Roast Kitchen,SITE-RK,8,8,,,INV-2024-054,monthly invoice transcription,,,,,,,,,,
+2024-02,Quarry Tower,SITE-QT,5,6,,,INV-2024-054,monthly invoice transcription,,,,,,,,,,
+2024-02,Beacon Court,SITE-BC,4,4,,,INV-2024-054,monthly invoice transcription,,,,,,,,,,
+2024-02,West Yard,SITE-WY,5,5,,,INV-2024-054,monthly invoice transcription,,,,,,,,,,
+2024-02,Paper Hall,SITE-PH,4,4,,,INV-2024-054,monthly invoice transcription,,,,,,,,,,
+2024-02,Hearth office,SITE-HO,4,5,,,INV-2024-054,monthly invoice transcription,,,,,,,,,,
+2024-02,Hearth counter,SITE-HS,4,4,,,INV-2024-054,monthly invoice transcription,,,,,,,,,,
+2024-03,Station House,SITE-SH,12,12,,,INV-2024-055,monthly invoice transcription,,,,,,,,,,
+2024-03,Mill Road,SITE-MR,8,8,,,INV-2024-055,monthly invoice transcription,,,,,,,,,,
+2024-03,Roast Kitchen,SITE-RK,8,9,,,INV-2024-055,monthly invoice transcription,,,,,,,,,,
+2024-03,Quarry Tower,SITE-QT,4,4,,,INV-2024-055,monthly invoice transcription,,,,,,,,,,
+2024-03,Beacon Court,SITE-BC,5,5,,,INV-2024-055,monthly invoice transcription,,,,,,,,,,
+2024-03,West Yard,SITE-WY,4,4,,,INV-2024-055,monthly invoice transcription,,,,,,,,,,
+2024-03,Paper Hall,SITE-PH,5,6,,,INV-2024-055,monthly invoice transcription,,,,,,,,,,
+2024-03,Hearth office,SITE-HO,4,4,,,INV-2024-055,monthly invoice transcription,,,,,,,,,,
+2024-03,Hearth counter,SITE-HS,5,5,,,INV-2024-055,monthly invoice transcription,,,,,,,,,,
+2024-04,Station House,SITE-SH,12,12,1,88 L,INV-2024-056,monthly invoice transcription,,,,,,,,,,
+2024-04,Mill Road,SITE-MR,9,10,1,88 L,INV-2024-056,monthly invoice transcription,,,,,,,,,,
+2024-04,Roast Kitchen,SITE-RK,8,8,3,144 L,INV-2024-056,monthly invoice transcription,,,,,,,,,,
+2024-04,Quarry Tower,SITE-QT,5,5,1,48 L,INV-2024-056,monthly invoice transcription,,,,,,,,,,
+2024-04,Beacon Court,SITE-BC,4,4,1,48 L,INV-2024-056,monthly invoice transcription,,,,,,,,,,
+2024-04,West Yard,SITE-WY,4,5,1,48 L,INV-2024-056,monthly invoice transcription,,,,,,,,,,
+2024-04,Paper Hall,SITE-PH,4,4,1,48 L,INV-2024-056,monthly invoice transcription,,,,,,,,,,
+2024-04,Hearth office,SITE-HO,4,4,1,48 L,INV-2024-056,monthly invoice transcription,,,,,,,,,,
+2024-04,Hearth counter,SITE-HS,4,4,1,48 L,INV-2024-056,monthly invoice transcription,,,,,,,,,,
+2024-05,Station House,SITE-SH,12,13,1,88 L,INV-2024-057,monthly invoice transcription,,,,,,,,,,
+2024-05,Mill Road,SITE-MR,8,8,1,88 L,INV-2024-057,monthly invoice transcription,,,,,,,,,,
+2024-05,Roast Kitchen,SITE-RK,9,9,3,144 L,INV-2024-057,monthly invoice transcription,,,,,,,,,,
+2024-05,Quarry Tower,SITE-QT,4,4,1,48 L,INV-2024-057,monthly invoice transcription,,,,,,,,,,
+2024-05,Beacon Court,SITE-BC,5,6,1,48 L,INV-2024-057,monthly invoice transcription,,,,,,,,,,
+2024-05,West Yard,SITE-WY,4,4,1,48 L,INV-2024-057,monthly invoice transcription,,,,,,,,,,
+2024-05,Paper Hall,SITE-PH,5,5,1,48 L,INV-2024-057,monthly invoice transcription,,,,,,,,,,
+2024-05,Hearth office,SITE-HO,4,4,1,48 L,INV-2024-057,monthly invoice transcription,,,,,,,,,,
+2024-05,Hearth counter,SITE-HS,5,6,1,48 L,INV-2024-057,monthly invoice transcription,,,,,,,,,,
+2024-06,Station House,SITE-SH,12,12,1,88 L,INV-2024-058,monthly invoice transcription,,,,,,,,,,
+2024-06,Mill Road,SITE-MR,9,9,1,88 L,INV-2024-058,monthly invoice transcription,,,,,,,,,,
+2024-06,Roast Kitchen,SITE-RK,8,8,3,144 L,INV-2024-058,monthly invoice transcription,,,,,,,,,,
+2024-06,Quarry Tower,SITE-QT,4,5,1,48 L,INV-2024-058,monthly invoice transcription,,,,,,,,,,
+2024-06,Beacon Court,SITE-BC,4,4,1,48 L,INV-2024-058,monthly invoice transcription,,,,,,,,,,
+2024-06,West Yard,SITE-WY,4,4,1,48 L,INV-2024-058,monthly invoice transcription,,,,,,,,,,
+2024-06,Paper Hall,SITE-PH,4,4,1,48 L,INV-2024-058,monthly invoice transcription,,,,,,,,,,
+2024-06,Hearth office,SITE-HO,4,5,1,48 L,INV-2024-058,monthly invoice transcription,,,,,,,,,,
+2024-06,Hearth counter,SITE-HS,4,4,1,48 L,INV-2024-058,monthly invoice transcription,,,,,,,,,,
+2024-07,Station House,SITE-SH,13,13,1,88 L,INV-2024-059,monthly invoice transcription,,,,,,,,,,
+2024-07,Mill Road,SITE-MR,8,8,1,88 L,INV-2024-059,monthly invoice transcription,,,,,,,,,,
+2024-07,Roast Kitchen,SITE-RK,9,10,3,144 L,INV-2024-059,monthly invoice transcription,,,,,,,,,,
+2024-07,Quarry Tower,SITE-QT,4,4,1,48 L,INV-2024-059,monthly invoice transcription,,,,,,,,,,
+2024-07,Beacon Court,SITE-BC,5,5,1,48 L,INV-2024-059,monthly invoice transcription,,,,,,,,,,
+2024-07,West Yard,SITE-WY,4,4,1,48 L,INV-2024-059,monthly invoice transcription,,,,,,,,,,
+2024-07,Paper Hall,SITE-PH,5,6,1,48 L,INV-2024-059,monthly invoice transcription,,,,,,,,,,
+2024-07,Hearth office,SITE-HO,4,4,1,48 L,INV-2024-059,monthly invoice transcription,,,,,,,,,,
+2024-07,Hearth counter,SITE-HS,4,4,1,48 L,INV-2024-059,monthly invoice transcription,,,,,,,,,,
+2024-08,Station House,SITE-SH,12,12,1,88 L,INV-2024-060,monthly invoice transcription,,,,,,,,,,
+2024-08,Mill Road,SITE-MR,8,9,1,88 L,INV-2024-060,monthly invoice transcription,,,,,,,,,,
+2024-08,Roast Kitchen,SITE-RK,8,8,3,144 L,INV-2024-060,monthly invoice transcription,,,,,,,,,,
+2024-08,Quarry Tower,SITE-QT,4,4,1,48 L,INV-2024-060,monthly invoice transcription,,,,,,,,,,
+2024-08,Beacon Court,SITE-BC,4,4,1,48 L,INV-2024-060,monthly invoice transcription,,,,,,,,,,
+2024-08,West Yard,SITE-WY,5,6,1,48 L,INV-2024-060,monthly invoice transcription,,,,,,,,,,
+2024-08,Paper Hall,SITE-PH,4,4,1,48 L,INV-2024-060,monthly invoice transcription,,,,,,,,,,
+2024-08,Hearth office,SITE-HO,5,5,1,48 L,INV-2024-060,monthly invoice transcription,,,,,,,,,,
+2024-08,Hearth counter,SITE-HS,4,4,1,48 L,INV-2024-060,monthly invoice transcription,,,,,,,,,,
+2024-09,Station House,SITE-SH,13,14,1,88 L,INV-2024-061,monthly invoice transcription,,,,,,,,,,
+2024-09,Mill Road,SITE-MR,8,8,1,88 L,INV-2024-061,monthly invoice transcription,,,,,,,,,,
+2024-09,Roast Kitchen,SITE-RK,9,9,3,144 L,INV-2024-061,monthly invoice transcription,,,,,,,,,,
+2024-09,Quarry Tower,SITE-QT,4,4,1,48 L,INV-2024-061,monthly invoice transcription,,,,,,,,,,
+2024-09,Beacon Court,SITE-BC,5,6,1,48 L,INV-2024-061,monthly invoice transcription,,,,,,,,,,
+2024-09,West Yard,SITE-WY,4,4,1,48 L,INV-2024-061,monthly invoice transcription,,,,,,,,,,
+2024-09,Paper Hall,SITE-PH,4,4,1,48 L,INV-2024-061,monthly invoice transcription,,,,,,,,,,
+2024-09,Hearth office,SITE-HO,4,4,1,48 L,INV-2024-061,monthly invoice transcription,,,,,,,,,,
+2024-09,Hearth counter,SITE-HS,4,5,1,48 L,INV-2024-061,monthly invoice transcription,,,,,,,,,,
+2024-10,Station House,SITE-SH,12,12,1,88 L,INV-2024-063,monthly invoice transcription,,,,,,,,,,
+2024-10,Mill Road,SITE-MR,8,8,1,88 L,INV-2024-063,monthly invoice transcription,,,,,,,,,,
+2024-10,Roast Kitchen,SITE-RK,8,8,3,144 L,INV-2024-063,monthly invoice transcription,,,,,,,,,,
+2024-10,Quarry Tower,SITE-QT,5,6,1,48 L,INV-2024-063,monthly invoice transcription,,,,,,,,,,
+2024-10,Beacon Court,SITE-BC,4,4,1,48 L,INV-2024-063,monthly invoice transcription,,,,,,,,,,
+2024-10,West Yard,SITE-WY,5,5,1,48 L,INV-2024-063,monthly invoice transcription,,,,,,,,,,
+2024-10,Paper Hall,SITE-PH,4,4,1,48 L,INV-2024-063,monthly invoice transcription,,,,,,,,,,
+2024-10,Hearth office,SITE-HO,5,6,1,48 L,INV-2024-063,monthly invoice transcription,,,,,,,,,,
+2024-10,Hearth counter,SITE-HS,4,4,1,48 L,INV-2024-063,monthly invoice transcription,,,,,,,,,,
+2024-11,Station House,SITE-SH,13,13,1,88 L,INV-2024-065,monthly invoice transcription,,,,,,,,,,
+2024-11,Mill Road,SITE-MR,8,8,1,88 L,INV-2024-065,monthly invoice transcription,,,,,,,,,,
+2024-11,Roast Kitchen,SITE-RK,9,10,3,144 L,INV-2024-065,monthly invoice transcription,,,,,,,,,,
+2024-11,Quarry Tower,SITE-QT,4,4,1,48 L,INV-2024-065,monthly invoice transcription,,,,,,,,,,
+2024-11,Beacon Court,SITE-BC,4,4,1,48 L,INV-2024-065,monthly invoice transcription,,,,,,,,,,
+2024-11,West Yard,SITE-WY,4,4,1,48 L,INV-2024-065,monthly invoice transcription,,,,,,,,,,
+2024-11,Paper Hall,SITE-PH,4,5,1,48 L,INV-2024-065,monthly invoice transcription,,,,,,,,,,
+2024-11,Hearth office,SITE-HO,4,4,1,48 L,INV-2024-065,monthly invoice transcription,,,,,,,,,,
+2024-11,Hearth counter,SITE-HS,4,4,1,48 L,INV-2024-065,monthly invoice transcription,,,,,,,,,,
+2024-12,Station House,SITE-SH,12,12,1,88 L,INV-2025-062,monthly invoice transcription,,,,,,,,,,
+2024-12,Mill Road,SITE-MR,9,10,1,88 L,INV-2025-062,monthly invoice transcription,,,,,,,,,,
+2024-12,Roast Kitchen,SITE-RK,8,8,3,144 L,INV-2025-062,monthly invoice transcription,,,,,,,,,,
+2024-12,Quarry Tower,SITE-QT,5,5,1,48 L,INV-2025-062,monthly invoice transcription,,,,,,,,,,
+2024-12,Beacon Court,SITE-BC,4,4,1,48 L,INV-2025-062,monthly invoice transcription,,,,,,,,,,
+2024-12,West Yard,SITE-WY,5,6,1,48 L,INV-2025-062,monthly invoice transcription,,,,,,,,,,
+2024-12,Paper Hall,SITE-PH,4,4,1,48 L,INV-2025-062,monthly invoice transcription,,,,,,,,,,
+2024-12,Hearth office,SITE-HO,5,5,1,48 L,INV-2025-062,monthly invoice transcription,,,,,,,,,,
+2024-12,Hearth counter,SITE-HS,4,4,1,48 L,INV-2025-062,monthly invoice transcription,,,,,,,,,,
+2024-02,Mill Rd.,,,,,,INV-2024-054,margin label; count not transcribed,,,,,,,,,,
+2024-05,Hearth,,,,,,INV-2024-057,address absent,,,,,,,,,,
+2024-08,Mill Rd.,,,,,,INV-2024-060,margin label; count not transcribed,,,,,,,,,,
+2024-11,Hearth,,,,,,INV-2024-065,address absent,,,,,,,,,,
+2025-01,Station House,SITE-SH,14,,,,INV-2025-065,ticket events; site mean for missing net readings,14,0,0,0,242.683,0.000,242.683,242.683,17.335,2025-01
+2025-01,Mill Road,SITE-MR,9,,,,INV-2025-065,ticket events; site mean for missing net readings,1,8,0,0,31.380,251.040,282.420,31.380,31.380,2025-01
+2025-01,Roast Kitchen,SITE-RK,9,,,,INV-2025-065,ticket events; site mean for missing net readings,1,8,0,0,68.344,546.752,615.096,68.344,68.344,2025-01
+2025-01,Quarry Tower,SITE-QT,5,,,,INV-2025-065,ticket events; site mean for missing net readings,5,0,0,0,153.171,0.000,153.171,153.171,30.634,2025-01
+2025-01,Beacon Court,SITE-BC,5,,,,INV-2025-065,ticket events; site mean for missing net readings,5,0,0,0,143.574,0.000,143.574,143.574,28.715,2025-01
+2025-01,West Yard,SITE-WY,5,,,,INV-2025-065,ticket events; site mean for missing net readings,5,0,0,0,202.612,0.000,202.612,202.612,40.522,2025-01
+2025-01,Paper Hall,SITE-PH,6,,,,INV-2025-065,ticket events; site mean for missing net readings,6,0,0,0,92.629,0.000,92.629,92.629,15.438,2025-01
+2025-01,Hearth office,SITE-HO,5,,,,INV-2025-065,ticket events; site mean for missing net readings,5,0,0,1,64.858,0.000,64.858,64.858,12.972,2025-01
+2025-01,Hearth counter,SITE-HS,5,,,,INV-2025-065,ticket events; site mean for missing net readings,1,4,0,0,17.168,68.672,85.840,17.168,17.168,2025-01
+2025-02,Station House,SITE-SH,12,,,,INV-2025-069,ticket events; site mean for missing net readings,12,0,0,0,274.153,0.000,274.153,274.153,22.846,2025-02
+2025-02,Mill Road,SITE-MR,8,,,,INV-2025-069,ticket events; site mean for missing net readings,0,8,0,0,0.000,251.040,251.040,0.000,31.380,2025-01
+2025-02,Roast Kitchen,SITE-RK,8,,,,INV-2025-069,ticket events; site mean for missing net readings,0,8,0,0,0.000,546.752,546.752,0.000,68.344,2025-01
+2025-02,Quarry Tower,SITE-QT,4,,,,INV-2025-069,ticket events; site mean for missing net readings,4,0,0,0,110.879,0.000,110.879,110.879,27.720,2025-02
+2025-02,Beacon Court,SITE-BC,4,,,,INV-2025-069,ticket events; site mean for missing net readings,4,0,0,0,88.209,0.000,88.209,88.209,22.052,2025-02
+2025-02,West Yard,SITE-WY,4,,,,INV-2025-069,ticket events; site mean for missing net readings,4,0,0,0,150.518,0.000,150.518,150.518,37.630,2025-02
+2025-02,Paper Hall,SITE-PH,4,,,,INV-2025-069,ticket events; site mean for missing net readings,4,0,0,0,66.287,0.000,66.287,66.287,16.572,2025-02
+2025-02,Hearth office,SITE-HO,3,,,,INV-2025-069,ticket events; site mean for missing net readings,3,0,0,0,62.026,0.000,62.026,62.026,20.675,2025-02
+2025-02,Hearth counter,SITE-HS,4,,,,INV-2025-069,ticket events; site mean for missing net readings,0,4,0,0,0.000,68.672,68.672,0.000,17.168,2025-01
+2025-02,Hearth,,1,,,,INV-2025-069,ticket events; site mean for missing net readings,1,0,0,0,14.696,0.000,14.696,14.696,14.696,2025-02
+2025-03,Station House,SITE-SH,13,,,,INV-2025-075,ticket events; site mean for missing net readings,13,0,0,0,218.836,0.000,218.836,218.836,16.834,2025-03
+2025-03,Mill Road,SITE-MR,8,,,,INV-2025-075,ticket events; site mean for missing net readings,8,0,0,0,161.378,0.000,161.378,161.378,20.172,2025-03
+2025-03,Roast Kitchen,SITE-RK,8,,,,INV-2025-075,ticket events; site mean for missing net readings,8,0,0,0,673.227,0.000,673.227,673.227,84.153,2025-03
+2025-03,Quarry Tower,SITE-QT,4,,,,INV-2025-075,ticket events; site mean for missing net readings,4,0,0,0,99.184,0.000,99.184,99.184,24.796,2025-03
+2025-03,Beacon Court,SITE-BC,4,,,,INV-2025-075,ticket events; site mean for missing net readings,4,0,0,0,70.460,0.000,70.460,70.460,17.615,2025-03
+2025-03,West Yard,SITE-WY,4,,,,INV-2025-075,ticket events; site mean for missing net readings,4,0,0,0,204.354,0.000,204.354,204.354,51.089,2025-03
+2025-03,Paper Hall,SITE-PH,4,,,,INV-2025-075,ticket events; site mean for missing net readings,4,0,0,0,56.084,0.000,56.084,56.084,14.021,2025-03
+2025-03,Hearth office,SITE-HO,4,,,,INV-2025-075,ticket events; site mean for missing net readings,4,0,0,0,66.222,0.000,66.222,66.222,16.556,2025-03
+2025-03,Hearth counter,SITE-HS,4,,,,INV-2025-075,ticket events; site mean for missing net readings,4,0,0,0,51.628,0.000,51.628,51.628,12.907,2025-03
+2025-04,Station House,SITE-SH,14,,,,INV-2025-077,ticket events; site mean for missing net readings,14,0,0,0,257.338,0.000,257.338,257.338,18.381,2025-04
+2025-04,Mill Road,SITE-MR,9,,,,INV-2025-077,ticket events; site mean for missing net readings,0,9,0,0,0.000,181.548,181.548,0.000,20.172,2025-03
+2025-04,Roast Kitchen,SITE-RK,9,,,,INV-2025-077,ticket events; site mean for missing net readings,0,9,0,0,0.000,757.377,757.377,0.000,84.153,2025-03
+2025-04,Quarry Tower,SITE-QT,5,,,,INV-2025-077,ticket events; site mean for missing net readings,5,0,0,0,148.350,0.000,148.350,148.350,29.670,2025-04
+2025-04,Beacon Court,SITE-BC,5,,,,INV-2025-077,ticket events; site mean for missing net readings,5,0,0,0,165.300,0.000,165.300,165.300,33.060,2025-04
+2025-04,West Yard,SITE-WY,5,,,,INV-2025-077,ticket events; site mean for missing net readings,5,0,0,0,187.997,0.000,187.997,187.997,37.599,2025-04
+2025-04,Paper Hall,SITE-PH,5,,,,INV-2025-077,ticket events; site mean for missing net readings,5,0,0,0,102.392,0.000,102.392,102.392,20.478,2025-04
+2025-04,Hearth office,SITE-HO,5,,,,INV-2025-077,ticket events; site mean for missing net readings,5,0,0,0,88.560,0.000,88.560,88.560,17.712,2025-04
+2025-04,Hearth counter,SITE-HS,5,,,,INV-2025-077,ticket events; site mean for missing net readings,0,5,0,0,0.000,64.535,64.535,0.000,12.907,2025-03
+2025-05,Station House,SITE-SH,13,,,,,ticket events; site mean for missing net readings,11,0,2,0,187.780,34.142,221.922,181.440,17.071,2025-05
+2025-05,Mill Road,SITE-MR,9,,,,,ticket events; site mean for missing net readings,2,6,1,0,48.015,168.056,216.071,44.845,24.008,2025-05
+2025-05,Roast Kitchen,SITE-RK,9,,,,,ticket events; site mean for missing net readings,2,6,1,0,173.002,605.507,778.509,163.492,86.501,2025-05
+2025-05,Quarry Tower,SITE-QT,4,,,,,ticket events; site mean for missing net readings,3,0,1,0,81.209,27.070,108.279,78.039,27.070,2025-05
+2025-05,Beacon Court,SITE-BC,4,,,,,ticket events; site mean for missing net readings,3,0,1,0,49.124,16.375,65.499,45.954,16.375,2025-05
+2025-05,West Yard,SITE-WY,4,,,,,ticket events; site mean for missing net readings,3,0,1,0,95.132,31.711,126.843,91.962,31.711,2025-05
+2025-05,Paper Hall,SITE-PH,4,,,,,ticket events; site mean for missing net readings,3,0,1,0,52.919,17.640,70.559,49.749,17.640,2025-05
+2025-05,Hearth office,SITE-HO,4,,,,,ticket events; site mean for missing net readings,3,0,1,0,63.130,21.043,84.173,59.960,21.043,2025-05
+2025-05,Hearth counter,SITE-HS,4,,,,,ticket events; site mean for missing net readings,1,2,1,0,20.744,62.232,82.976,17.574,20.744,2025-05

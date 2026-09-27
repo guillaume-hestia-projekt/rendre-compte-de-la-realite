@@ -1,0 +1,3071 @@
+{
+  "fournisseur": "brain_banc_v4",
+  "k_fixe": true,
+  "date": "2026-09-27",
+  "runs": [
+    {
+      "k": null,
+      "k_effectif": 12,
+      "budget": 8000,
+      "questions": [
+        {
+          "question_id": "MOR-Q01",
+          "shape": "citation",
+          "evidence_count": 30,
+          "caracteres": 6394,
+          "tokens_estimes": 1598.5,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q02",
+          "shape": "citation",
+          "evidence_count": 30,
+          "caracteres": 6010,
+          "tokens_estimes": 1502.5,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q03",
+          "shape": "citation",
+          "evidence_count": 31,
+          "caracteres": 7559,
+          "tokens_estimes": 1889.75,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q04",
+          "shape": "date",
+          "evidence_count": 30,
+          "caracteres": 6502,
+          "tokens_estimes": 1625.5,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q05",
+          "shape": "date",
+          "evidence_count": 30,
+          "caracteres": 5603,
+          "tokens_estimes": 1400.75,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q06",
+          "shape": "date",
+          "evidence_count": 30,
+          "caracteres": 6005,
+          "tokens_estimes": 1501.25,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q07",
+          "shape": "date",
+          "evidence_count": 30,
+          "caracteres": 5824,
+          "tokens_estimes": 1456.0,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "partiel"
+        },
+        {
+          "question_id": "MOR-Q08",
+          "shape": "date",
+          "evidence_count": 30,
+          "caracteres": 6956,
+          "tokens_estimes": 1739.0,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q09",
+          "shape": "delai",
+          "evidence_count": 30,
+          "caracteres": 5591,
+          "tokens_estimes": 1397.75,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "partiel"
+        },
+        {
+          "question_id": "MOR-Q10",
+          "shape": "delai",
+          "evidence_count": 30,
+          "caracteres": 6198,
+          "tokens_estimes": 1549.5,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q11",
+          "shape": "delai",
+          "evidence_count": 30,
+          "caracteres": 5833,
+          "tokens_estimes": 1458.25,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q12",
+          "shape": "montant",
+          "evidence_count": 30,
+          "caracteres": 7081,
+          "tokens_estimes": 1770.25,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q13",
+          "shape": "montant",
+          "evidence_count": 30,
+          "caracteres": 7081,
+          "tokens_estimes": 1770.25,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q14",
+          "shape": "montant",
+          "evidence_count": 30,
+          "caracteres": 6607,
+          "tokens_estimes": 1651.75,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q15",
+          "shape": "montant",
+          "evidence_count": 30,
+          "caracteres": 6143,
+          "tokens_estimes": 1535.75,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q16",
+          "shape": "montant",
+          "evidence_count": 30,
+          "caracteres": 6441,
+          "tokens_estimes": 1610.25,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q17",
+          "shape": "montant",
+          "evidence_count": 30,
+          "caracteres": 7098,
+          "tokens_estimes": 1774.5,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q18",
+          "shape": "montant",
+          "evidence_count": 30,
+          "caracteres": 7071,
+          "tokens_estimes": 1767.75,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q19",
+          "shape": "contradiction",
+          "evidence_count": 30,
+          "caracteres": 5843,
+          "tokens_estimes": 1460.75,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "un_seul_cote",
+          "deux_cotes_dans_contexte": false,
+          "deux_cotes_dans_contexte_valeur": false
+        },
+        {
+          "question_id": "MOR-Q20",
+          "shape": "contradiction",
+          "evidence_count": 32,
+          "caracteres": 7822,
+          "tokens_estimes": 1955.5,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "aucun",
+          "deux_cotes_dans_contexte": false,
+          "deux_cotes_dans_contexte_valeur": false
+        },
+        {
+          "question_id": "MOR-Q21",
+          "shape": "contradiction",
+          "evidence_count": 30,
+          "caracteres": 5663,
+          "tokens_estimes": 1415.75,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "un_seul_cote",
+          "deux_cotes_dans_contexte": false,
+          "deux_cotes_dans_contexte_valeur": false
+        },
+        {
+          "question_id": "MOR-Q22",
+          "shape": "chronologie",
+          "evidence_count": 30,
+          "caracteres": 5879,
+          "tokens_estimes": 1469.75,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q23",
+          "shape": "chronologie",
+          "evidence_count": 30,
+          "caracteres": 6600,
+          "tokens_estimes": 1650.0,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "partiel"
+        },
+        {
+          "question_id": "MOR-Q24",
+          "shape": "chronologie",
+          "evidence_count": 30,
+          "caracteres": 6245,
+          "tokens_estimes": 1561.25,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q25",
+          "shape": "qualification",
+          "evidence_count": 30,
+          "caracteres": 6913,
+          "tokens_estimes": 1728.25,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q26",
+          "shape": "qualification",
+          "evidence_count": 30,
+          "caracteres": 6382,
+          "tokens_estimes": 1595.5,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "partiel"
+        },
+        {
+          "question_id": "MOR-Q27",
+          "shape": "qualification",
+          "evidence_count": 30,
+          "caracteres": 6008,
+          "tokens_estimes": 1502.0,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q28",
+          "shape": "non_etabli",
+          "evidence_count": 31,
+          "caracteres": 7642,
+          "tokens_estimes": 1910.5,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "hors_etage2"
+        },
+        {
+          "question_id": "MOR-Q29",
+          "shape": "non_etabli",
+          "evidence_count": 30,
+          "caracteres": 6400,
+          "tokens_estimes": 1600.0,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "hors_etage2"
+        },
+        {
+          "question_id": "MOR-Q30",
+          "shape": "non_etabli",
+          "evidence_count": 31,
+          "caracteres": 7842,
+          "tokens_estimes": 1960.5,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "hors_etage2"
+        },
+        {
+          "question_id": "MOR-Q31",
+          "shape": "non_etabli",
+          "evidence_count": 30,
+          "caracteres": 6253,
+          "tokens_estimes": 1563.25,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "hors_etage2"
+        },
+        {
+          "question_id": "MOR-Q32",
+          "shape": "non_etabli",
+          "evidence_count": 30,
+          "caracteres": 6078,
+          "tokens_estimes": 1519.5,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "hors_etage2"
+        },
+        {
+          "question_id": "MOR-Q33",
+          "shape": "citation",
+          "evidence_count": 30,
+          "caracteres": 7281,
+          "tokens_estimes": 1820.25,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q34",
+          "shape": "citation",
+          "evidence_count": 30,
+          "caracteres": 6503,
+          "tokens_estimes": 1625.75,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q35",
+          "shape": "date",
+          "evidence_count": 30,
+          "caracteres": 6193,
+          "tokens_estimes": 1548.25,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q36",
+          "shape": "delai",
+          "evidence_count": 30,
+          "caracteres": 5758,
+          "tokens_estimes": 1439.5,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "partiel"
+        },
+        {
+          "question_id": "MOR-Q37",
+          "shape": "montant",
+          "evidence_count": 30,
+          "caracteres": 6782,
+          "tokens_estimes": 1695.5,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q38",
+          "shape": "montant",
+          "evidence_count": 30,
+          "caracteres": 6806,
+          "tokens_estimes": 1701.5,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q39",
+          "shape": "chronologie",
+          "evidence_count": 31,
+          "caracteres": 7642,
+          "tokens_estimes": 1910.5,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q40",
+          "shape": "qualification",
+          "evidence_count": 30,
+          "caracteres": 5621,
+          "tokens_estimes": 1405.25,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q41",
+          "shape": "non_etabli",
+          "evidence_count": 31,
+          "caracteres": 7887,
+          "tokens_estimes": 1971.75,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "hors_etage2"
+        },
+        {
+          "question_id": "MOR-Q42",
+          "shape": "citation",
+          "evidence_count": 30,
+          "caracteres": 5922,
+          "tokens_estimes": 1480.5,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q43",
+          "shape": "date",
+          "evidence_count": 31,
+          "caracteres": 7810,
+          "tokens_estimes": 1952.5,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q44",
+          "shape": "delai",
+          "evidence_count": 31,
+          "caracteres": 7498,
+          "tokens_estimes": 1874.5,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q45",
+          "shape": "contradiction",
+          "evidence_count": 30,
+          "caracteres": 6395,
+          "tokens_estimes": 1598.75,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "un_seul_cote",
+          "deux_cotes_dans_contexte": false,
+          "deux_cotes_dans_contexte_valeur": false
+        },
+        {
+          "question_id": "MOR-Q46",
+          "shape": "chronologie",
+          "evidence_count": 30,
+          "caracteres": 6718,
+          "tokens_estimes": 1679.5,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "partiel"
+        },
+        {
+          "question_id": "MOR-Q47",
+          "shape": "qualification",
+          "evidence_count": 30,
+          "caracteres": 6112,
+          "tokens_estimes": 1528.0,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q48",
+          "shape": "montant",
+          "evidence_count": 30,
+          "caracteres": 6735,
+          "tokens_estimes": 1683.75,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q49",
+          "shape": "citation",
+          "evidence_count": 30,
+          "caracteres": 6370,
+          "tokens_estimes": 1592.5,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q50",
+          "shape": "non_etabli",
+          "evidence_count": 30,
+          "caracteres": 7416,
+          "tokens_estimes": 1854.0,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "hors_etage2"
+        }
+      ],
+      "aggregate": {
+        "disputes": {
+          "deux_cotes_sur_28": 0,
+          "reglage_sur_14": 0,
+          "ecart_sur_14": 0,
+          "disputes_total": 4,
+          "reglage_total": 0,
+          "ecart_total": 0,
+          "reglage_mesure": 0,
+          "ecart_mesure": 0
+        },
+        "appui": {
+          "tout_tient_sur_141": 12,
+          "au_moins_une_sur_141": 21,
+          "questions_total": 43,
+          "par_shape": {
+            "citation": {
+              "questions": 7,
+              "tout_tient": 2,
+              "au_moins_une": 2
+            },
+            "date": {
+              "questions": 7,
+              "tout_tient": 3,
+              "au_moins_une": 4
+            },
+            "delai": {
+              "questions": 5,
+              "tout_tient": 0,
+              "au_moins_une": 2
+            },
+            "montant": {
+              "questions": 10,
+              "tout_tient": 4,
+              "au_moins_une": 4
+            },
+            "contradiction": {
+              "questions": 4,
+              "tout_tient": 0,
+              "au_moins_une": 3
+            },
+            "chronologie": {
+              "questions": 5,
+              "tout_tient": 0,
+              "au_moins_une": 2
+            },
+            "qualification": {
+              "questions": 5,
+              "tout_tient": 3,
+              "au_moins_une": 4
+            }
+          },
+          "tout_tient_sur_43": 12,
+          "au_moins_une_sur_43": 21
+        },
+        "taille": {
+          "elements": {
+            "mediane": 30,
+            "p90": 31,
+            "max": 32
+          },
+          "caracteres": {
+            "mediane": 6395,
+            "p90": 7455,
+            "max": 7822,
+            "plafond_8000": 0
+          }
+        },
+        "questions": 43,
+        "disputes_deux_cotes": 0,
+        "disputes_total": 4,
+        "elements": {
+          "mediane": 30,
+          "p90": 31,
+          "max": 32,
+          "au_dessus_8": 43,
+          "au_dessus_20": 43,
+          "au_dessus_50": 0,
+          "au_dessus_100": 0
+        },
+        "caracteres": {
+          "mediane": 6395,
+          "p90": 7455,
+          "max": 7822,
+          "plafond_8000": 0
+        },
+        "appui_valeur": {
+          "tout_tient_sur_141": 16,
+          "au_moins_une_sur_141": 25,
+          "questions_total": 43,
+          "par_shape": {
+            "citation": {
+              "questions": 7,
+              "tout_tient": 3,
+              "au_moins_une": 3
+            },
+            "date": {
+              "questions": 7,
+              "tout_tient": 5,
+              "au_moins_une": 6
+            },
+            "delai": {
+              "questions": 5,
+              "tout_tient": 1,
+              "au_moins_une": 3
+            },
+            "montant": {
+              "questions": 10,
+              "tout_tient": 4,
+              "au_moins_une": 4
+            },
+            "contradiction": {
+              "questions": 4,
+              "tout_tient": 0,
+              "au_moins_une": 3
+            },
+            "chronologie": {
+              "questions": 5,
+              "tout_tient": 0,
+              "au_moins_une": 2
+            },
+            "qualification": {
+              "questions": 5,
+              "tout_tient": 3,
+              "au_moins_une": 4
+            }
+          },
+          "tout_tient_sur_43": 16,
+          "au_moins_une_sur_43": 25
+        },
+        "disputes_valeur": {
+          "deux_cotes_sur_28": 0,
+          "reglage_sur_14": 0,
+          "ecart_sur_14": 0,
+          "disputes_total": 4,
+          "reglage_total": 0,
+          "ecart_total": 0,
+          "reglage_mesure": 0,
+          "ecart_mesure": 0
+        },
+        "rendu": {
+          "caracteres": {
+            "mediane": 6420,
+            "p90": 7642
+          },
+          "tokens": {
+            "mediane": 1605.12,
+            "p90": 1910
+          }
+        }
+      }
+    },
+    {
+      "k": null,
+      "k_effectif": 12,
+      "budget": 12000,
+      "questions": [
+        {
+          "question_id": "MOR-Q01",
+          "shape": "citation",
+          "evidence_count": 32,
+          "caracteres": 10757,
+          "tokens_estimes": 2689.25,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q02",
+          "shape": "citation",
+          "evidence_count": 32,
+          "caracteres": 10373,
+          "tokens_estimes": 2593.25,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q03",
+          "shape": "citation",
+          "evidence_count": 33,
+          "caracteres": 10456,
+          "tokens_estimes": 2614.0,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q04",
+          "shape": "date",
+          "evidence_count": 36,
+          "caracteres": 11466,
+          "tokens_estimes": 2866.5,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q05",
+          "shape": "date",
+          "evidence_count": 36,
+          "caracteres": 10567,
+          "tokens_estimes": 2641.75,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q06",
+          "shape": "date",
+          "evidence_count": 36,
+          "caracteres": 10969,
+          "tokens_estimes": 2742.25,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q07",
+          "shape": "date",
+          "evidence_count": 36,
+          "caracteres": 10788,
+          "tokens_estimes": 2697.0,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "partiel"
+        },
+        {
+          "question_id": "MOR-Q08",
+          "shape": "date",
+          "evidence_count": 36,
+          "caracteres": 11920,
+          "tokens_estimes": 2980.0,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q09",
+          "shape": "delai",
+          "evidence_count": 33,
+          "caracteres": 11674,
+          "tokens_estimes": 2918.5,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q10",
+          "shape": "delai",
+          "evidence_count": 33,
+          "caracteres": 11458,
+          "tokens_estimes": 2864.5,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q11",
+          "shape": "delai",
+          "evidence_count": 33,
+          "caracteres": 11093,
+          "tokens_estimes": 2773.25,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q12",
+          "shape": "montant",
+          "evidence_count": 35,
+          "caracteres": 11465,
+          "tokens_estimes": 2866.25,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q13",
+          "shape": "montant",
+          "evidence_count": 36,
+          "caracteres": 11944,
+          "tokens_estimes": 2986.0,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q14",
+          "shape": "montant",
+          "evidence_count": 36,
+          "caracteres": 11573,
+          "tokens_estimes": 2893.25,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q15",
+          "shape": "montant",
+          "evidence_count": 36,
+          "caracteres": 11107,
+          "tokens_estimes": 2776.75,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q16",
+          "shape": "montant",
+          "evidence_count": 36,
+          "caracteres": 11162,
+          "tokens_estimes": 2790.5,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q17",
+          "shape": "montant",
+          "evidence_count": 36,
+          "caracteres": 11961,
+          "tokens_estimes": 2990.25,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q18",
+          "shape": "montant",
+          "evidence_count": 36,
+          "caracteres": 11934,
+          "tokens_estimes": 2983.5,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q19",
+          "shape": "contradiction",
+          "evidence_count": 36,
+          "caracteres": 10461,
+          "tokens_estimes": 2615.25,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "un_seul_cote",
+          "deux_cotes_dans_contexte": false,
+          "deux_cotes_dans_contexte_valeur": false
+        },
+        {
+          "question_id": "MOR-Q20",
+          "shape": "contradiction",
+          "evidence_count": 36,
+          "caracteres": 9767,
+          "tokens_estimes": 2441.75,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "aucun",
+          "deux_cotes_dans_contexte": false,
+          "deux_cotes_dans_contexte_valeur": false
+        },
+        {
+          "question_id": "MOR-Q21",
+          "shape": "contradiction",
+          "evidence_count": 36,
+          "caracteres": 10627,
+          "tokens_estimes": 2656.75,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "un_seul_cote",
+          "deux_cotes_dans_contexte": false,
+          "deux_cotes_dans_contexte_valeur": false
+        },
+        {
+          "question_id": "MOR-Q22",
+          "shape": "chronologie",
+          "evidence_count": 33,
+          "caracteres": 11962,
+          "tokens_estimes": 2990.5,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "partiel"
+        },
+        {
+          "question_id": "MOR-Q23",
+          "shape": "chronologie",
+          "evidence_count": 32,
+          "caracteres": 10963,
+          "tokens_estimes": 2740.75,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "partiel"
+        },
+        {
+          "question_id": "MOR-Q24",
+          "shape": "chronologie",
+          "evidence_count": 32,
+          "caracteres": 10608,
+          "tokens_estimes": 2652.0,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q25",
+          "shape": "qualification",
+          "evidence_count": 32,
+          "caracteres": 11276,
+          "tokens_estimes": 2819.0,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q26",
+          "shape": "qualification",
+          "evidence_count": 32,
+          "caracteres": 10745,
+          "tokens_estimes": 2686.25,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "partiel"
+        },
+        {
+          "question_id": "MOR-Q27",
+          "shape": "qualification",
+          "evidence_count": 32,
+          "caracteres": 10371,
+          "tokens_estimes": 2592.75,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q28",
+          "shape": "non_etabli",
+          "evidence_count": 36,
+          "caracteres": 10066,
+          "tokens_estimes": 2516.5,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "hors_etage2"
+        },
+        {
+          "question_id": "MOR-Q29",
+          "shape": "non_etabli",
+          "evidence_count": 36,
+          "caracteres": 11263,
+          "tokens_estimes": 2815.75,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "hors_etage2"
+        },
+        {
+          "question_id": "MOR-Q30",
+          "shape": "non_etabli",
+          "evidence_count": 36,
+          "caracteres": 10266,
+          "tokens_estimes": 2566.5,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "hors_etage2"
+        },
+        {
+          "question_id": "MOR-Q31",
+          "shape": "non_etabli",
+          "evidence_count": 36,
+          "caracteres": 11050,
+          "tokens_estimes": 2762.5,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "hors_etage2"
+        },
+        {
+          "question_id": "MOR-Q32",
+          "shape": "non_etabli",
+          "evidence_count": 36,
+          "caracteres": 11042,
+          "tokens_estimes": 2760.5,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "hors_etage2"
+        },
+        {
+          "question_id": "MOR-Q33",
+          "shape": "citation",
+          "evidence_count": 32,
+          "caracteres": 11644,
+          "tokens_estimes": 2911.0,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q34",
+          "shape": "citation",
+          "evidence_count": 32,
+          "caracteres": 10866,
+          "tokens_estimes": 2716.5,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "partiel"
+        },
+        {
+          "question_id": "MOR-Q35",
+          "shape": "date",
+          "evidence_count": 36,
+          "caracteres": 11157,
+          "tokens_estimes": 2789.25,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q36",
+          "shape": "delai",
+          "evidence_count": 33,
+          "caracteres": 11841,
+          "tokens_estimes": 2960.25,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "partiel"
+        },
+        {
+          "question_id": "MOR-Q37",
+          "shape": "montant",
+          "evidence_count": 36,
+          "caracteres": 11482,
+          "tokens_estimes": 2870.5,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q38",
+          "shape": "montant",
+          "evidence_count": 36,
+          "caracteres": 11669,
+          "tokens_estimes": 2917.25,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q39",
+          "shape": "chronologie",
+          "evidence_count": 33,
+          "caracteres": 11703,
+          "tokens_estimes": 2925.75,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "partiel"
+        },
+        {
+          "question_id": "MOR-Q40",
+          "shape": "qualification",
+          "evidence_count": 33,
+          "caracteres": 11704,
+          "tokens_estimes": 2926.0,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q41",
+          "shape": "non_etabli",
+          "evidence_count": 36,
+          "caracteres": 10311,
+          "tokens_estimes": 2577.75,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "hors_etage2"
+        },
+        {
+          "question_id": "MOR-Q42",
+          "shape": "citation",
+          "evidence_count": 32,
+          "caracteres": 10285,
+          "tokens_estimes": 2571.25,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q43",
+          "shape": "date",
+          "evidence_count": 36,
+          "caracteres": 10234,
+          "tokens_estimes": 2558.5,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q44",
+          "shape": "delai",
+          "evidence_count": 34,
+          "caracteres": 11293,
+          "tokens_estimes": 2823.25,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q45",
+          "shape": "contradiction",
+          "evidence_count": 36,
+          "caracteres": 11280,
+          "tokens_estimes": 2820.0,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "un_seul_cote",
+          "deux_cotes_dans_contexte": false,
+          "deux_cotes_dans_contexte_valeur": false
+        },
+        {
+          "question_id": "MOR-Q46",
+          "shape": "chronologie",
+          "evidence_count": 32,
+          "caracteres": 11081,
+          "tokens_estimes": 2770.25,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "partiel"
+        },
+        {
+          "question_id": "MOR-Q47",
+          "shape": "qualification",
+          "evidence_count": 33,
+          "caracteres": 11366,
+          "tokens_estimes": 2841.5,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q48",
+          "shape": "montant",
+          "evidence_count": 36,
+          "caracteres": 11599,
+          "tokens_estimes": 2899.75,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q49",
+          "shape": "citation",
+          "evidence_count": 33,
+          "caracteres": 11624,
+          "tokens_estimes": 2906.0,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q50",
+          "shape": "non_etabli",
+          "evidence_count": 35,
+          "caracteres": 11860,
+          "tokens_estimes": 2965.0,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "hors_etage2"
+        }
+      ],
+      "aggregate": {
+        "disputes": {
+          "deux_cotes_sur_28": 0,
+          "reglage_sur_14": 0,
+          "ecart_sur_14": 0,
+          "disputes_total": 4,
+          "reglage_total": 0,
+          "ecart_total": 0,
+          "reglage_mesure": 0,
+          "ecart_mesure": 0
+        },
+        "appui": {
+          "tout_tient_sur_141": 15,
+          "au_moins_une_sur_141": 26,
+          "questions_total": 43,
+          "par_shape": {
+            "citation": {
+              "questions": 7,
+              "tout_tient": 3,
+              "au_moins_une": 4
+            },
+            "date": {
+              "questions": 7,
+              "tout_tient": 4,
+              "au_moins_une": 5
+            },
+            "delai": {
+              "questions": 5,
+              "tout_tient": 1,
+              "au_moins_une": 2
+            },
+            "montant": {
+              "questions": 10,
+              "tout_tient": 4,
+              "au_moins_une": 4
+            },
+            "contradiction": {
+              "questions": 4,
+              "tout_tient": 0,
+              "au_moins_une": 3
+            },
+            "chronologie": {
+              "questions": 5,
+              "tout_tient": 0,
+              "au_moins_une": 4
+            },
+            "qualification": {
+              "questions": 5,
+              "tout_tient": 3,
+              "au_moins_une": 4
+            }
+          },
+          "tout_tient_sur_43": 15,
+          "au_moins_une_sur_43": 26
+        },
+        "taille": {
+          "elements": {
+            "mediane": 34,
+            "p90": 36,
+            "max": 36
+          },
+          "caracteres": {
+            "mediane": 11276,
+            "p90": 11904,
+            "max": 11962,
+            "plafond_8000": 43
+          }
+        },
+        "questions": 43,
+        "disputes_deux_cotes": 0,
+        "disputes_total": 4,
+        "elements": {
+          "mediane": 34,
+          "p90": 36,
+          "max": 36,
+          "au_dessus_8": 43,
+          "au_dessus_20": 43,
+          "au_dessus_50": 0,
+          "au_dessus_100": 0
+        },
+        "caracteres": {
+          "mediane": 11276,
+          "p90": 11904,
+          "max": 11962,
+          "plafond_8000": 43
+        },
+        "appui_valeur": {
+          "tout_tient_sur_141": 19,
+          "au_moins_une_sur_141": 30,
+          "questions_total": 43,
+          "par_shape": {
+            "citation": {
+              "questions": 7,
+              "tout_tient": 4,
+              "au_moins_une": 5
+            },
+            "date": {
+              "questions": 7,
+              "tout_tient": 6,
+              "au_moins_une": 7
+            },
+            "delai": {
+              "questions": 5,
+              "tout_tient": 2,
+              "au_moins_une": 3
+            },
+            "montant": {
+              "questions": 10,
+              "tout_tient": 4,
+              "au_moins_une": 4
+            },
+            "contradiction": {
+              "questions": 4,
+              "tout_tient": 0,
+              "au_moins_une": 3
+            },
+            "chronologie": {
+              "questions": 5,
+              "tout_tient": 0,
+              "au_moins_une": 4
+            },
+            "qualification": {
+              "questions": 5,
+              "tout_tient": 3,
+              "au_moins_une": 4
+            }
+          },
+          "tout_tient_sur_43": 19,
+          "au_moins_une_sur_43": 30
+        },
+        "disputes_valeur": {
+          "deux_cotes_sur_28": 0,
+          "reglage_sur_14": 0,
+          "ecart_sur_14": 0,
+          "disputes_total": 4,
+          "reglage_total": 0,
+          "ecart_total": 0,
+          "reglage_mesure": 0,
+          "ecart_mesure": 0
+        },
+        "rendu": {
+          "caracteres": {
+            "mediane": 11159,
+            "p90": 11866
+          },
+          "tokens": {
+            "mediane": 2789.88,
+            "p90": 2966
+          }
+        }
+      }
+    },
+    {
+      "k": null,
+      "k_effectif": 12,
+      "budget": 16000,
+      "questions": [
+        {
+          "question_id": "MOR-Q01",
+          "shape": "citation",
+          "evidence_count": 34,
+          "caracteres": 14716,
+          "tokens_estimes": 3679.0,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q02",
+          "shape": "citation",
+          "evidence_count": 34,
+          "caracteres": 14711,
+          "tokens_estimes": 3677.75,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q03",
+          "shape": "citation",
+          "evidence_count": 35,
+          "caracteres": 14772,
+          "tokens_estimes": 3693.0,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q04",
+          "shape": "date",
+          "evidence_count": 41,
+          "caracteres": 15908,
+          "tokens_estimes": 3977.0,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q05",
+          "shape": "date",
+          "evidence_count": 42,
+          "caracteres": 15285,
+          "tokens_estimes": 3821.25,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q06",
+          "shape": "date",
+          "evidence_count": 42,
+          "caracteres": 15698,
+          "tokens_estimes": 3924.5,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q07",
+          "shape": "date",
+          "evidence_count": 42,
+          "caracteres": 15602,
+          "tokens_estimes": 3900.5,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "partiel"
+        },
+        {
+          "question_id": "MOR-Q08",
+          "shape": "date",
+          "evidence_count": 40,
+          "caracteres": 15831,
+          "tokens_estimes": 3957.75,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q09",
+          "shape": "delai",
+          "evidence_count": 34,
+          "caracteres": 14289,
+          "tokens_estimes": 3572.25,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q10",
+          "shape": "delai",
+          "evidence_count": 35,
+          "caracteres": 15794,
+          "tokens_estimes": 3948.5,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "partiel"
+        },
+        {
+          "question_id": "MOR-Q11",
+          "shape": "delai",
+          "evidence_count": 35,
+          "caracteres": 15429,
+          "tokens_estimes": 3857.25,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q12",
+          "shape": "montant",
+          "evidence_count": 37,
+          "caracteres": 15834,
+          "tokens_estimes": 3958.5,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q13",
+          "shape": "montant",
+          "evidence_count": 40,
+          "caracteres": 15791,
+          "tokens_estimes": 3947.75,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q14",
+          "shape": "montant",
+          "evidence_count": 41,
+          "caracteres": 15794,
+          "tokens_estimes": 3948.5,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q15",
+          "shape": "montant",
+          "evidence_count": 42,
+          "caracteres": 15846,
+          "tokens_estimes": 3961.5,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q16",
+          "shape": "montant",
+          "evidence_count": 40,
+          "caracteres": 14950,
+          "tokens_estimes": 3737.5,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q17",
+          "shape": "montant",
+          "evidence_count": 40,
+          "caracteres": 15808,
+          "tokens_estimes": 3952.0,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q18",
+          "shape": "montant",
+          "evidence_count": 40,
+          "caracteres": 15806,
+          "tokens_estimes": 3951.5,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q19",
+          "shape": "contradiction",
+          "evidence_count": 42,
+          "caracteres": 15091,
+          "tokens_estimes": 3772.75,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "un_seul_cote",
+          "deux_cotes_dans_contexte": false,
+          "deux_cotes_dans_contexte_valeur": false
+        },
+        {
+          "question_id": "MOR-Q20",
+          "shape": "contradiction",
+          "evidence_count": 42,
+          "caracteres": 14547,
+          "tokens_estimes": 3636.75,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "aucun",
+          "deux_cotes_dans_contexte": false,
+          "deux_cotes_dans_contexte_valeur": false
+        },
+        {
+          "question_id": "MOR-Q21",
+          "shape": "contradiction",
+          "evidence_count": 42,
+          "caracteres": 15441,
+          "tokens_estimes": 3860.25,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "un_seul_cote",
+          "deux_cotes_dans_contexte": false,
+          "deux_cotes_dans_contexte_valeur": false
+        },
+        {
+          "question_id": "MOR-Q22",
+          "shape": "chronologie",
+          "evidence_count": 34,
+          "caracteres": 14577,
+          "tokens_estimes": 3644.25,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "partiel"
+        },
+        {
+          "question_id": "MOR-Q23",
+          "shape": "chronologie",
+          "evidence_count": 34,
+          "caracteres": 15298,
+          "tokens_estimes": 3824.5,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "partiel"
+        },
+        {
+          "question_id": "MOR-Q24",
+          "shape": "chronologie",
+          "evidence_count": 34,
+          "caracteres": 14943,
+          "tokens_estimes": 3735.75,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q25",
+          "shape": "qualification",
+          "evidence_count": 34,
+          "caracteres": 15235,
+          "tokens_estimes": 3808.75,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q26",
+          "shape": "qualification",
+          "evidence_count": 34,
+          "caracteres": 15060,
+          "tokens_estimes": 3765.0,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "partiel"
+        },
+        {
+          "question_id": "MOR-Q27",
+          "shape": "qualification",
+          "evidence_count": 34,
+          "caracteres": 14686,
+          "tokens_estimes": 3671.5,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q28",
+          "shape": "non_etabli",
+          "evidence_count": 42,
+          "caracteres": 14771,
+          "tokens_estimes": 3692.75,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "hors_etage2"
+        },
+        {
+          "question_id": "MOR-Q29",
+          "shape": "non_etabli",
+          "evidence_count": 42,
+          "caracteres": 15786,
+          "tokens_estimes": 3946.5,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "hors_etage2"
+        },
+        {
+          "question_id": "MOR-Q30",
+          "shape": "non_etabli",
+          "evidence_count": 42,
+          "caracteres": 15005,
+          "tokens_estimes": 3751.25,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "hors_etage2"
+        },
+        {
+          "question_id": "MOR-Q31",
+          "shape": "non_etabli",
+          "evidence_count": 40,
+          "caracteres": 14862,
+          "tokens_estimes": 3715.5,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "hors_etage2"
+        },
+        {
+          "question_id": "MOR-Q32",
+          "shape": "non_etabli",
+          "evidence_count": 42,
+          "caracteres": 15856,
+          "tokens_estimes": 3964.0,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "hors_etage2"
+        },
+        {
+          "question_id": "MOR-Q33",
+          "shape": "citation",
+          "evidence_count": 34,
+          "caracteres": 15979,
+          "tokens_estimes": 3994.75,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q34",
+          "shape": "citation",
+          "evidence_count": 34,
+          "caracteres": 15201,
+          "tokens_estimes": 3800.25,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "partiel"
+        },
+        {
+          "question_id": "MOR-Q35",
+          "shape": "date",
+          "evidence_count": 42,
+          "caracteres": 15739,
+          "tokens_estimes": 3934.75,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q36",
+          "shape": "delai",
+          "evidence_count": 34,
+          "caracteres": 14456,
+          "tokens_estimes": 3614.0,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "partiel"
+        },
+        {
+          "question_id": "MOR-Q37",
+          "shape": "montant",
+          "evidence_count": 40,
+          "caracteres": 15237,
+          "tokens_estimes": 3809.25,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q38",
+          "shape": "montant",
+          "evidence_count": 41,
+          "caracteres": 15850,
+          "tokens_estimes": 3962.5,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q39",
+          "shape": "chronologie",
+          "evidence_count": 34,
+          "caracteres": 13424,
+          "tokens_estimes": 3356.0,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "partiel"
+        },
+        {
+          "question_id": "MOR-Q40",
+          "shape": "qualification",
+          "evidence_count": 34,
+          "caracteres": 14319,
+          "tokens_estimes": 3579.75,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q41",
+          "shape": "non_etabli",
+          "evidence_count": 42,
+          "caracteres": 15003,
+          "tokens_estimes": 3750.75,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "hors_etage2"
+        },
+        {
+          "question_id": "MOR-Q42",
+          "shape": "citation",
+          "evidence_count": 34,
+          "caracteres": 14620,
+          "tokens_estimes": 3655.0,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q43",
+          "shape": "date",
+          "evidence_count": 42,
+          "caracteres": 15079,
+          "tokens_estimes": 3769.75,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q44",
+          "shape": "delai",
+          "evidence_count": 36,
+          "caracteres": 15609,
+          "tokens_estimes": 3902.25,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "partiel"
+        },
+        {
+          "question_id": "MOR-Q45",
+          "shape": "contradiction",
+          "evidence_count": 40,
+          "caracteres": 15173,
+          "tokens_estimes": 3793.25,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "un_seul_cote",
+          "deux_cotes_dans_contexte": false,
+          "deux_cotes_dans_contexte_valeur": false
+        },
+        {
+          "question_id": "MOR-Q46",
+          "shape": "chronologie",
+          "evidence_count": 35,
+          "caracteres": 15600,
+          "tokens_estimes": 3900.0,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "partiel"
+        },
+        {
+          "question_id": "MOR-Q47",
+          "shape": "qualification",
+          "evidence_count": 35,
+          "caracteres": 15315,
+          "tokens_estimes": 3828.75,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q48",
+          "shape": "montant",
+          "evidence_count": 41,
+          "caracteres": 15891,
+          "tokens_estimes": 3972.75,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q49",
+          "shape": "citation",
+          "evidence_count": 35,
+          "caracteres": 15573,
+          "tokens_estimes": 3893.25,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q50",
+          "shape": "non_etabli",
+          "evidence_count": 39,
+          "caracteres": 15773,
+          "tokens_estimes": 3943.25,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "hors_etage2"
+        }
+      ],
+      "aggregate": {
+        "disputes": {
+          "deux_cotes_sur_28": 0,
+          "reglage_sur_14": 0,
+          "ecart_sur_14": 0,
+          "disputes_total": 4,
+          "reglage_total": 0,
+          "ecart_total": 0,
+          "reglage_mesure": 0,
+          "ecart_mesure": 0
+        },
+        "appui": {
+          "tout_tient_sur_141": 16,
+          "au_moins_une_sur_141": 29,
+          "questions_total": 43,
+          "par_shape": {
+            "citation": {
+              "questions": 7,
+              "tout_tient": 3,
+              "au_moins_une": 4
+            },
+            "date": {
+              "questions": 7,
+              "tout_tient": 4,
+              "au_moins_une": 5
+            },
+            "delai": {
+              "questions": 5,
+              "tout_tient": 1,
+              "au_moins_une": 4
+            },
+            "montant": {
+              "questions": 10,
+              "tout_tient": 5,
+              "au_moins_une": 5
+            },
+            "contradiction": {
+              "questions": 4,
+              "tout_tient": 0,
+              "au_moins_une": 3
+            },
+            "chronologie": {
+              "questions": 5,
+              "tout_tient": 0,
+              "au_moins_une": 4
+            },
+            "qualification": {
+              "questions": 5,
+              "tout_tient": 3,
+              "au_moins_une": 4
+            }
+          },
+          "tout_tient_sur_43": 16,
+          "au_moins_une_sur_43": 29
+        },
+        "taille": {
+          "elements": {
+            "mediane": 36,
+            "p90": 42,
+            "max": 42
+          },
+          "caracteres": {
+            "mediane": 15298,
+            "p90": 15844,
+            "max": 15979,
+            "plafond_8000": 43
+          }
+        },
+        "questions": 43,
+        "disputes_deux_cotes": 0,
+        "disputes_total": 4,
+        "elements": {
+          "mediane": 36,
+          "p90": 42,
+          "max": 42,
+          "au_dessus_8": 43,
+          "au_dessus_20": 43,
+          "au_dessus_50": 0,
+          "au_dessus_100": 0
+        },
+        "caracteres": {
+          "mediane": 15298,
+          "p90": 15844,
+          "max": 15979,
+          "plafond_8000": 43
+        },
+        "appui_valeur": {
+          "tout_tient_sur_141": 20,
+          "au_moins_une_sur_141": 33,
+          "questions_total": 43,
+          "par_shape": {
+            "citation": {
+              "questions": 7,
+              "tout_tient": 4,
+              "au_moins_une": 5
+            },
+            "date": {
+              "questions": 7,
+              "tout_tient": 6,
+              "au_moins_une": 7
+            },
+            "delai": {
+              "questions": 5,
+              "tout_tient": 2,
+              "au_moins_une": 5
+            },
+            "montant": {
+              "questions": 10,
+              "tout_tient": 5,
+              "au_moins_une": 5
+            },
+            "contradiction": {
+              "questions": 4,
+              "tout_tient": 0,
+              "au_moins_une": 3
+            },
+            "chronologie": {
+              "questions": 5,
+              "tout_tient": 0,
+              "au_moins_une": 4
+            },
+            "qualification": {
+              "questions": 5,
+              "tout_tient": 3,
+              "au_moins_une": 4
+            }
+          },
+          "tout_tient_sur_43": 20,
+          "au_moins_une_sur_43": 33
+        },
+        "disputes_valeur": {
+          "deux_cotes_sur_28": 0,
+          "reglage_sur_14": 0,
+          "ecart_sur_14": 0,
+          "disputes_total": 4,
+          "reglage_total": 0,
+          "ecart_total": 0,
+          "reglage_mesure": 0,
+          "ecart_mesure": 0
+        },
+        "rendu": {
+          "caracteres": {
+            "mediane": 15291,
+            "p90": 15846
+          },
+          "tokens": {
+            "mediane": 3822.88,
+            "p90": 3961
+          }
+        }
+      }
+    },
+    {
+      "k": null,
+      "k_effectif": 12,
+      "budget": 24000,
+      "questions": [
+        {
+          "question_id": "MOR-Q01",
+          "shape": "citation",
+          "evidence_count": 38,
+          "caracteres": 23977,
+          "tokens_estimes": 5994.25,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q02",
+          "shape": "citation",
+          "evidence_count": 38,
+          "caracteres": 23493,
+          "tokens_estimes": 5873.25,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q03",
+          "shape": "citation",
+          "evidence_count": 39,
+          "caracteres": 23639,
+          "tokens_estimes": 5909.75,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q04",
+          "shape": "date",
+          "evidence_count": 42,
+          "caracteres": 16259,
+          "tokens_estimes": 4064.75,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q05",
+          "shape": "date",
+          "evidence_count": 42,
+          "caracteres": 15285,
+          "tokens_estimes": 3821.25,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q06",
+          "shape": "date",
+          "evidence_count": 42,
+          "caracteres": 15698,
+          "tokens_estimes": 3924.5,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q07",
+          "shape": "date",
+          "evidence_count": 42,
+          "caracteres": 15602,
+          "tokens_estimes": 3900.5,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "partiel"
+        },
+        {
+          "question_id": "MOR-Q08",
+          "shape": "date",
+          "evidence_count": 42,
+          "caracteres": 16629,
+          "tokens_estimes": 4157.25,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q09",
+          "shape": "delai",
+          "evidence_count": 38,
+          "caracteres": 22797,
+          "tokens_estimes": 5699.25,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q10",
+          "shape": "delai",
+          "evidence_count": 38,
+          "caracteres": 22463,
+          "tokens_estimes": 5615.75,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "partiel"
+        },
+        {
+          "question_id": "MOR-Q11",
+          "shape": "delai",
+          "evidence_count": 38,
+          "caracteres": 21971,
+          "tokens_estimes": 5492.75,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "partiel"
+        },
+        {
+          "question_id": "MOR-Q12",
+          "shape": "montant",
+          "evidence_count": 42,
+          "caracteres": 18954,
+          "tokens_estimes": 4738.5,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q13",
+          "shape": "montant",
+          "evidence_count": 42,
+          "caracteres": 16467,
+          "tokens_estimes": 4116.75,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q14",
+          "shape": "montant",
+          "evidence_count": 42,
+          "caracteres": 16147,
+          "tokens_estimes": 4036.75,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q15",
+          "shape": "montant",
+          "evidence_count": 42,
+          "caracteres": 15846,
+          "tokens_estimes": 3961.5,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q16",
+          "shape": "montant",
+          "evidence_count": 42,
+          "caracteres": 17075,
+          "tokens_estimes": 4268.75,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q17",
+          "shape": "montant",
+          "evidence_count": 42,
+          "caracteres": 16484,
+          "tokens_estimes": 4121.0,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q18",
+          "shape": "montant",
+          "evidence_count": 42,
+          "caracteres": 16504,
+          "tokens_estimes": 4126.0,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q19",
+          "shape": "contradiction",
+          "evidence_count": 42,
+          "caracteres": 15091,
+          "tokens_estimes": 3772.75,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "un_seul_cote",
+          "deux_cotes_dans_contexte": false,
+          "deux_cotes_dans_contexte_valeur": false
+        },
+        {
+          "question_id": "MOR-Q20",
+          "shape": "contradiction",
+          "evidence_count": 42,
+          "caracteres": 14547,
+          "tokens_estimes": 3636.75,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "aucun",
+          "deux_cotes_dans_contexte": false,
+          "deux_cotes_dans_contexte_valeur": false
+        },
+        {
+          "question_id": "MOR-Q21",
+          "shape": "contradiction",
+          "evidence_count": 42,
+          "caracteres": 15441,
+          "tokens_estimes": 3860.25,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "un_seul_cote",
+          "deux_cotes_dans_contexte": false,
+          "deux_cotes_dans_contexte_valeur": false
+        },
+        {
+          "question_id": "MOR-Q22",
+          "shape": "chronologie",
+          "evidence_count": 38,
+          "caracteres": 23047,
+          "tokens_estimes": 5761.75,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "partiel"
+        },
+        {
+          "question_id": "MOR-Q23",
+          "shape": "chronologie",
+          "evidence_count": 38,
+          "caracteres": 23758,
+          "tokens_estimes": 5939.5,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "partiel"
+        },
+        {
+          "question_id": "MOR-Q24",
+          "shape": "chronologie",
+          "evidence_count": 38,
+          "caracteres": 23424,
+          "tokens_estimes": 5856.0,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "partiel"
+        },
+        {
+          "question_id": "MOR-Q25",
+          "shape": "qualification",
+          "evidence_count": 37,
+          "caracteres": 22647,
+          "tokens_estimes": 5661.75,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q26",
+          "shape": "qualification",
+          "evidence_count": 38,
+          "caracteres": 23232,
+          "tokens_estimes": 5808.0,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "partiel"
+        },
+        {
+          "question_id": "MOR-Q27",
+          "shape": "qualification",
+          "evidence_count": 38,
+          "caracteres": 22858,
+          "tokens_estimes": 5714.5,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q28",
+          "shape": "non_etabli",
+          "evidence_count": 42,
+          "caracteres": 14771,
+          "tokens_estimes": 3692.75,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "hors_etage2"
+        },
+        {
+          "question_id": "MOR-Q29",
+          "shape": "non_etabli",
+          "evidence_count": 42,
+          "caracteres": 15786,
+          "tokens_estimes": 3946.5,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "hors_etage2"
+        },
+        {
+          "question_id": "MOR-Q30",
+          "shape": "non_etabli",
+          "evidence_count": 42,
+          "caracteres": 15005,
+          "tokens_estimes": 3751.25,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "hors_etage2"
+        },
+        {
+          "question_id": "MOR-Q31",
+          "shape": "non_etabli",
+          "evidence_count": 42,
+          "caracteres": 17065,
+          "tokens_estimes": 4266.25,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "hors_etage2"
+        },
+        {
+          "question_id": "MOR-Q32",
+          "shape": "non_etabli",
+          "evidence_count": 42,
+          "caracteres": 15856,
+          "tokens_estimes": 3964.0,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "hors_etage2"
+        },
+        {
+          "question_id": "MOR-Q33",
+          "shape": "citation",
+          "evidence_count": 37,
+          "caracteres": 22612,
+          "tokens_estimes": 5653.0,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q34",
+          "shape": "citation",
+          "evidence_count": 37,
+          "caracteres": 21820,
+          "tokens_estimes": 5455.0,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "partiel"
+        },
+        {
+          "question_id": "MOR-Q35",
+          "shape": "date",
+          "evidence_count": 42,
+          "caracteres": 15739,
+          "tokens_estimes": 3934.75,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q36",
+          "shape": "delai",
+          "evidence_count": 38,
+          "caracteres": 23229,
+          "tokens_estimes": 5807.25,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "partiel"
+        },
+        {
+          "question_id": "MOR-Q37",
+          "shape": "montant",
+          "evidence_count": 42,
+          "caracteres": 17362,
+          "tokens_estimes": 4340.5,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q38",
+          "shape": "montant",
+          "evidence_count": 42,
+          "caracteres": 16192,
+          "tokens_estimes": 4048.0,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q39",
+          "shape": "chronologie",
+          "evidence_count": 38,
+          "caracteres": 22576,
+          "tokens_estimes": 5644.0,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q40",
+          "shape": "qualification",
+          "evidence_count": 38,
+          "caracteres": 23127,
+          "tokens_estimes": 5781.75,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q41",
+          "shape": "non_etabli",
+          "evidence_count": 42,
+          "caracteres": 15003,
+          "tokens_estimes": 3750.75,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "hors_etage2"
+        },
+        {
+          "question_id": "MOR-Q42",
+          "shape": "citation",
+          "evidence_count": 38,
+          "caracteres": 23375,
+          "tokens_estimes": 5843.75,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q43",
+          "shape": "date",
+          "evidence_count": 42,
+          "caracteres": 15079,
+          "tokens_estimes": 3769.75,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q44",
+          "shape": "delai",
+          "evidence_count": 39,
+          "caracteres": 22348,
+          "tokens_estimes": 5587.0,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "partiel"
+        },
+        {
+          "question_id": "MOR-Q45",
+          "shape": "contradiction",
+          "evidence_count": 42,
+          "caracteres": 17354,
+          "tokens_estimes": 4338.5,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "un_seul_cote",
+          "deux_cotes_dans_contexte": false,
+          "deux_cotes_dans_contexte_valeur": false
+        },
+        {
+          "question_id": "MOR-Q46",
+          "shape": "chronologie",
+          "evidence_count": 38,
+          "caracteres": 22245,
+          "tokens_estimes": 5561.25,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "partiel"
+        },
+        {
+          "question_id": "MOR-Q47",
+          "shape": "qualification",
+          "evidence_count": 38,
+          "caracteres": 22336,
+          "tokens_estimes": 5584.0,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": false,
+          "appui_au_moins_une_valeur": false,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q48",
+          "shape": "montant",
+          "evidence_count": 42,
+          "caracteres": 17674,
+          "tokens_estimes": 4418.5,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "complet"
+        },
+        {
+          "question_id": "MOR-Q49",
+          "shape": "citation",
+          "evidence_count": 38,
+          "caracteres": 22594,
+          "tokens_estimes": 5648.5,
+          "appui_tout_tient": false,
+          "appui_au_moins_une": false,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "absent"
+        },
+        {
+          "question_id": "MOR-Q50",
+          "shape": "non_etabli",
+          "evidence_count": 42,
+          "caracteres": 17194,
+          "tokens_estimes": 4298.5,
+          "appui_tout_tient": true,
+          "appui_au_moins_une": true,
+          "appui_tout_tient_valeur": true,
+          "appui_au_moins_une_valeur": true,
+          "verdict": "hors_etage2"
+        }
+      ],
+      "aggregate": {
+        "disputes": {
+          "deux_cotes_sur_28": 0,
+          "reglage_sur_14": 0,
+          "ecart_sur_14": 0,
+          "disputes_total": 4,
+          "reglage_total": 0,
+          "ecart_total": 0,
+          "reglage_mesure": 0,
+          "ecart_mesure": 0
+        },
+        "appui": {
+          "tout_tient_sur_141": 18,
+          "au_moins_une_sur_141": 32,
+          "questions_total": 43,
+          "par_shape": {
+            "citation": {
+              "questions": 7,
+              "tout_tient": 3,
+              "au_moins_une": 4
+            },
+            "date": {
+              "questions": 7,
+              "tout_tient": 4,
+              "au_moins_une": 5
+            },
+            "delai": {
+              "questions": 5,
+              "tout_tient": 1,
+              "au_moins_une": 5
+            },
+            "montant": {
+              "questions": 10,
+              "tout_tient": 6,
+              "au_moins_une": 6
+            },
+            "contradiction": {
+              "questions": 4,
+              "tout_tient": 0,
+              "au_moins_une": 3
+            },
+            "chronologie": {
+              "questions": 5,
+              "tout_tient": 1,
+              "au_moins_une": 5
+            },
+            "qualification": {
+              "questions": 5,
+              "tout_tient": 3,
+              "au_moins_une": 4
+            }
+          },
+          "tout_tient_sur_43": 18,
+          "au_moins_une_sur_43": 32
+        },
+        "taille": {
+          "elements": {
+            "mediane": 39,
+            "p90": 42,
+            "max": 42
+          },
+          "caracteres": {
+            "mediane": 21820,
+            "p90": 23414,
+            "max": 23977,
+            "plafond_8000": 43
+          }
+        },
+        "questions": 43,
+        "disputes_deux_cotes": 0,
+        "disputes_total": 4,
+        "elements": {
+          "mediane": 39,
+          "p90": 42,
+          "max": 42,
+          "au_dessus_8": 43,
+          "au_dessus_20": 43,
+          "au_dessus_50": 0,
+          "au_dessus_100": 0
+        },
+        "caracteres": {
+          "mediane": 21820,
+          "p90": 23414,
+          "max": 23977,
+          "plafond_8000": 43
+        },
+        "appui_valeur": {
+          "tout_tient_sur_141": 22,
+          "au_moins_une_sur_141": 35,
+          "questions_total": 43,
+          "par_shape": {
+            "citation": {
+              "questions": 7,
+              "tout_tient": 4,
+              "au_moins_une": 5
+            },
+            "date": {
+              "questions": 7,
+              "tout_tient": 6,
+              "au_moins_une": 7
+            },
+            "delai": {
+              "questions": 5,
+              "tout_tient": 2,
+              "au_moins_une": 5
+            },
+            "montant": {
+              "questions": 10,
+              "tout_tient": 6,
+              "au_moins_une": 6
+            },
+            "contradiction": {
+              "questions": 4,
+              "tout_tient": 0,
+              "au_moins_une": 3
+            },
+            "chronologie": {
+              "questions": 5,
+              "tout_tient": 1,
+              "au_moins_une": 5
+            },
+            "qualification": {
+              "questions": 5,
+              "tout_tient": 3,
+              "au_moins_une": 4
+            }
+          },
+          "tout_tient_sur_43": 22,
+          "au_moins_une_sur_43": 35
+        },
+        "disputes_valeur": {
+          "deux_cotes_sur_28": 0,
+          "reglage_sur_14": 0,
+          "ecart_sur_14": 0,
+          "disputes_total": 4,
+          "reglage_total": 0,
+          "ecart_total": 0,
+          "reglage_mesure": 0,
+          "ecart_mesure": 0
+        },
+        "rendu": {
+          "caracteres": {
+            "mediane": 17358,
+            "p90": 23380
+          },
+          "tokens": {
+            "mediane": 4339.5,
+            "p90": 5844
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,401 @@
+{
+  "schema": "gold-assertions/1.0.0",
+  "dossier": "moreau",
+  "assertions": [
+    {
+      "id": "MOR-A01",
+      "fait": "F01",
+      "piece": "01-contrat-travail-cdi.md",
+      "quote": "L'Employeur engage la Salariée à compter du 15 septembre 2019, sous réserve de la visite d'information et de prévention, en qualité de Technicienne de maintenance industrielle, statut ETAM, classification niveau IV, coefficient 250, relevant de la convention collective de la métallurgie (territoire de Beaumont-les-Rives).",
+      "ligne": 32,
+      "nature": "date",
+      "verbatim_normalise": true,
+      "forme_date": "15 septembre 2019"
+    },
+    {
+      "id": "MOR-A02",
+      "fait": "F02",
+      "piece": "01-contrat-travail-cdi.md",
+      "quote": "RCS Beaumont-les-Rives B 749 382 615 - SIREN 749 382 615 - APE 3312Z",
+      "ligne": 4,
+      "nature": "fait",
+      "verbatim_normalise": true
+    },
+    {
+      "id": "MOR-A03",
+      "fait": "F02",
+      "piece": "07-lettre-licenciement.md",
+      "quote": "RCS Beaumont-les-Rives B 749 382 615 - SIREN 749 382 615 - APE 3312Z",
+      "ligne": 4,
+      "nature": "fait",
+      "verbatim_normalise": true
+    },
+    {
+      "id": "MOR-A04",
+      "fait": "F03",
+      "piece": "02-avenant-temps-plein.md",
+      "quote": "En conséquence, la rémunération brute mensuelle de base est portée à 2 450,00 euros. Le taux horaire de référence s'établit à 16,00 euros. Les heures supplémentaires majorées à 25 % sont rémunérées sur la base de 20,00 euros de l'heure.",
+      "ligne": 29,
+      "nature": "montant",
+      "verbatim_normalise": true
+    },
+    {
+      "id": "MOR-A05",
+      "fait": "F03",
+      "piece": "02-avenant-temps-plein.md",
+      "quote": "La durée hebdomadaire de travail est portée de 28 heures à 35 heures (temps plein).",
+      "ligne": 23,
+      "nature": "montant",
+      "verbatim_normalise": true
+    },
+    {
+      "id": "MOR-A06",
+      "fait": "F03",
+      "piece": "02-avenant-temps-plein.md",
+      "quote": "Soucieuses d'adapter l'organisation du service maintenance à l'évolution de l'activité, les parties conviennent de modifier le contrat comme suit, à compter du 1er mars 2022 :",
+      "ligne": 18,
+      "nature": "montant",
+      "verbatim_normalise": true
+    },
+    {
+      "id": "MOR-A07",
+      "fait": "F04",
+      "piece": "03-bulletins-paie-nov-dec-2023.md",
+      "quote": "Heures supplémentaires 25 %                          12 h 20,00              240,00 €",
+      "ligne": 19,
+      "nature": "montant",
+      "verbatim_normalise": true
+    },
+    {
+      "id": "MOR-A08",
+      "fait": "F05",
+      "piece": "03-bulletins-paie-nov-dec-2023.md",
+      "quote": "Heures supplémentaires 25 %                          18 h 20,00              360,00 €",
+      "ligne": 55,
+      "nature": "montant",
+      "verbatim_normalise": true
+    },
+    {
+      "id": "MOR-A09",
+      "fait": "F06",
+      "piece": "04-planning-heures-sup.md",
+      "quote": "Établi par la salariée - transmis à la direction le 8 janvier 2024",
+      "ligne": 10,
+      "nature": "montant",
+      "verbatim_normalise": true,
+      "forme_date": "8 janvier 2024"
+    },
+    {
+      "id": "MOR-A10",
+      "fait": "F06",
+      "piece": "04-planning-heures-sup.md",
+      "quote": "TOTAL heures supplémentaires déclarées : 86 heures",
+      "ligne": 27,
+      "nature": "montant",
+      "verbatim_normalise": true
+    },
+    {
+      "id": "MOR-A11",
+      "fait": "F06",
+      "piece": "04-planning-heures-sup.md",
+      "quote": "Montant brut revendiqué : 1 720,00 euros",
+      "ligne": 29,
+      "nature": "montant",
+      "verbatim_normalise": true
+    },
+    {
+      "id": "MOR-A12",
+      "fait": "F06",
+      "piece": "12-echange-email.md",
+      "quote": "- 86 heures supplémentaires déclarées, dont une partie seulement apparaît sur mes bulletins de novembre et décembre ;",
+      "ligne": 13,
+      "nature": "montant",
+      "verbatim_normalise": true
+    },
+    {
+      "id": "MOR-A13",
+      "fait": "F07",
+      "piece": "05-convocation-entretien-prealable.md",
+      "quote": "Orléans-sur-Clain, le 2 janvier 2024",
+      "ligne": 11,
+      "nature": "date",
+      "verbatim_normalise": true,
+      "forme_date": "2 janvier 2024"
+    },
+    {
+      "id": "MOR-A14",
+      "fait": "F07",
+      "piece": "05-convocation-entretien-prealable.md",
+      "quote": "Objet : convocation à un entretien préalable à un éventuel licenciement",
+      "ligne": 15,
+      "nature": "fait",
+      "verbatim_normalise": true
+    },
+    {
+      "id": "MOR-A15",
+      "fait": "F07",
+      "piece": "05-convocation-entretien-prealable.md",
+      "quote": "Conformément aux articles L.1232-2 et suivants du code du travail, nous vous prions de bien vouloir vous présenter le : vendredi 12 janvier 2024 à 10 heures 00 dans le bureau de la direction, 8, quai des Forges - 45000 Orléans-sur-Clain, à un entretien préalable au cours duquel vous pourrez, le cas échéant, vous faire assister par une personne de votre choix appartenant au personnel de l'entreprise ou, en l'absence d'institution représentative du personnel dans l'entreprise, par un conseiller du salarié inscrit sur la liste dressée par le préfet (article L.1232-4 du code du travail).",
+      "ligne": 23,
+      "nature": "date",
+      "verbatim_normalise": true,
+      "forme_date": "12 janvier 2024"
+    },
+    {
+      "id": "MOR-A16",
+      "fait": "F08",
+      "piece": "06-pv-entretien-prealable.md",
+      "quote": "Date : vendredi 12 janvier 2024 - 10 h 05 à 10 h 48",
+      "ligne": 11,
+      "nature": "date",
+      "verbatim_normalise": true,
+      "forme_date": "12 janvier 2024"
+    },
+    {
+      "id": "MOR-A17",
+      "fait": "F08",
+      "piece": "06-pv-entretien-prealable.md",
+      "quote": "- M. Karim BENALI, technicien, assistant de la salariée",
+      "ligne": 17,
+      "nature": "date",
+      "verbatim_normalise": true
+    },
+    {
+      "id": "MOR-A18",
+      "fait": "F08",
+      "piece": "06-pv-entretien-prealable.md",
+      "quote": "2. Incident du 19 décembre 2023 avec le client LUMO SA : ton jugé\n  inaproprié lors d'un appel, ayant donné lieu à un courriel de\n  réclamation du client le 20 décembre 2023 (non annexé au présent PV).",
+      "ligne": 28,
+      "nature": "date",
+      "verbatim_normalise": true,
+      "forme_date": "19 décembre 2023"
+    },
+    {
+      "id": "MOR-A19",
+      "fait": "F08",
+      "piece": "06-pv-entretien-prealable.md",
+      "quote": "4. Elle dénonce en outre un climat de pression depuis septembre 2023\n  et des heures supplémentaires non intégralement rémunérées (relevé\n  remis le 8 janvier 2024).",
+      "ligne": 52,
+      "nature": "date",
+      "verbatim_normalise": true,
+      "forme_date": "8 janvier 2024"
+    },
+    {
+      "id": "MOR-A20",
+      "fait": "F09",
+      "piece": "07-lettre-licenciement.md",
+      "quote": "Orléans-sur-Clain, le 28 janvier 2024",
+      "ligne": 11,
+      "nature": "date",
+      "verbatim_normalise": true,
+      "forme_date": "28 janvier 2024"
+    },
+    {
+      "id": "MOR-A21",
+      "fait": "F09",
+      "piece": "07-lettre-licenciement.md",
+      "quote": "À la suite de l'entretien préalable du 12 janvier 2024, au cours duquel vous avez pu faire valoir vos observations, assistée de M. Karim BENALI, nous avons le regret de vous notifier par la présente votre licenciement pour cause réelle et sérieuse, fondé sur les motifs suivants :",
+      "ligne": 20,
+      "nature": "date",
+      "verbatim_normalise": true,
+      "forme_date": "12 janvier 2024"
+    },
+    {
+      "id": "MOR-A22",
+      "fait": "F10",
+      "piece": "08-mise-en-demeure-salarie.md",
+      "quote": "Orléans-sur-Clain, le 15 février 2024",
+      "ligne": 12,
+      "nature": "montant",
+      "verbatim_normalise": true,
+      "forme_date": "15 février 2024"
+    },
+    {
+      "id": "MOR-A23",
+      "fait": "F10",
+      "piece": "08-mise-en-demeure-salarie.md",
+      "quote": "1. Régler, sous quinzaine, la somme de 1 120,00 euros bruts au titre du solde des heures supplémentaires effectuées entre septembre et décembre 2023 (total revendiqué : 86 h soit 1 720,00 € bruts, déduction faite de 600,00 € déjà versés sur les bulletins de novembre et décembre 2023), outre les congés payés afférents et les majorations légales ;",
+      "ligne": 29,
+      "nature": "montant",
+      "verbatim_normalise": true
+    },
+    {
+      "id": "MOR-A24",
+      "fait": "F11",
+      "piece": "09-attestation-collegue.md",
+      "quote": "\" Si ça ne va pas, la porte est large, on trouvera quelqu'un de plus motivé. \" Le ton était irrité. Madame MOREAU n'a pas répondu et a repris son poste de travail.",
+      "ligne": 19,
+      "nature": "date",
+      "verbatim_normalise": true
+    },
+    {
+      "id": "MOR-A25",
+      "fait": "F11",
+      "piece": "09-attestation-collegue.md",
+      "quote": "À Orléans-sur-Clain, le 20 février 2024.",
+      "ligne": 37,
+      "nature": "date",
+      "verbatim_normalise": true,
+      "forme_date": "20 février 2024"
+    },
+    {
+      "id": "MOR-A26",
+      "fait": "F11",
+      "piece": "09-attestation-collegue.md",
+      "quote": "3. Je n'ai pas assisté à l'échange téléphonique du 19 décembre 2023 avec le client LUMO SA et ne puis en témoigner d'aucune manière.",
+      "ligne": 29,
+      "nature": "date",
+      "verbatim_normalise": true,
+      "forme_date": "19 décembre 2023"
+    },
+    {
+      "id": "MOR-A27",
+      "fait": "F11",
+      "piece": "06-pv-entretien-prealable.md",
+      "quote": "Elle fait état de propos tenus par M. CARRÉ le 8 novembre 2023 vers 16 heures, en présence de M. BENALI et de Mme Sophie LANGLOIS : \" Si ça ne va pas, la porte est large, on trouvera quelqu'un de plus motivé. \"",
+      "ligne": 55,
+      "nature": "date",
+      "verbatim_normalise": true,
+      "forme_date": "8 novembre 2023"
+    },
+    {
+      "id": "MOR-A28",
+      "fait": "F12",
+      "piece": "10-requete-prudhomale.md",
+      "quote": "- harcèlement moral - articles L.1235-3, L.3121-28, L.1152-1 C. trav.",
+      "ligne": 22,
+      "nature": "montant",
+      "verbatim_normalise": true
+    },
+    {
+      "id": "MOR-A29",
+      "fait": "F12",
+      "piece": "10-requete-prudhomale.md",
+      "quote": "1. Dire et juger le licenciement dépourvu de cause réelle et sérieuse ;",
+      "ligne": 69,
+      "nature": "montant",
+      "verbatim_normalise": true
+    },
+    {
+      "id": "MOR-A30",
+      "fait": "F12",
+      "piece": "10-requete-prudhomale.md",
+      "quote": "a) la somme de 14 700,00 € à titre d'indemnité pour",
+      "ligne": 72,
+      "nature": "montant",
+      "verbatim_normalise": true
+    },
+    {
+      "id": "MOR-A31",
+      "fait": "F12",
+      "piece": "10-requete-prudhomale.md",
+      "quote": "a) la somme de 14 700,00 € à titre d'indemnité pour licenciement sans cause réelle et sérieuse (art. L.1235-3) ;",
+      "ligne": 72,
+      "nature": "montant",
+      "verbatim_normalise": true
+    },
+    {
+      "id": "MOR-A32",
+      "fait": "F12",
+      "piece": "10-requete-prudhomale.md",
+      "quote": "c) la somme de 3 000,00 € de dommages-intérêts pour harcèlement\n    moral ;",
+      "ligne": 76,
+      "nature": "montant",
+      "verbatim_normalise": true
+    },
+    {
+      "id": "MOR-A33",
+      "fait": "F13",
+      "piece": "11-conclusions-defense-employeur.md",
+      "quote": "L'employeur reconnaît 64 heures supplémentaires sur la période septembre-décembre 2023, soit un montant de 1 280,00 € bruts au taux de 20,00 €.",
+      "ligne": 41,
+      "nature": "montant",
+      "verbatim_normalise": true
+    },
+    {
+      "id": "MOR-A34",
+      "fait": "F13",
+      "piece": "11-conclusions-defense-employeur.md",
+      "quote": "Sur ce total, 30 heures ont déjà\nété régularisées sur les bulletins de novembre et décembre 2023\n(600,00 € bruts).",
+      "ligne": 44,
+      "nature": "montant",
+      "verbatim_normalise": true
+    },
+    {
+      "id": "MOR-A35",
+      "fait": "F13",
+      "piece": "11-conclusions-defense-employeur.md",
+      "quote": "s'élève donc à 680,00 € bruts, et non à la somme de",
+      "ligne": 46,
+      "nature": "montant",
+      "verbatim_normalise": true
+    },
+    {
+      "id": "MOR-A36",
+      "fait": "F13",
+      "piece": "11-conclusions-defense-employeur.md",
+      "quote": "Les propos du 8 novembre 2023, à les supposer établis dans les termes rapportés, s'inscrivent dans un échange vif relatif à la performance et ne caractérisent pas, à eux seuls, des agissements répétés au sens de l'article L.1152-1 du code du travail.",
+      "ligne": 55,
+      "nature": "date",
+      "verbatim_normalise": true,
+      "forme_date": "8 novembre 2023"
+    },
+    {
+      "id": "MOR-A37",
+      "fait": "F13",
+      "piece": "11-conclusions-defense-employeur.md",
+      "quote": "Aucun arrêt de travail, aucun signalement à la médecine du travail, aucun écrit contemporain n'est produit.",
+      "ligne": 59,
+      "nature": "fait",
+      "verbatim_normalise": true
+    },
+    {
+      "id": "MOR-A38",
+      "fait": "F13",
+      "piece": "11-conclusions-defense-employeur.md",
+      "quote": "Les 22 heures restantes portées au relevé de la salariée n'ont fait l'objet d'aucune autorisation préalable du responsable d'atelier et ne sauraient être mises à la charge de l'employeur.",
+      "ligne": 49,
+      "nature": "fait",
+      "verbatim_normalise": true
+    },
+    {
+      "id": "MOR-A39",
+      "fait": "F14",
+      "piece": "07-lettre-licenciement.md",
+      "quote": "2. Comportement inapproprié vis-à-vis du client LUMO SA le 19 décembre 2023, ayant porté atteinte à l'image de l'entreprise ;",
+      "ligne": 28,
+      "nature": "date",
+      "verbatim_normalise": true,
+      "forme_date": "19 décembre 2023"
+    },
+    {
+      "id": "MOR-A40",
+      "fait": "F14",
+      "piece": "11-conclusions-defense-employeur.md",
+      "quote": "- incident client LUMO SA du 19 décembre 2023, matérialisé par un courriel de réclamation du 20 décembre (produit aux débats si nécessaire) ;",
+      "ligne": 31,
+      "nature": "date",
+      "verbatim_normalise": true,
+      "forme_date": "19 décembre 2023"
+    },
+    {
+      "id": "MOR-A41",
+      "fait": "F15",
+      "piece": "10-requete-prudhomale.md",
+      "quote": "Date de saisine : 5 mars 2024",
+      "ligne": 24,
+      "nature": "date",
+      "verbatim_normalise": true,
+      "forme_date": "5 mars 2024"
+    },
+    {
+      "id": "MOR-A42",
+      "fait": "F15",
+      "piece": "10-requete-prudhomale.md",
+      "quote": "Palais de justice - 1, place du Palais - 45000 Orléans-sur-Clain R.G. n° 24/01984",
+      "ligne": 3,
+      "nature": "date",
+      "verbatim_normalise": true
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+Licensing of this repository
+
+- The paper (paper.en.md) and the dataset (dataset/) are licensed under the
+  Creative Commons Attribution 4.0 International licence (CC BY 4.0):
+  https://creativecommons.org/licenses/by/4.0/
+  Attribution: Guillaume Aubry, Hestia. — "Reporting Reality" (2026).
+
+- The code (code/) is licensed under the Apache License, Version 2.0:
+  https://www.apache.org/licenses/LICENSE-2.0
+
+Copyright 2026 Guillaume Aubry / HESTIA PROJEKT.

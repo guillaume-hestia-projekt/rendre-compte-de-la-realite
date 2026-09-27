@@ -1,0 +1,3159 @@
+{
+  "schema": "gold-questions/1.0.0",
+  "dossier": "greenloop",
+  "questions": [
+    {
+      "id": "gl-q001",
+      "shape": "single",
+      "question": "What ordinary payment term is entered on the Copper Kettle contract account card?",
+      "answer": "The account card enters 30 days after issue (documents/01-contract-summary.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a1668"
+      ],
+      "must_mention": [
+        "30 days",
+        "after issue",
+        "account card"
+      ],
+      "must_not_claim": [
+        "Due on receipt is the account-card term."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "Retrieves a specific documentary fact with its own provenance."
+    },
+    {
+      "id": "gl-q002",
+      "shape": "single",
+      "question": "When does the signed agreement say service starts?",
+      "answer": "The agreement states that service starts on 2023-05-24 (documents/02-signed-service-agreement.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a1633"
+      ],
+      "must_mention": [
+        "2023-05-24",
+        "service starts"
+      ],
+      "must_not_claim": [
+        "2023-05-15 is the service commencement date."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "Retrieves a specific documentary fact with its own provenance."
+    },
+    {
+      "id": "gl-q003",
+      "shape": "single",
+      "question": "Which legal customer trades as Copper Kettle in the signed agreement?",
+      "answer": "The agreement names Juniper Table Services Ltd as the customer trading as Copper Kettle (documents/02-signed-service-agreement.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a1637"
+      ],
+      "must_mention": [
+        "Juniper Table Services Ltd",
+        "Copper Kettle"
+      ],
+      "must_not_claim": [
+        "Copper Kettle is a separate contracting company."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "Retrieves a specific documentary fact with its own provenance."
+    },
+    {
+      "id": "gl-q004",
+      "shape": "single",
+      "question": "Which company record identifies the provider on page 1 of the signed agreement?",
+      "answer": "The provider is Mosswheel Services Ltd, company record TEST-ORG-MWS-Q8T (documents/02-signed-service-agreement.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a1636"
+      ],
+      "must_mention": [
+        "Mosswheel Services Ltd",
+        "TEST-ORG-MWS-Q8T"
+      ],
+      "must_not_claim": [
+        "TEST-ORG-MWS-Q8T identifies GreenLoop Collect Ltd."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "Retrieves a specific documentary fact with its own provenance."
+    },
+    {
+      "id": "gl-q005",
+      "shape": "single",
+      "question": "Until what event does the agreement leave the customer responsible for container contents?",
+      "answer": "The customer remains responsible until collection is recorded (documents/02-signed-service-agreement.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a1639"
+      ],
+      "must_mention": [
+        "until collection is recorded"
+      ],
+      "must_not_claim": [
+        "Responsibility ends when the container is filled."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "Retrieves a specific documentary fact with its own provenance."
+    },
+    {
+      "id": "gl-q006",
+      "shape": "single",
+      "question": "What single setup charge does the agreement specify for a newly accepted site?",
+      "answer": "The agreement specifies GBP 67.19 for opening each newly accepted site (documents/02-signed-service-agreement.md, p. 2).",
+      "supporting_assertions": [
+        "gl-a1648"
+      ],
+      "must_mention": [
+        "GBP 67.19",
+        "newly accepted site"
+      ],
+      "must_not_claim": [
+        "GBP 67.19 is a recurring monthly fee."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "Retrieves a specific documentary fact with its own provenance."
+    },
+    {
+      "id": "gl-q007",
+      "shape": "single",
+      "question": "What non-renewal notice date does the diary compute for Juniper’s next anniversary?",
+      "answer": "The diary gives 2026-03-29 as the eight-week notice date for the 2026-05-24 anniversary (documents/05-contract-notice-diary.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a1709"
+      ],
+      "must_mention": [
+        "2026-03-29",
+        "2026-05-24",
+        "diary"
+      ],
+      "must_not_claim": [
+        "2026-03-24 is the printed notice date."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Preserves a deadline already computed in the source and its renewal scope."
+    },
+    {
+      "id": "gl-q008",
+      "shape": "single",
+      "question": "Which service month does the included December collection invoice INV-2025-062 identify?",
+      "answer": "INV-2025-062 identifies service month 2024-12 and was issued on 2025-01-16 (documents/15-invoice-mw-c-dec-r7p.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a1970"
+      ],
+      "must_mention": [
+        "2024-12",
+        "2025-01-16"
+      ],
+      "must_not_claim": [
+        "The January issue date makes this January service."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Separates the service period from the issue date."
+    },
+    {
+      "id": "gl-q009",
+      "shape": "single",
+      "question": "What annual late-interest rate is stated in the signed agreement?",
+      "answer": "The agreement states simple interest at 4.6 percent per year from the day after the agreed due date (documents/02-signed-service-agreement.md, p. 2).",
+      "supporting_assertions": [
+        "gl-a1651"
+      ],
+      "must_mention": [
+        "4.6 percent",
+        "simple interest",
+        "day after"
+      ],
+      "must_not_claim": [
+        "The agreement states 8.7 percent."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "Retrieves a specific documentary fact with its own provenance."
+    },
+    {
+      "id": "gl-q010",
+      "shape": "single",
+      "question": "How long does the signed agreement’s information restriction continue after service ends?",
+      "answer": "The restriction continues for seven years after service ends (documents/02-signed-service-agreement.md, p. 3).",
+      "supporting_assertions": [
+        "gl-a1661"
+      ],
+      "must_mention": [
+        "seven years",
+        "after service ends"
+      ],
+      "must_not_claim": [
+        "The seven years start on the signature date."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "Retrieves a specific documentary fact with its own provenance."
+    },
+    {
+      "id": "gl-q011",
+      "shape": "single",
+      "question": "What cure period does the agreement specify before a serious breach can lead to termination by notice?",
+      "answer": "It specifies twenty-one days after a written request, if the serious breach remains uncorrected (documents/02-signed-service-agreement.md, p. 3).",
+      "supporting_assertions": [
+        "gl-a1656"
+      ],
+      "must_mention": [
+        "twenty-one days",
+        "written request",
+        "uncorrected"
+      ],
+      "must_not_claim": [
+        "Termination is automatic after twenty-one days."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Keeps a conditional deadline attached to its trigger."
+    },
+    {
+      "id": "gl-q012",
+      "shape": "single",
+      "question": "What commencement date is recorded for Oat Lantern Bakery in the notice diary?",
+      "answer": "The diary records 2024-07-17 for Oat Lantern Bakery Ltd, supported there by a summary only (documents/05-contract-notice-diary.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a1703"
+      ],
+      "must_mention": [
+        "2024-07-17",
+        "summary only"
+      ],
+      "must_not_claim": [
+        "A signed Oat Lantern agreement is enclosed."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "Retrieves a specific documentary fact with its own provenance."
+    },
+    {
+      "id": "gl-q013",
+      "shape": "single",
+      "question": "What commencement date does the notice diary record for Silver Apron Dining?",
+      "answer": "The diary records 2024-10-14 for Silver Apron Dining Ltd, with summary-only evidence (documents/05-contract-notice-diary.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a1704"
+      ],
+      "must_mention": [
+        "2024-10-14",
+        "summary"
+      ],
+      "must_not_claim": [
+        "The diary supplies a signed Silver Apron contract."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "Retrieves a specific documentary fact with its own provenance."
+    },
+    {
+      "id": "gl-q014",
+      "shape": "single",
+      "question": "At what date precision is Amber Crumb Foods’ commencement recorded in the diary?",
+      "answer": "The diary records only 2025-04, a month taken from an account note (documents/05-contract-notice-diary.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a1707"
+      ],
+      "must_mention": [
+        "2025-04",
+        "month"
+      ],
+      "must_not_claim": [
+        "Amber Crumb began on 2025-04-01."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Tests month precision without inventing a day."
+    },
+    {
+      "id": "gl-q015",
+      "shape": "single",
+      "question": "What address does the expansion offer card give for Mill Road?",
+      "answer": "The proposed Mill Road service point is at 26 Kettle Street, Northbridge (documents/06-expansion-offer-card.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a1715"
+      ],
+      "must_mention": [
+        "26 Kettle Street",
+        "Northbridge"
+      ],
+      "must_not_claim": [
+        "Mill Road is at 17 Cinder Lane."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "Retrieves a specific documentary fact with its own provenance."
+    },
+    {
+      "id": "gl-q016",
+      "shape": "single",
+      "question": "What transport mode is proposed for West Yard in the expansion offer card?",
+      "answer": "The offer card proposes an electric van for West Yard (documents/06-expansion-offer-card.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a1719"
+      ],
+      "must_mention": [
+        "West Yard",
+        "electric van",
+        "proposes"
+      ],
+      "must_not_claim": [
+        "An executed van visit is proved by the offer."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "Retrieves a specific documentary fact with its own provenance."
+    },
+    {
+      "id": "gl-q017",
+      "shape": "single",
+      "question": "What annual mass forecast does the expansion offer card assign to Roast Kitchen?",
+      "answer": "It assigns Roast Kitchen an annual forecast of 8.417 t (documents/06-expansion-offer-card.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a1716"
+      ],
+      "must_mention": [
+        "8.417 t",
+        "annual forecast"
+      ],
+      "must_not_claim": [
+        "8.417 t was weighed at Roast Kitchen."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Retains forecast status even when a quantity is precise."
+    },
+    {
+      "id": "gl-q018",
+      "shape": "single",
+      "question": "What per-visit rate does the revised internal table print for West Yard?",
+      "answer": "The internal table prints GBP 38.91 per visit excluding tax for West Yard (documents/07-revised-site-rates.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a1731"
+      ],
+      "must_mention": [
+        "GBP 38.91",
+        "per visit",
+        "excluding tax",
+        "internal"
+      ],
+      "must_not_claim": [
+        "This entry proves customer acceptance of a contract amendment."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "Retrieves a specific documentary fact with its own provenance."
+    },
+    {
+      "id": "gl-q019",
+      "shape": "single",
+      "question": "For what use is the 2025-09-08 rate table approved?",
+      "answer": "It is approved for internal billing preparation; the customer signature, acceptance and amendment fields are blank (documents/07-revised-site-rates.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a1737"
+      ],
+      "must_mention": [
+        "internal billing preparation",
+        "blank"
+      ],
+      "must_not_claim": [
+        "The customer signed the rate revision."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Separates internal approval from acceptance by the customer."
+    },
+    {
+      "id": "gl-q020",
+      "shape": "single",
+      "question": "What December 2024 quantity and method appear in the certificate preparation schedule?",
+      "answer": "The working schedule prints 0.673 t, estimated from nearby months (documents/08-certification-preparation.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a1738"
+      ],
+      "must_mention": [
+        "0.673 t",
+        "estimated",
+        "nearby months"
+      ],
+      "must_not_claim": [
+        "0.673 t is a receiving-scale measurement."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Keeps the stated method attached to a retrieved amount."
+    },
+    {
+      "id": "gl-q021",
+      "shape": "single",
+      "question": "Which certificate panels does the revision entry instruct staff to change?",
+      "answer": "The entry instructs staff to change the issuer panel to GreenLoop Collect Ltd and list both receiving facilities under the same corrected certificate reference (documents/08-certification-preparation.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a1746"
+      ],
+      "must_mention": [
+        "issuer panel",
+        "GreenLoop Collect Ltd",
+        "both receiving facilities",
+        "same"
+      ],
+      "must_not_claim": [
+        "The correction records a second recovered load."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "A reissue remains the same documentary reference."
+    },
+    {
+      "id": "gl-q022",
+      "shape": "single",
+      "question": "Which working days does the transfer scenario propose for Station House?",
+      "answer": "The transfer scenario proposes Monday, Wednesday and Friday for Station House (documents/19-transfer-scenario.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a2022"
+      ],
+      "must_mention": [
+        "Monday",
+        "Wednesday",
+        "Friday",
+        "proposes"
+      ],
+      "must_not_claim": [
+        "These are proven completed June visits."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "Retrieves a specific documentary fact with its own provenance."
+    },
+    {
+      "id": "gl-q023",
+      "shape": "single",
+      "question": "What late charge does the finance worksheet record for October 2024 collection?",
+      "answer": "The worksheet records GBP 32.99 as the October 2024 late charge (documents/04-receivables-worksheet.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a1678"
+      ],
+      "must_mention": [
+        "GBP 32.99",
+        "worksheet"
+      ],
+      "must_not_claim": [
+        "GBP 32.99 is independently validated as legally payable."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "Retrieves a specific documentary fact with its own provenance."
+    },
+    {
+      "id": "gl-q024",
+      "shape": "single",
+      "question": "What payment-entry date does the worksheet give for November collection?",
+      "answer": "The worksheet enters the November collection payment on 2025-04-23 (documents/04-receivables-worksheet.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a1695"
+      ],
+      "must_mention": [
+        "2025-04-23",
+        "worksheet"
+      ],
+      "must_not_claim": [
+        "A bank statement independently confirms that payment."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "Retrieves a specific documentary fact with its own provenance."
+    },
+    {
+      "id": "gl-q025",
+      "shape": "single",
+      "question": "Does a bank statement accompany the reconstructed receivables account note?",
+      "answer": "The account note explicitly says that no bank statement accompanies it (documents/03-receivables-summary.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a1699"
+      ],
+      "must_mention": [
+        "no bank statement",
+        "account note"
+      ],
+      "must_not_claim": [
+        "The balances have bank-statement confirmation."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "Retrieves a specific documentary fact with its own provenance."
+    },
+    {
+      "id": "gl-q026",
+      "shape": "single",
+      "question": "What archive key is attached to INV-2025-061 in the billing index?",
+      "answer": "The billing index assigns archive key ARCH-B-Q9M to INV-2025-061 (documents/10-billing-index.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a1904"
+      ],
+      "must_mention": [
+        "ARCH-B-Q9M",
+        "INV-2025-061"
+      ],
+      "must_not_claim": [
+        "ARCH-B-Q9M is the December Juniper invoice attachment."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "Retrieves a specific documentary fact with its own provenance."
+    },
+    {
+      "id": "gl-q027",
+      "shape": "single",
+      "question": "What exported status is printed for Oat Lantern invoice INV-2025-064?",
+      "answer": "The billing index prints cancelled for INV-2025-064 (documents/10-billing-index.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a1906"
+      ],
+      "must_mention": [
+        "cancelled",
+        "billing index"
+      ],
+      "must_not_claim": [
+        "The cancellation proves the whole Oat Lantern contract ended."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "Retrieves a specific documentary fact with its own provenance."
+    },
+    {
+      "id": "gl-q028",
+      "shape": "single",
+      "question": "What due date is printed on January collection invoice INV-2025-065?",
+      "answer": "The invoice prints 2025-03-14 as its due date, with payment terms of 30 days after issue (documents/11-invoice-mw-c-jan-h8k.md, p. 2).",
+      "supporting_assertions": [
+        "gl-a1948"
+      ],
+      "must_mention": [
+        "2025-03-14",
+        "30 days"
+      ],
+      "must_not_claim": [
+        "The invoice is due on receipt."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "Retrieves a specific documentary fact with its own provenance."
+    },
+    {
+      "id": "gl-q029",
+      "shape": "single",
+      "question": "What due date is printed on November collection invoice INV-2024-065?",
+      "answer": "The invoice prints 2025-01-11 as its due date (documents/12-invoice-mw-c-nov-l6v.md, p. 2).",
+      "supporting_assertions": [
+        "gl-a1969"
+      ],
+      "must_mention": [
+        "2025-01-11"
+      ],
+      "must_not_claim": [
+        "2024-12-12 is its printed due date."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "Retrieves a specific documentary fact with its own provenance."
+    },
+    {
+      "id": "gl-q030",
+      "shape": "single",
+      "question": "What due date is printed on December collection invoice INV-2025-062?",
+      "answer": "The invoice prints 2025-02-15 as its due date (documents/15-invoice-mw-c-dec-r7p.md, p. 2).",
+      "supporting_assertions": [
+        "gl-a1989"
+      ],
+      "must_mention": [
+        "2025-02-15"
+      ],
+      "must_not_claim": [
+        "The December invoice is absent from the supplied attachments."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "Retrieves a specific documentary fact with its own provenance."
+    },
+    {
+      "id": "gl-q031",
+      "shape": "single",
+      "question": "What payment timing is printed on treatment invoice INV-2025-070?",
+      "answer": "It prints due on receipt and a due date of 2025-03-18 (documents/13-invoice-gl-t-feb-b7z.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a2015"
+      ],
+      "must_mention": [
+        "due on receipt",
+        "2025-03-18"
+      ],
+      "must_not_claim": [
+        "This wording itself amends the signed agreement."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "Retrieves a specific documentary fact with its own provenance."
+    },
+    {
+      "id": "gl-q032",
+      "shape": "single",
+      "question": "What tonnage appears in the description text of INV-2025-070?",
+      "answer": "The description text prints 1.091 tonnes (documents/13-invoice-gl-t-feb-b7z.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a2013"
+      ],
+      "must_mention": [
+        "description",
+        "1.091"
+      ],
+      "must_not_claim": [
+        "The description prints 1.137 tonnes.",
+        "The description establishes the correct physical weight."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Reads the requested field without resolving the invoice’s internal mismatch."
+    },
+    {
+      "id": "gl-q033",
+      "shape": "single",
+      "question": "What due date is printed on February collection invoice INV-2025-069?",
+      "answer": "INV-2025-069 prints 2025-03-18 and states due on receipt (documents/14-invoice-gl-c-feb-n9d.md, p. 2).",
+      "supporting_assertions": [
+        "gl-a2010"
+      ],
+      "must_mention": [
+        "2025-03-18",
+        "due on receipt"
+      ],
+      "must_not_claim": [
+        "The signed contract was amended by this printed term."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "Retrieves a specific documentary fact with its own provenance."
+    },
+    {
+      "id": "gl-q034",
+      "shape": "single",
+      "question": "When was September collection invoice INV-2025-086 issued?",
+      "answer": "INV-2025-086 was issued on 2025-10-08 for service month 2025-09 (documents/16-invoice-gl-c-sep-u6w.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a2016"
+      ],
+      "must_mention": [
+        "2025-10-08",
+        "2025-09"
+      ],
+      "must_not_claim": [
+        "The issue date is a September collection date."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Separates invoice issuance from the month billed."
+    },
+    {
+      "id": "gl-q035",
+      "shape": "single",
+      "question": "What line net amount is printed for Roast Kitchen on the September invoice?",
+      "answer": "The Roast Kitchen line prints GBP 428.58 net (documents/16-invoice-gl-c-sep-u6w.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a2017"
+      ],
+      "must_mention": [
+        "Roast Kitchen",
+        "GBP 428.58",
+        "net"
+      ],
+      "must_not_claim": [
+        "GBP 428.58 includes tax."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "Retrieves a specific documentary fact with its own provenance."
+    },
+    {
+      "id": "gl-q036",
+      "shape": "single",
+      "question": "How many Paper Hall visits does the January export’s run summary report?",
+      "answer": "The January run summary reports six Paper Hall visits (documents/09-january-scale-export.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a1886"
+      ],
+      "must_mention": [
+        "six",
+        "Paper Hall",
+        "run summary"
+      ],
+      "must_not_claim": [
+        "Two same-day Paper Hall tickets count as one visit."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "Retrieves a specific documentary fact with its own provenance."
+    },
+    {
+      "id": "gl-q037",
+      "shape": "single",
+      "question": "What does one day cell in the January scale export represent?",
+      "answer": "It represents the day’s summed readings, so two ticket records may share the cell (documents/09-january-scale-export.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a1757"
+      ],
+      "must_mention": [
+        "summed readings",
+        "two ticket records"
+      ],
+      "must_not_claim": [
+        "Every day cell proves exactly one collection stop."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Tests the difference between a spreadsheet cell and a ticket event."
+    },
+    {
+      "id": "gl-q038",
+      "shape": "single",
+      "question": "What does a blank attachment cell mean in the weigh-ticket index?",
+      "answer": "A blank attachment cell identifies an index-only record (documents/18-weigh-ticket-index.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a2352"
+      ],
+      "must_mention": [
+        "blank",
+        "index-only"
+      ],
+      "must_not_claim": [
+        "A blank attachment cell means no visit occurred."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "Retrieves a specific documentary fact with its own provenance."
+    },
+    {
+      "id": "gl-q039",
+      "shape": "single",
+      "question": "At what granularity was the register’s 2024 collection activity reconstructed?",
+      "answer": "It was reconstructed from monthly invoice transcriptions, with no daily visit dates and no per-visit masses for 2024 (documents/17-collection-register.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a1157"
+      ],
+      "must_mention": [
+        "monthly",
+        "no daily visit dates",
+        "no per-visit masses"
+      ],
+      "must_not_claim": [
+        "Each 2024 collection has an individual dated weight ticket."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Prevents monthly counts from becoming fabricated daily events."
+    },
+    {
+      "id": "gl-q040",
+      "shape": "single",
+      "question": "What basis does the internal service review give for travel records?",
+      "answer": "It gives a desk model at route-and-month granularity and says that no vehicle meter log is available (documents/20-internal-service-review.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a2036"
+      ],
+      "must_mention": [
+        "desk model",
+        "route",
+        "month",
+        "no vehicle meter log"
+      ],
+      "must_not_claim": [
+        "The travel model is an odometer log."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "Retrieves a specific documentary fact with its own provenance."
+    },
+    {
+      "id": "gl-q041",
+      "shape": "single",
+      "question": "What source family underlies prior-year collections in the internal review?",
+      "answer": "The review identifies invoice transcription and says that the underlying invoices are only partly enclosed (documents/20-internal-service-review.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a2034"
+      ],
+      "must_mention": [
+        "invoice transcription",
+        "partly enclosed"
+      ],
+      "must_not_claim": [
+        "All underlying 2024 invoices are supplied."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "Retrieves a specific documentary fact with its own provenance."
+    },
+    {
+      "id": "gl-q042",
+      "shape": "single",
+      "question": "Who signs off the corrected treatment certificate?",
+      "answer": "The certificate records Emma Bennett, operations director, as its authorised sign-off (documents/23-treatment-certificate-corrected.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a2066"
+      ],
+      "must_mention": [
+        "Emma Bennett",
+        "operations director"
+      ],
+      "must_not_claim": [
+        "The customer countersigned the certificate."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "Retrieves a specific documentary fact with its own provenance."
+    },
+    {
+      "id": "gl-q043",
+      "shape": "single",
+      "question": "What process does the customer review name for Cinderbank Organics?",
+      "answer": "The review names anaerobic treatment and residue conditioning for Cinderbank Organics Ltd (documents/24-customer-review.md, p. 6).",
+      "supporting_assertions": [
+        "gl-a2170"
+      ],
+      "must_mention": [
+        "anaerobic treatment",
+        "residue conditioning",
+        "Cinderbank Organics Ltd"
+      ],
+      "must_not_claim": [
+        "The process description proves receipt of every individual batch."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "Retrieves a specific documentary fact with its own provenance."
+    },
+    {
+      "id": "gl-q044",
+      "shape": "single",
+      "question": "Who is named as the collector on the final Station House ticket?",
+      "answer": "The ticket names Henry Wilson, crew record GL-CREW-HW-Q7 (documents/25-weigh-ticket-station-house.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a0572"
+      ],
+      "must_mention": [
+        "Henry Wilson",
+        "GL-CREW-HW-Q7"
+      ],
+      "must_not_claim": [
+        "Emma Bennett is the named collector."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "Retrieves a specific documentary fact with its own provenance."
+    },
+    {
+      "id": "gl-q045",
+      "shape": "single",
+      "question": "What receiving batch reference appears on the final Station House ticket?",
+      "answer": "The ticket prints receiving batch CBO-LOAD-Q7N (documents/25-weigh-ticket-station-house.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a0573"
+      ],
+      "must_mention": [
+        "CBO-LOAD-Q7N"
+      ],
+      "must_not_claim": [
+        "A completed receiving signature accompanies this batch reference."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "Retrieves a specific documentary fact with its own provenance."
+    },
+    {
+      "id": "gl-q046",
+      "shape": "single",
+      "question": "What container capacity is printed on the provisional Quarry Tower ticket?",
+      "answer": "The provisional ticket prints one container with a capacity of 48 L (documents/26-weigh-ticket-quarry-tower-provisional.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a1061"
+      ],
+      "must_mention": [
+        "48 L",
+        "one container",
+        "provisional"
+      ],
+      "must_not_claim": [
+        "48 L is a measured net material mass."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "Retrieves a specific documentary fact with its own provenance."
+    },
+    {
+      "id": "gl-q047",
+      "shape": "single",
+      "question": "What run reference accompanies Paper Hall ticket WT-GL-PH-JAN-F6A in the visit CSV?",
+      "answer": "The CSV associates WT-GL-PH-JAN-F6A with GL-RUN-20250122-B (documents/22-recorded-visits.csv, p. 1).",
+      "supporting_assertions": [
+        "gl-a0182"
+      ],
+      "must_mention": [
+        "WT-GL-PH-JAN-F6A",
+        "GL-RUN-20250122-B"
+      ],
+      "must_not_claim": [
+        "Sharing a run reference makes this the same ticket as WT-GL-PH-JAN-F6B."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "Retrieves a specific documentary fact with its own provenance."
+    },
+    {
+      "id": "gl-q048",
+      "shape": "single",
+      "question": "What first transcription month does the customer review give for Paper Hall’s equipment?",
+      "answer": "The equipment appendix gives 2024-04 as the first month transcribed for Paper Hall (documents/24-customer-review.md, p. 5).",
+      "supporting_assertions": [
+        "gl-a2082"
+      ],
+      "must_mention": [
+        "2024-04",
+        "first month transcribed"
+      ],
+      "must_not_claim": [
+        "The container was delivered on 2024-04-01."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "A transcription month is neither an installation date nor a day."
+    },
+    {
+      "id": "gl-q049",
+      "shape": "single",
+      "question": "What review position accompanies Oat Lantern in the June preparation queue?",
+      "answer": "Oat Lantern Bakery Ltd is marked Await route confirmation (documents/27-june-invoice-preparation.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a2346"
+      ],
+      "must_mention": [
+        "Oat Lantern Bakery Ltd",
+        "Await route confirmation"
+      ],
+      "must_not_claim": [
+        "Oat Lantern’s June route is confirmed."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "Retrieves a specific documentary fact with its own provenance."
+    },
+    {
+      "id": "gl-q050",
+      "shape": "single",
+      "question": "Which invoice reference does the monthly collection CSV associate with Station House in December 2024?",
+      "answer": "It associates Station House in 2024-12 with INV-2025-062 (documents/21-monthly-collections.csv, p. 1).",
+      "supporting_assertions": [
+        "gl-a1388"
+      ],
+      "must_mention": [
+        "Station House",
+        "2024-12",
+        "INV-2025-062"
+      ],
+      "must_not_claim": [
+        "The CSV association supplies a daily collection date."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "Retrieves a specific documentary fact with its own provenance."
+    },
+    {
+      "id": "gl-q051",
+      "shape": "aggregate",
+      "question": "What outstanding total and components do the finance worksheet and reconstructed account note publish for the worksheet position?",
+      "answer": "They publish GBP 9761.87 collection principal, GBP 1230.25 treatment principal and GBP 87.53 late charges, with a stated total of GBP 11079.65; these are documentary balances, not bank-confirmed debt (documents/04-receivables-worksheet.md, p. 1; documents/03-receivables-summary.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a1692",
+        "gl-a1693",
+        "gl-a1699"
+      ],
+      "must_mention": [
+        "9761.87",
+        "1230.25",
+        "87.53",
+        "11079.65",
+        "worksheet"
+      ],
+      "must_not_claim": [
+        "This is the current bank-confirmed balance."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "Checks a published total and its scope without silently recomputing a replacement."
+    },
+    {
+      "id": "gl-q052",
+      "shape": "aggregate",
+      "question": "What annual cost total and components does the offer card publish for Existing active locations?",
+      "answer": "That option publishes GBP 7821.43 for the core route, GBP 3417.29 for the outer route and GBP 2789.63 for treatment, totalling GBP 14028.35 per year as an offer scenario (documents/06-expansion-offer-card.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a1723"
+      ],
+      "must_mention": [
+        "7821.43",
+        "3417.29",
+        "2789.63",
+        "14028.35",
+        "scenario"
+      ],
+      "must_not_claim": [
+        "GBP 14028.35 is accepted contracted revenue."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Checks a published total and its scope without silently recomputing a replacement."
+    },
+    {
+      "id": "gl-q053",
+      "shape": "aggregate",
+      "question": "What annual cost total and components does the offer card publish for the Extended workplace route?",
+      "answer": "That option publishes GBP 9371.87 for the core route, GBP 5623.41 for the outer route and GBP 3679.17 for treatment, totalling GBP 18674.45 per year as an offer scenario (documents/06-expansion-offer-card.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a1724"
+      ],
+      "must_mention": [
+        "9371.87",
+        "5623.41",
+        "3679.17",
+        "18674.45",
+        "scenario"
+      ],
+      "must_not_claim": [
+        "The customer accepted the extended route."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Checks a published total and its scope without silently recomputing a replacement."
+    },
+    {
+      "id": "gl-q054",
+      "shape": "aggregate",
+      "question": "What June visit and collection-charge totals are retained in both the transfer scenario and the invoice preparation draft?",
+      "answer": "Both retain 52 planned visits and GBP 1399.00 excluding tax for 2025-06; these are proposed quantities, with treatment mass left blank (documents/19-transfer-scenario.md, p. 1; documents/27-june-invoice-preparation.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a2032",
+        "gl-a2345",
+        "gl-a2336",
+        "gl-a2337",
+        "gl-a2338",
+        "gl-a2339",
+        "gl-a2340",
+        "gl-a2341",
+        "gl-a2342",
+        "gl-a2343",
+        "gl-a2344"
+      ],
+      "must_mention": [
+        "52",
+        "planned",
+        "1399.00",
+        "2025-06",
+        "blank"
+      ],
+      "must_not_claim": [
+        "52 completed June visits are documented.",
+        "A June treatment mass is known."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Checks a published total and its scope without silently recomputing a replacement."
+    },
+    {
+      "id": "gl-q055",
+      "shape": "aggregate",
+      "question": "What annualised collection model and package comparison does the transfer scenario itself publish?",
+      "answer": "It publishes 13 weekly visits over 52 weeks and GBP 18187.00 annualised collection revenue, compared with GBP 11238.72 in offer-card collection packages. It states a model difference of GBP 6948.28 or 61.82 percent, not realised revenue (documents/19-transfer-scenario.md, p. 1; documents/06-expansion-offer-card.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a2031",
+        "gl-a1723",
+        "gl-a2022",
+        "gl-a2023",
+        "gl-a2024",
+        "gl-a2025",
+        "gl-a2026",
+        "gl-a2027",
+        "gl-a2028",
+        "gl-a2029",
+        "gl-a2030"
+      ],
+      "must_mention": [
+        "13",
+        "52",
+        "18187.00",
+        "11238.72",
+        "6948.28",
+        "61.82",
+        "model"
+      ],
+      "must_not_claim": [
+        "These are realised revenues.",
+        "Treatment is included in the GBP 11238.72 collection packages."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "Checks a published total and its scope without silently recomputing a replacement."
+    },
+    {
+      "id": "gl-q056",
+      "shape": "aggregate",
+      "question": "How does the customer review break down its 230 visits in the four-month update?",
+      "answer": "It reports 63 visits in 2025-01, 52 in 2025-02, 53 in 2025-03 and 62 in 2025-04, with a printed total of 230 (documents/24-customer-review.md, p. 10; documents/24-customer-review.md, p. 5).",
+      "supporting_assertions": [
+        "gl-a2330",
+        "gl-a2331",
+        "gl-a2332",
+        "gl-a2333",
+        "gl-a2169"
+      ],
+      "must_mention": [
+        "63",
+        "52",
+        "53",
+        "62",
+        "230",
+        "2025-01",
+        "2025-04"
+      ],
+      "must_not_claim": [
+        "These are all positively weighed collections."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Checks a published total and its scope without silently recomputing a replacement."
+    },
+    {
+      "id": "gl-q057",
+      "shape": "aggregate",
+      "question": "What mass does the January scale export give for Paper Hall on 2025-01-22, and which separate tickets underlie that cell?",
+      "answer": "The export prints 23.524 kg for that day cell; the CSV retains weighed tickets WT-GL-PH-JAN-F6A at 11.997 kg and WT-GL-PH-JAN-F6B at 11.527 kg as separate events (documents/09-january-scale-export.md, p. 1; documents/22-recorded-visits.csv, p. 1).",
+      "supporting_assertions": [
+        "gl-a1799",
+        "gl-a0182",
+        "gl-a0186",
+        "gl-a1757"
+      ],
+      "must_mention": [
+        "23.524",
+        "11.997",
+        "11.527",
+        "WT-GL-PH-JAN-F6A",
+        "WT-GL-PH-JAN-F6B",
+        "separate"
+      ],
+      "must_not_claim": [
+        "The two tickets are duplicate events.",
+        "The export prints only one ticket."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "Checks a published total and its scope without silently recomputing a replacement."
+    },
+    {
+      "id": "gl-q058",
+      "shape": "aggregate",
+      "question": "What raw-reading total through May 2025 is stated by the collection register and internal review?",
+      "answer": "Both state a raw-reading sum of 5067.512 kg across 285 recorded visits, including tare-only entries and excluding 77 blank readings. This raw sum is not the treatment total (documents/17-collection-register.md, p. 1; documents/20-internal-service-review.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a1160",
+        "gl-a2039"
+      ],
+      "must_mention": [
+        "5067.512",
+        "285",
+        "tare",
+        "77",
+        "not the treatment total"
+      ],
+      "must_not_claim": [
+        "5067.512 kg is net recovered material.",
+        "Blank readings are zeros."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "Checks a published total and its scope without silently recomputing a replacement."
+    },
+    {
+      "id": "gl-q059",
+      "shape": "aggregate",
+      "question": "What prior-year travel total and modal split does the internal review publish?",
+      "answer": "Its desk model publishes 6837.41 km, split into 1739.27 km by cargo cycle and 5098.14 km by van; no vehicle meter log supports this model as a measured distance (documents/20-internal-service-review.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a2054",
+        "gl-a2036"
+      ],
+      "must_mention": [
+        "6837.41",
+        "1739.27",
+        "5098.14",
+        "desk model",
+        "no vehicle meter log"
+      ],
+      "must_not_claim": [
+        "6837.41 km is an odometer reading."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Checks a published total and its scope without silently recomputing a replacement."
+    },
+    {
+      "id": "gl-q060",
+      "shape": "aggregate",
+      "question": "How many unweighed visits and runs does the internal review report, and how are those visits split by site?",
+      "answer": "It reports 77 not_weighed visits in 45 complete Circuit A runs: Mill Road 31, Roast Kitchen 31 and Hearth counter 15 (documents/20-internal-service-review.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a2055"
+      ],
+      "must_mention": [
+        "77",
+        "45",
+        "Mill Road",
+        "31",
+        "Roast Kitchen",
+        "Hearth counter",
+        "15",
+        "not_weighed"
+      ],
+      "must_not_claim": [
+        "The ten tare-only visits are part of those 77 blank readings."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Checks a published total and its scope without silently recomputing a replacement."
+    },
+    {
+      "id": "gl-q061",
+      "shape": "aggregate",
+      "question": "How many tickets lack a weighing in the customer review’s four-month update?",
+      "answer": "The review reports 63 of 230 tickets without a weighing in 2025-01 through 2025-04; its monthly basis lists 20 in January, 20 in February, none in March and 23 in April (documents/24-customer-review.md, p. 7; documents/20-internal-service-review.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a2172",
+        "gl-a2056",
+        "gl-a2057",
+        "gl-a2058",
+        "gl-a2059"
+      ],
+      "must_mention": [
+        "63",
+        "230",
+        "20",
+        "23",
+        "none in March",
+        "2025-01",
+        "2025-04"
+      ],
+      "must_not_claim": [
+        "All 230 tickets contain weighings.",
+        "The 77 five-month blank readings all fall in the four-month update."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Checks a published total and its scope without silently recomputing a replacement."
+    },
+    {
+      "id": "gl-q062",
+      "shape": "aggregate",
+      "question": "What annual mass total does the customer review’s 2024 treatment schedule publish?",
+      "answer": "The schedule publishes 13.334 t for 2024, including December’s 0.719 t described as actual recovered. These are monthly account assertions without per-visit masses in the dossier (documents/24-customer-review.md, p. 8; documents/17-collection-register.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a2173",
+        "gl-a2174",
+        "gl-a2175",
+        "gl-a2176",
+        "gl-a2177",
+        "gl-a2178",
+        "gl-a2179",
+        "gl-a2180",
+        "gl-a2181",
+        "gl-a2182",
+        "gl-a2183",
+        "gl-a2184",
+        "gl-a2185",
+        "gl-a1157"
+      ],
+      "must_mention": [
+        "13.334",
+        "0.719",
+        "monthly account",
+        "without per-visit masses"
+      ],
+      "must_not_claim": [
+        "All 13.334 t is verified by primary weight tickets."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "Checks a published total and its scope without silently recomputing a replacement."
+    },
+    {
+      "id": "gl-q063",
+      "shape": "aggregate",
+      "question": "What net, tax and payable totals does the September collection invoice publish across its two site lines?",
+      "answer": "INV-2025-086 publishes GBP 502.59 net, GBP 80.41 tax and GBP 583.00 payable; its site lines are GBP 428.58 for Roast Kitchen and GBP 74.01 for Quarry Tower (documents/16-invoice-gl-c-sep-u6w.md, p. 1; documents/16-invoice-gl-c-sep-u6w.md, p. 2).",
+      "supporting_assertions": [
+        "gl-a2017",
+        "gl-a2018",
+        "gl-a2019"
+      ],
+      "must_mention": [
+        "502.59",
+        "80.41",
+        "583.00",
+        "428.58",
+        "74.01"
+      ],
+      "must_not_claim": [
+        "The invoice proves all September visits were completed."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Checks a published total and its scope without silently recomputing a replacement."
+    },
+    {
+      "id": "gl-q064",
+      "shape": "aggregate",
+      "question": "What amount summary is printed on November collection invoice INV-2024-065?",
+      "answer": "It prints GBP 1445.90 net service charges, GBP 231.34 tax and GBP 1677.24 total payable (documents/12-invoice-mw-c-nov-l6v.md, p. 2).",
+      "supporting_assertions": [
+        "gl-a1969"
+      ],
+      "must_mention": [
+        "1445.90",
+        "231.34",
+        "1677.24"
+      ],
+      "must_not_claim": [
+        "1677.24 is a treatment charge."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "Checks a published total and its scope without silently recomputing a replacement."
+    },
+    {
+      "id": "gl-q065",
+      "shape": "aggregate",
+      "question": "What amount summary is printed on January collection invoice INV-2025-065?",
+      "answer": "It prints GBP 1613.29 net service charges, GBP 258.13 tax and GBP 1871.42 total payable (documents/11-invoice-mw-c-jan-h8k.md, p. 2).",
+      "supporting_assertions": [
+        "gl-a1948"
+      ],
+      "must_mention": [
+        "1613.29",
+        "258.13",
+        "1871.42"
+      ],
+      "must_not_claim": [
+        "1871.42 includes a separate treatment invoice."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "Checks a published total and its scope without silently recomputing a replacement."
+    },
+    {
+      "id": "gl-q066",
+      "shape": "aggregate",
+      "question": "What amount summary is printed on treatment invoice INV-2025-070?",
+      "answer": "It prints GBP 201.58 net treatment charge, GBP 32.25 tax and GBP 233.83 total payable; that amount summary does not decide which of the invoice’s two tonnages is correct (documents/13-invoice-gl-t-feb-b7z.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a2015",
+        "gl-a2013",
+        "gl-a2014"
+      ],
+      "must_mention": [
+        "201.58",
+        "32.25",
+        "233.83"
+      ],
+      "must_not_claim": [
+        "The arithmetic proves that 1.137 t is the correct physical load."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Checks a published total and its scope without silently recomputing a replacement."
+    },
+    {
+      "id": "gl-q067",
+      "shape": "aggregate",
+      "question": "What April 2024 collection count do the register’s month-total table and the internal review each publish?",
+      "answer": "Both internal tables publish 54 collections for 2024-04, at month precision (documents/17-collection-register.md, p. 1; documents/20-internal-service-review.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a1167",
+        "gl-a2043"
+      ],
+      "must_mention": [
+        "54",
+        "2024-04",
+        "month"
+      ],
+      "must_not_claim": [
+        "The tables provide 54 individual April collection dates."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "Checks a published total and its scope without silently recomputing a replacement."
+    },
+    {
+      "id": "gl-q068",
+      "shape": "aggregate",
+      "question": "What August 2024 collection count do the register’s month-total table and the internal review each publish?",
+      "answer": "Both internal tables publish 54 collections for 2024-08, at month precision (documents/17-collection-register.md, p. 1; documents/20-internal-service-review.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a1171",
+        "gl-a2047"
+      ],
+      "must_mention": [
+        "54",
+        "2024-08",
+        "month"
+      ],
+      "must_not_claim": [
+        "A date can be assigned to every one of the 54 collections."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "Checks a published total and its scope without silently recomputing a replacement."
+    },
+    {
+      "id": "gl-q069",
+      "shape": "aggregate",
+      "question": "What visit and container totals does the January scale export report for Roast Kitchen?",
+      "answer": "The run summary reports nine visits and 27 containers for Roast Kitchen; the container total does not turn the nine stops into 27 visits (documents/09-january-scale-export.md, p. 1; documents/02-signed-service-agreement.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a1882",
+        "gl-a1640"
+      ],
+      "must_mention": [
+        "nine visits",
+        "27 containers"
+      ],
+      "must_not_claim": [
+        "There were 27 Roast Kitchen visits in January."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Checks a published total and its scope without silently recomputing a replacement."
+    },
+    {
+      "id": "gl-q070",
+      "shape": "aggregate",
+      "question": "How many May visits belong to the two tare-only runs, and on what dates?",
+      "answer": "The internal review identifies ten tare-only visits on the two runs dated 2025-05-14 and 2025-05-23; their negative scale outputs do not state negative material masses (documents/20-internal-service-review.md, p. 1; documents/22-recorded-visits.csv, p. 1).",
+      "supporting_assertions": [
+        "gl-a2039",
+        "gl-a1046",
+        "gl-a1049",
+        "gl-a1052",
+        "gl-a1055",
+        "gl-a1058",
+        "gl-a1063",
+        "gl-a1066",
+        "gl-a1108",
+        "gl-a1111",
+        "gl-a1114"
+      ],
+      "must_mention": [
+        "ten",
+        "2025-05-14",
+        "2025-05-23",
+        "tare-only"
+      ],
+      "must_not_claim": [
+        "There are ten different tare-run dates.",
+        "Negative tare output is negative recovered material."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "Checks a published total and its scope without silently recomputing a replacement."
+    },
+    {
+      "id": "gl-q071",
+      "shape": "aggregate",
+      "question": "What detailed four-month mass total and components are printed in the customer review?",
+      "answer": "Its 2025-01 through 2025-04 site-month total is 7070.885 kg, comprising 4334.497 kg weighed and 2736.388 kg estimated (documents/24-customer-review.md, p. 5; documents/24-customer-review.md, p. 10; documents/24-customer-review.md, p. 7).",
+      "supporting_assertions": [
+        "gl-a2169",
+        "gl-a2334",
+        "gl-a2172"
+      ],
+      "must_mention": [
+        "7070.885",
+        "4334.497",
+        "2736.388",
+        "weighed",
+        "estimated",
+        "2025-01",
+        "2025-04"
+      ],
+      "must_not_claim": [
+        "7070.885 kg was all weighed.",
+        "7.071 t preserves the exact kilogram total."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Checks a published total and its scope without silently recomputing a replacement."
+    },
+    {
+      "id": "gl-q072",
+      "shape": "dispute",
+      "question": "How many containers were physically removed at Station House on 2025-03-11 for ticket WT-GL-SH-MAR-Q7N?",
+      "answer": "The final Station House ticket and visit CSV record 2 containers, while the weigh-ticket index records 3 for WT-GL-SH-MAR-Q7N on 2025-03-11. Both observations remain unresolved (documents/25-weigh-ticket-station-house.md, p. 1; documents/22-recorded-visits.csv, p. 1; documents/18-weigh-ticket-index.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a0570",
+        "gl-a0565",
+        "gl-a1156",
+        "gl-a0567"
+      ],
+      "must_mention": [
+        "2",
+        "3",
+        "final",
+        "CSV",
+        "weigh-ticket index",
+        "unresolved"
+      ],
+      "must_not_claim": [
+        "One of the documents establishes the correct value.",
+        "The difference can be silently discarded as rounding or a typo."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "Preserves every candidate in frozen dispute gl-d0001 without selecting a winner."
+    },
+    {
+      "id": "gl-q073",
+      "shape": "dispute",
+      "question": "How many 2024 collections does the Copper Kettle account record?",
+      "answer": "The register and internal service review each state 657 collections in 2024, while the customer review states 683. Both totals remain unresolved, and the register’s identical file copy is not another independent voice (documents/17-collection-register.md, p. 1; documents/20-internal-service-review.md, p. 1; documents/24-customer-review.md, p. 9).",
+      "supporting_assertions": [
+        "gl-a1159",
+        "gl-a2038",
+        "gl-a2186"
+      ],
+      "must_mention": [
+        "657",
+        "683",
+        "register",
+        "internal service review",
+        "customer review",
+        "unresolved"
+      ],
+      "must_not_claim": [
+        "One of the documents establishes the correct value.",
+        "The difference can be silently discarded as rounding or a typo."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "Preserves every candidate in frozen dispute gl-d0034 without selecting a winner."
+    },
+    {
+      "id": "gl-q074",
+      "shape": "dispute",
+      "question": "What recovered mass is published for the window 2024-01 through 2025-04?",
+      "answer": "The corrected certificate and customer-review headline publish 20.415 t, while the detailed customer-review table publishes 20.405 t; the preparation log also records this split for 2024-01 through 2025-04. Both totals remain unresolved (documents/23-treatment-certificate-corrected.md, p. 1; documents/24-customer-review.md, p. 1; documents/24-customer-review.md, p. 4; documents/08-certification-preparation.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a2062",
+        "gl-a2067",
+        "gl-a2073",
+        "gl-a1756"
+      ],
+      "must_mention": [
+        "20.415",
+        "20.405",
+        "certificate",
+        "headline",
+        "detailed",
+        "preparation log",
+        "unresolved"
+      ],
+      "must_not_claim": [
+        "One of the documents establishes the correct value.",
+        "The difference can be silently discarded as rounding or a typo."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "Preserves every candidate in frozen dispute gl-d0035 without selecting a winner."
+    },
+    {
+      "id": "gl-q075",
+      "shape": "dispute",
+      "question": "What biogas equivalent is published for the same review window?",
+      "answer": "The corrected certificate publishes 3761 Nm³, while the customer review publishes 3763 Nm³ for the same review window. Both figures remain unresolved (documents/23-treatment-certificate-corrected.md, p. 1; documents/24-customer-review.md, p. 4).",
+      "supporting_assertions": [
+        "gl-a2065",
+        "gl-a2074"
+      ],
+      "must_mention": [
+        "3761",
+        "3763",
+        "certificate",
+        "customer review",
+        "unresolved"
+      ],
+      "must_not_claim": [
+        "One of the documents establishes the correct value.",
+        "The difference can be silently discarded as rounding or a typo."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "Preserves every candidate in frozen dispute gl-d0036 without selecting a winner."
+    },
+    {
+      "id": "gl-q076",
+      "shape": "dispute",
+      "question": "How many collected sites does the Copper Kettle account record for 2024?",
+      "answer": "The collection register states 9 collected sites in 2024, while both the internal service review and the customer review state 11. Both counts remain unresolved (documents/17-collection-register.md, p. 1; documents/20-internal-service-review.md, p. 1; documents/24-customer-review.md, p. 9).",
+      "supporting_assertions": [
+        "gl-a2354",
+        "gl-a2355",
+        "gl-a2356"
+      ],
+      "must_mention": [
+        "9",
+        "11",
+        "register",
+        "internal service review",
+        "customer review",
+        "unresolved"
+      ],
+      "must_not_claim": [
+        "One of the documents establishes the correct value.",
+        "The difference can be silently discarded as rounding or a typo."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "Preserves every candidate in frozen dispute gl-d0040 without selecting a winner."
+    },
+    {
+      "id": "gl-q077",
+      "shape": "dispute",
+      "question": "How many collections does the account record for Station House in 2024 in total?",
+      "answer": "The collection register reports 144 collections, while the customer review reports 147 for this site and period. Both counts remain unresolved (documents/17-collection-register.md, p. 1; documents/24-customer-review.md, p. 9).",
+      "supporting_assertions": [
+        "gl-a2362",
+        "gl-a2199"
+      ],
+      "must_mention": [
+        "144",
+        "147",
+        "collection register",
+        "customer review",
+        "unresolved"
+      ],
+      "must_not_claim": [
+        "One of the documents establishes the correct value.",
+        "The difference can be silently discarded as rounding or a typo."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Preserves every candidate in frozen dispute gl-d0041 without selecting a winner."
+    },
+    {
+      "id": "gl-q078",
+      "shape": "dispute",
+      "question": "How many collections does the account record for Mill Road in 2024 in total?",
+      "answer": "The collection register reports 102 collections, while the customer review reports 105 for this site and period. Both counts remain unresolved (documents/17-collection-register.md, p. 1; documents/24-customer-review.md, p. 9).",
+      "supporting_assertions": [
+        "gl-a2363",
+        "gl-a2212"
+      ],
+      "must_mention": [
+        "102",
+        "105",
+        "collection register",
+        "customer review",
+        "unresolved"
+      ],
+      "must_not_claim": [
+        "One of the documents establishes the correct value.",
+        "The difference can be silently discarded as rounding or a typo."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Preserves every candidate in frozen dispute gl-d0042 without selecting a winner."
+    },
+    {
+      "id": "gl-q079",
+      "shape": "dispute",
+      "question": "How many collections does the account record for Roast Kitchen in 2024 in total?",
+      "answer": "The collection register reports 102 collections, while the customer review reports 105 for this site and period. Both counts remain unresolved (documents/17-collection-register.md, p. 1; documents/24-customer-review.md, p. 9).",
+      "supporting_assertions": [
+        "gl-a2364",
+        "gl-a2225"
+      ],
+      "must_mention": [
+        "102",
+        "105",
+        "collection register",
+        "customer review",
+        "unresolved"
+      ],
+      "must_not_claim": [
+        "One of the documents establishes the correct value.",
+        "The difference can be silently discarded as rounding or a typo."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Preserves every candidate in frozen dispute gl-d0043 without selecting a winner."
+    },
+    {
+      "id": "gl-q080",
+      "shape": "dispute",
+      "question": "How many collections does the account record for Quarry Tower in 2024 in total?",
+      "answer": "The collection register reports 52 collections, while the customer review reports 55 for this site and period. Both counts remain unresolved (documents/17-collection-register.md, p. 1; documents/24-customer-review.md, p. 9).",
+      "supporting_assertions": [
+        "gl-a2365",
+        "gl-a2238"
+      ],
+      "must_mention": [
+        "52",
+        "55",
+        "collection register",
+        "customer review",
+        "unresolved"
+      ],
+      "must_not_claim": [
+        "One of the documents establishes the correct value.",
+        "The difference can be silently discarded as rounding or a typo."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Preserves every candidate in frozen dispute gl-d0044 without selecting a winner."
+    },
+    {
+      "id": "gl-q081",
+      "shape": "dispute",
+      "question": "How many collections does the account record for Beacon Court in 2024 in total?",
+      "answer": "The collection register reports 52 collections, while the customer review reports 55 for this site and period. Both counts remain unresolved (documents/17-collection-register.md, p. 1; documents/24-customer-review.md, p. 9).",
+      "supporting_assertions": [
+        "gl-a2366",
+        "gl-a2251"
+      ],
+      "must_mention": [
+        "52",
+        "55",
+        "collection register",
+        "customer review",
+        "unresolved"
+      ],
+      "must_not_claim": [
+        "One of the documents establishes the correct value.",
+        "The difference can be silently discarded as rounding or a typo."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Preserves every candidate in frozen dispute gl-d0045 without selecting a winner."
+    },
+    {
+      "id": "gl-q082",
+      "shape": "dispute",
+      "question": "How many collections does the account record for West Yard in 2024 in total?",
+      "answer": "The collection register reports 52 collections, while the customer review reports 55 for this site and period. Both counts remain unresolved (documents/17-collection-register.md, p. 1; documents/24-customer-review.md, p. 9).",
+      "supporting_assertions": [
+        "gl-a2367",
+        "gl-a2264"
+      ],
+      "must_mention": [
+        "52",
+        "55",
+        "collection register",
+        "customer review",
+        "unresolved"
+      ],
+      "must_not_claim": [
+        "One of the documents establishes the correct value.",
+        "The difference can be silently discarded as rounding or a typo."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Preserves every candidate in frozen dispute gl-d0046 without selecting a winner."
+    },
+    {
+      "id": "gl-q083",
+      "shape": "dispute",
+      "question": "How many collections does the account record for Paper Hall in 2024 in total?",
+      "answer": "The collection register reports 51 collections, while the customer review reports 54 for this site and period. Both counts remain unresolved (documents/17-collection-register.md, p. 1; documents/24-customer-review.md, p. 9).",
+      "supporting_assertions": [
+        "gl-a2368",
+        "gl-a2277"
+      ],
+      "must_mention": [
+        "51",
+        "54",
+        "collection register",
+        "customer review",
+        "unresolved"
+      ],
+      "must_not_claim": [
+        "One of the documents establishes the correct value.",
+        "The difference can be silently discarded as rounding or a typo."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Preserves every candidate in frozen dispute gl-d0047 without selecting a winner."
+    },
+    {
+      "id": "gl-q084",
+      "shape": "dispute",
+      "question": "How many collections does the account record for Hearth office in 2024 in total?",
+      "answer": "The collection register reports 51 collections, while the customer review reports 54 for this site and period. Both counts remain unresolved (documents/17-collection-register.md, p. 1; documents/24-customer-review.md, p. 9).",
+      "supporting_assertions": [
+        "gl-a2369",
+        "gl-a2290"
+      ],
+      "must_mention": [
+        "51",
+        "54",
+        "collection register",
+        "customer review",
+        "unresolved"
+      ],
+      "must_not_claim": [
+        "One of the documents establishes the correct value.",
+        "The difference can be silently discarded as rounding or a typo."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Preserves every candidate in frozen dispute gl-d0048 without selecting a winner."
+    },
+    {
+      "id": "gl-q085",
+      "shape": "dispute",
+      "question": "How many collections does the account record for Hearth counter in 2024 in total?",
+      "answer": "The collection register reports 51 collections, while the customer review reports 53 for this site and period. Both counts remain unresolved (documents/17-collection-register.md, p. 1; documents/24-customer-review.md, p. 9).",
+      "supporting_assertions": [
+        "gl-a2370",
+        "gl-a2303"
+      ],
+      "must_mention": [
+        "51",
+        "53",
+        "collection register",
+        "customer review",
+        "unresolved"
+      ],
+      "must_not_claim": [
+        "One of the documents establishes the correct value.",
+        "The difference can be silently discarded as rounding or a typo."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Preserves every candidate in frozen dispute gl-d0049 without selecting a winner."
+    },
+    {
+      "id": "gl-q086",
+      "shape": "dispute",
+      "question": "How many collections does the account record for Station House in 2024-01?",
+      "answer": "The collection register reports 11 collections, while the customer review reports 12 for this site and period. Both counts remain unresolved (documents/17-collection-register.md, p. 1; documents/24-customer-review.md, p. 9).",
+      "supporting_assertions": [
+        "gl-a1177",
+        "gl-a2187"
+      ],
+      "must_mention": [
+        "11",
+        "12",
+        "collection register",
+        "customer review",
+        "unresolved"
+      ],
+      "must_not_claim": [
+        "One of the documents establishes the correct value.",
+        "The difference can be silently discarded as rounding or a typo."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Preserves every candidate in frozen dispute gl-d0003 without selecting a winner."
+    },
+    {
+      "id": "gl-q087",
+      "shape": "dispute",
+      "question": "How many collections does the account record for Station House in 2024-08?",
+      "answer": "The collection register reports 12 collections, while the customer review reports 13 for this site and period. Both counts remain unresolved (documents/17-collection-register.md, p. 1; documents/24-customer-review.md, p. 9).",
+      "supporting_assertions": [
+        "gl-a1184",
+        "gl-a2194"
+      ],
+      "must_mention": [
+        "12",
+        "13",
+        "collection register",
+        "customer review",
+        "unresolved"
+      ],
+      "must_not_claim": [
+        "One of the documents establishes the correct value.",
+        "The difference can be silently discarded as rounding or a typo."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Preserves every candidate in frozen dispute gl-d0004 without selecting a winner."
+    },
+    {
+      "id": "gl-q088",
+      "shape": "dispute",
+      "question": "How many collections does the account record for Mill Road in 2024-04?",
+      "answer": "The collection register reports 9 collections, while the customer review reports 10 for this site and period. Both counts remain unresolved (documents/17-collection-register.md, p. 1; documents/24-customer-review.md, p. 9).",
+      "supporting_assertions": [
+        "gl-a1192",
+        "gl-a2203"
+      ],
+      "must_mention": [
+        "9",
+        "10",
+        "collection register",
+        "customer review",
+        "unresolved"
+      ],
+      "must_not_claim": [
+        "One of the documents establishes the correct value.",
+        "The difference can be silently discarded as rounding or a typo."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Preserves every candidate in frozen dispute gl-d0006 without selecting a winner."
+    },
+    {
+      "id": "gl-q089",
+      "shape": "dispute",
+      "question": "How many collections does the account record for Mill Road in 2024-08?",
+      "answer": "The collection register reports 8 collections, while the customer review reports 9 for this site and period. Both counts remain unresolved (documents/17-collection-register.md, p. 1; documents/24-customer-review.md, p. 9).",
+      "supporting_assertions": [
+        "gl-a1196",
+        "gl-a2207"
+      ],
+      "must_mention": [
+        "8",
+        "9",
+        "collection register",
+        "customer review",
+        "unresolved"
+      ],
+      "must_not_claim": [
+        "One of the documents establishes the correct value.",
+        "The difference can be silently discarded as rounding or a typo."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Preserves every candidate in frozen dispute gl-d0008 without selecting a winner."
+    },
+    {
+      "id": "gl-q090",
+      "shape": "dispute",
+      "question": "How many collections does the account record for Roast Kitchen in 2024-02?",
+      "answer": "The collection register reports 8 collections, while the customer review reports 9 for this site and period. Both counts remain unresolved (documents/17-collection-register.md, p. 1; documents/24-customer-review.md, p. 9).",
+      "supporting_assertions": [
+        "gl-a1202",
+        "gl-a2214"
+      ],
+      "must_mention": [
+        "8",
+        "9",
+        "collection register",
+        "customer review",
+        "unresolved"
+      ],
+      "must_not_claim": [
+        "One of the documents establishes the correct value.",
+        "The difference can be silently discarded as rounding or a typo."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Preserves every candidate in frozen dispute gl-d0009 without selecting a winner."
+    },
+    {
+      "id": "gl-q091",
+      "shape": "dispute",
+      "question": "How many collections does the account record for Roast Kitchen in 2024-11?",
+      "answer": "The collection register reports 9 collections, while the customer review reports 10 for this site and period. Both counts remain unresolved (documents/17-collection-register.md, p. 1; documents/24-customer-review.md, p. 9).",
+      "supporting_assertions": [
+        "gl-a1211",
+        "gl-a2223"
+      ],
+      "must_mention": [
+        "9",
+        "10",
+        "collection register",
+        "customer review",
+        "unresolved"
+      ],
+      "must_not_claim": [
+        "One of the documents establishes the correct value.",
+        "The difference can be silently discarded as rounding or a typo."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Preserves every candidate in frozen dispute gl-d0011 without selecting a winner."
+    },
+    {
+      "id": "gl-q092",
+      "shape": "dispute",
+      "question": "How many collections does the account record for Quarry Tower in 2024-07?",
+      "answer": "The collection register reports 4 collections, while the customer review reports 5 for this site and period. Both counts remain unresolved (documents/17-collection-register.md, p. 1; documents/24-customer-review.md, p. 9).",
+      "supporting_assertions": [
+        "gl-a1219",
+        "gl-a2232"
+      ],
+      "must_mention": [
+        "4",
+        "5",
+        "collection register",
+        "customer review",
+        "unresolved"
+      ],
+      "must_not_claim": [
+        "One of the documents establishes the correct value.",
+        "The difference can be silently discarded as rounding or a typo."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Preserves every candidate in frozen dispute gl-d0012 without selecting a winner."
+    },
+    {
+      "id": "gl-q093",
+      "shape": "dispute",
+      "question": "How many collections does the account record for Beacon Court in 2024-03?",
+      "answer": "The collection register reports 5 collections, while the customer review reports 6 for this site and period. Both counts remain unresolved (documents/17-collection-register.md, p. 1; documents/24-customer-review.md, p. 9).",
+      "supporting_assertions": [
+        "gl-a1227",
+        "gl-a2241"
+      ],
+      "must_mention": [
+        "5",
+        "6",
+        "collection register",
+        "customer review",
+        "unresolved"
+      ],
+      "must_not_claim": [
+        "One of the documents establishes the correct value.",
+        "The difference can be silently discarded as rounding or a typo."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Preserves every candidate in frozen dispute gl-d0015 without selecting a winner."
+    },
+    {
+      "id": "gl-q094",
+      "shape": "dispute",
+      "question": "How many collections does the account record for West Yard in 2024-01?",
+      "answer": "The collection register reports 4 collections, while the customer review reports 5 for this site and period. Both counts remain unresolved (documents/17-collection-register.md, p. 1; documents/24-customer-review.md, p. 9).",
+      "supporting_assertions": [
+        "gl-a1237",
+        "gl-a2252"
+      ],
+      "must_mention": [
+        "4",
+        "5",
+        "collection register",
+        "customer review",
+        "unresolved"
+      ],
+      "must_not_claim": [
+        "One of the documents establishes the correct value.",
+        "The difference can be silently discarded as rounding or a typo."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Preserves every candidate in frozen dispute gl-d0018 without selecting a winner."
+    },
+    {
+      "id": "gl-q095",
+      "shape": "dispute",
+      "question": "How many collections does the account record for Paper Hall in 2024-06?",
+      "answer": "The collection register reports 4 collections, while the customer review reports 5 for this site and period. Both counts remain unresolved (documents/17-collection-register.md, p. 1; documents/24-customer-review.md, p. 9).",
+      "supporting_assertions": [
+        "gl-a1254",
+        "gl-a2270"
+      ],
+      "must_mention": [
+        "4",
+        "5",
+        "collection register",
+        "customer review",
+        "unresolved"
+      ],
+      "must_not_claim": [
+        "One of the documents establishes the correct value.",
+        "The difference can be silently discarded as rounding or a typo."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Preserves every candidate in frozen dispute gl-d0021 without selecting a winner."
+    },
+    {
+      "id": "gl-q096",
+      "shape": "dispute",
+      "question": "How many collections does the account record for Hearth office in 2024-01?",
+      "answer": "The collection register reports 4 collections, while the customer review reports 5 for this site and period. Both counts remain unresolved (documents/17-collection-register.md, p. 1; documents/24-customer-review.md, p. 9).",
+      "supporting_assertions": [
+        "gl-a1261",
+        "gl-a2278"
+      ],
+      "must_mention": [
+        "4",
+        "5",
+        "collection register",
+        "customer review",
+        "unresolved"
+      ],
+      "must_not_claim": [
+        "One of the documents establishes the correct value.",
+        "The difference can be silently discarded as rounding or a typo."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Preserves every candidate in frozen dispute gl-d0024 without selecting a winner."
+    },
+    {
+      "id": "gl-q097",
+      "shape": "dispute",
+      "question": "How many collections does the account record for Hearth office in 2024-04?",
+      "answer": "The collection register reports 4 collections, while the customer review reports 6 for this site and period. Both counts remain unresolved (documents/17-collection-register.md, p. 1; documents/24-customer-review.md, p. 9).",
+      "supporting_assertions": [
+        "gl-a1264",
+        "gl-a2281"
+      ],
+      "must_mention": [
+        "4",
+        "6",
+        "collection register",
+        "customer review",
+        "unresolved"
+      ],
+      "must_not_claim": [
+        "One of the documents establishes the correct value.",
+        "The difference can be silently discarded as rounding or a typo."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "Preserves every candidate in frozen dispute gl-d0025 without selecting a winner."
+    },
+    {
+      "id": "gl-q098",
+      "shape": "dispute",
+      "question": "How many collections does the account record for Hearth office in 2024-05?",
+      "answer": "The collection register reports 4 collections, while the customer review reports 3 for this site and period. Both counts remain unresolved (documents/17-collection-register.md, p. 1; documents/24-customer-review.md, p. 9).",
+      "supporting_assertions": [
+        "gl-a1265",
+        "gl-a2282"
+      ],
+      "must_mention": [
+        "4",
+        "3",
+        "collection register",
+        "customer review",
+        "unresolved"
+      ],
+      "must_not_claim": [
+        "One of the documents establishes the correct value.",
+        "The difference can be silently discarded as rounding or a typo."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Preserves every candidate in frozen dispute gl-d0026 without selecting a winner."
+    },
+    {
+      "id": "gl-q099",
+      "shape": "dispute",
+      "question": "How many collections does the account record for Hearth office in 2024-08?",
+      "answer": "The collection register reports 5 collections, while the customer review reports 4 for this site and period. Both counts remain unresolved (documents/17-collection-register.md, p. 1; documents/24-customer-review.md, p. 9).",
+      "supporting_assertions": [
+        "gl-a1268",
+        "gl-a2285"
+      ],
+      "must_mention": [
+        "5",
+        "4",
+        "collection register",
+        "customer review",
+        "unresolved"
+      ],
+      "must_not_claim": [
+        "One of the documents establishes the correct value.",
+        "The difference can be silently discarded as rounding or a typo."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Preserves every candidate in frozen dispute gl-d0029 without selecting a winner."
+    },
+    {
+      "id": "gl-q100",
+      "shape": "status",
+      "question": "Can the Mill Road quantity printed on INV-2025-065 for 2025-01 be described entirely as weighed?",
+      "answer": "The 2025-01 Mill Road row records 31.380 kg weighed, 251.040 kg estimated and 282.420 kg total, with 1 weighed visits. Its 8 not_weighed visits use the 2025-01 site mean of 31.380 kg; the total must retain its estimated component (documents/21-monthly-collections.csv, p. 1; documents/24-customer-review.md, p. 7; documents/11-invoice-mw-c-jan-h8k.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a1406",
+        "gl-a2171",
+        "gl-a1932"
+      ],
+      "must_mention": [
+        "Mill Road",
+        "2025-01",
+        "31.380",
+        "251.040",
+        "282.420",
+        "weighed",
+        "estimated"
+      ],
+      "must_not_claim": [
+        "All 282.420 kg was weighed.",
+        "A blank raw reading is zero mass.",
+        "An estimated quantity is a cancelled collection."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "Tests measurement status independently of the precision of a served quantity."
+    },
+    {
+      "id": "gl-q101",
+      "shape": "status",
+      "question": "Can the Roast Kitchen quantity printed on INV-2025-065 for 2025-01 be described entirely as weighed?",
+      "answer": "The 2025-01 Roast Kitchen row records 68.344 kg weighed, 546.752 kg estimated and 615.096 kg total, with 1 weighed visits. Its 8 not_weighed visits use the 2025-01 site mean of 68.344 kg; the total must retain its estimated component (documents/21-monthly-collections.csv, p. 1; documents/24-customer-review.md, p. 7; documents/11-invoice-mw-c-jan-h8k.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a1411",
+        "gl-a2171",
+        "gl-a1934"
+      ],
+      "must_mention": [
+        "Roast Kitchen",
+        "2025-01",
+        "68.344",
+        "546.752",
+        "615.096",
+        "weighed",
+        "estimated"
+      ],
+      "must_not_claim": [
+        "All 615.096 kg was weighed.",
+        "A blank raw reading is zero mass.",
+        "An estimated quantity is a cancelled collection."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "Tests measurement status independently of the precision of a served quantity."
+    },
+    {
+      "id": "gl-q102",
+      "shape": "status",
+      "question": "Can the Hearth counter quantity printed on INV-2025-065 for 2025-01 be described entirely as weighed?",
+      "answer": "The 2025-01 Hearth counter row records 17.168 kg weighed, 68.672 kg estimated and 85.840 kg total, with 1 weighed visits. Its 4 not_weighed visits use the 2025-01 site mean of 17.168 kg; the total must retain its estimated component (documents/21-monthly-collections.csv, p. 1; documents/24-customer-review.md, p. 7; documents/11-invoice-mw-c-jan-h8k.md, p. 2).",
+      "supporting_assertions": [
+        "gl-a1441",
+        "gl-a2171",
+        "gl-a1946"
+      ],
+      "must_mention": [
+        "Hearth counter",
+        "2025-01",
+        "17.168",
+        "68.672",
+        "85.840",
+        "weighed",
+        "estimated"
+      ],
+      "must_not_claim": [
+        "All 85.840 kg was weighed.",
+        "A blank raw reading is zero mass.",
+        "An estimated quantity is a cancelled collection."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "Tests measurement status independently of the precision of a served quantity."
+    },
+    {
+      "id": "gl-q103",
+      "shape": "status",
+      "question": "Can the Mill Road quantity printed on INV-2025-069 for 2025-02 be described entirely as weighed?",
+      "answer": "The 2025-02 Mill Road row records 0.000 kg weighed, 251.040 kg estimated and 251.040 kg total, with 0 weighed visits. Its 8 not_weighed visits use the 2025-01 site mean of 31.380 kg; the total must retain its estimated component (documents/21-monthly-collections.csv, p. 1; documents/24-customer-review.md, p. 7; documents/14-invoice-gl-c-feb-n9d.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a1451",
+        "gl-a2171",
+        "gl-a1993"
+      ],
+      "must_mention": [
+        "Mill Road",
+        "2025-02",
+        "0.000",
+        "251.040",
+        "weighed",
+        "estimated",
+        "2025-01",
+        "31.380",
+        "0 weighed visits"
+      ],
+      "must_not_claim": [
+        "All 251.040 kg was weighed.",
+        "A blank raw reading is zero mass.",
+        "An estimated quantity is a cancelled collection.",
+        "The site had no completed collections that month."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "Tests measurement status independently of the precision of a served quantity."
+    },
+    {
+      "id": "gl-q104",
+      "shape": "status",
+      "question": "Can the Roast Kitchen quantity printed on INV-2025-069 for 2025-02 be described entirely as weighed?",
+      "answer": "The 2025-02 Roast Kitchen row records 0.000 kg weighed, 546.752 kg estimated and 546.752 kg total, with 0 weighed visits. Its 8 not_weighed visits use the 2025-01 site mean of 68.344 kg; the total must retain its estimated component (documents/21-monthly-collections.csv, p. 1; documents/24-customer-review.md, p. 7; documents/14-invoice-gl-c-feb-n9d.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a1456",
+        "gl-a2171",
+        "gl-a1995"
+      ],
+      "must_mention": [
+        "Roast Kitchen",
+        "2025-02",
+        "0.000",
+        "546.752",
+        "weighed",
+        "estimated",
+        "2025-01",
+        "68.344",
+        "0 weighed visits"
+      ],
+      "must_not_claim": [
+        "All 546.752 kg was weighed.",
+        "A blank raw reading is zero mass.",
+        "An estimated quantity is a cancelled collection.",
+        "The site had no completed collections that month."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "Tests measurement status independently of the precision of a served quantity."
+    },
+    {
+      "id": "gl-q105",
+      "shape": "status",
+      "question": "Can the Hearth counter quantity printed on INV-2025-069 for 2025-02 be described entirely as weighed?",
+      "answer": "The 2025-02 Hearth counter row records 0.000 kg weighed, 68.672 kg estimated and 68.672 kg total, with 0 weighed visits. Its 4 not_weighed visits use the 2025-01 site mean of 17.168 kg; the total must retain its estimated component (documents/21-monthly-collections.csv, p. 1; documents/24-customer-review.md, p. 7; documents/14-invoice-gl-c-feb-n9d.md, p. 2).",
+      "supporting_assertions": [
+        "gl-a1486",
+        "gl-a2171",
+        "gl-a2007"
+      ],
+      "must_mention": [
+        "Hearth counter",
+        "2025-02",
+        "0.000",
+        "68.672",
+        "weighed",
+        "estimated",
+        "2025-01",
+        "17.168",
+        "0 weighed visits"
+      ],
+      "must_not_claim": [
+        "All 68.672 kg was weighed.",
+        "A blank raw reading is zero mass.",
+        "An estimated quantity is a cancelled collection.",
+        "The site had no completed collections that month."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "Tests measurement status independently of the precision of a served quantity."
+    },
+    {
+      "id": "gl-q106",
+      "shape": "status",
+      "question": "How much of Mill Road’s 2025-04 recorded quantity is weighed versus estimated, and what month supplies the estimate?",
+      "answer": "The 2025-04 Mill Road row records 0.000 kg weighed, 181.548 kg estimated and 181.548 kg total, with 0 weighed visits. Its 9 not_weighed visits use the 2025-03 site mean of 20.172 kg; the total must retain its estimated component (documents/21-monthly-collections.csv, p. 1; documents/24-customer-review.md, p. 7; documents/10-billing-index.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a1546",
+        "gl-a2171",
+        "gl-a1919"
+      ],
+      "must_mention": [
+        "Mill Road",
+        "2025-04",
+        "0.000",
+        "181.548",
+        "weighed",
+        "estimated",
+        "2025-03",
+        "20.172",
+        "0 weighed visits"
+      ],
+      "must_not_claim": [
+        "All 181.548 kg was weighed.",
+        "A blank raw reading is zero mass.",
+        "An estimated quantity is a cancelled collection.",
+        "The site had no completed collections that month."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "Tests measurement status independently of the precision of a served quantity."
+    },
+    {
+      "id": "gl-q107",
+      "shape": "status",
+      "question": "How much of Roast Kitchen’s 2025-04 recorded quantity is weighed versus estimated, and what month supplies the estimate?",
+      "answer": "The 2025-04 Roast Kitchen row records 0.000 kg weighed, 757.377 kg estimated and 757.377 kg total, with 0 weighed visits. Its 9 not_weighed visits use the 2025-03 site mean of 84.153 kg; the total must retain its estimated component (documents/21-monthly-collections.csv, p. 1; documents/24-customer-review.md, p. 7; documents/10-billing-index.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a1551",
+        "gl-a2171",
+        "gl-a1919"
+      ],
+      "must_mention": [
+        "Roast Kitchen",
+        "2025-04",
+        "0.000",
+        "757.377",
+        "weighed",
+        "estimated",
+        "2025-03",
+        "84.153",
+        "0 weighed visits"
+      ],
+      "must_not_claim": [
+        "All 757.377 kg was weighed.",
+        "A blank raw reading is zero mass.",
+        "An estimated quantity is a cancelled collection.",
+        "The site had no completed collections that month."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "Tests measurement status independently of the precision of a served quantity."
+    },
+    {
+      "id": "gl-q108",
+      "shape": "status",
+      "question": "How much of Hearth counter’s 2025-04 recorded quantity is weighed versus estimated, and what month supplies the estimate?",
+      "answer": "The 2025-04 Hearth counter row records 0.000 kg weighed, 64.535 kg estimated and 64.535 kg total, with 0 weighed visits. Its 5 not_weighed visits use the 2025-03 site mean of 12.907 kg; the total must retain its estimated component (documents/21-monthly-collections.csv, p. 1; documents/24-customer-review.md, p. 7; documents/10-billing-index.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a1581",
+        "gl-a2171",
+        "gl-a1919"
+      ],
+      "must_mention": [
+        "Hearth counter",
+        "2025-04",
+        "0.000",
+        "64.535",
+        "weighed",
+        "estimated",
+        "2025-03",
+        "12.907",
+        "0 weighed visits"
+      ],
+      "must_not_claim": [
+        "All 64.535 kg was weighed.",
+        "A blank raw reading is zero mass.",
+        "An estimated quantity is a cancelled collection.",
+        "The site had no completed collections that month."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "Tests measurement status independently of the precision of a served quantity."
+    },
+    {
+      "id": "gl-q109",
+      "shape": "status",
+      "question": "How much of Mill Road’s 2025-05 recorded quantity is weighed versus estimated, and what month supplies the estimate?",
+      "answer": "The 2025-05 Mill Road row records 48.015 kg weighed, 168.056 kg estimated and 216.071 kg total, with 2 weighed visits. Its 6 not_weighed visits and 1 tare-only visit use the 2025-05 site mean of 24.008 kg; the total must retain its estimated component (documents/21-monthly-collections.csv, p. 1; documents/24-customer-review.md, p. 7).",
+      "supporting_assertions": [
+        "gl-a1591",
+        "gl-a2171"
+      ],
+      "must_mention": [
+        "Mill Road",
+        "2025-05",
+        "48.015",
+        "168.056",
+        "216.071",
+        "weighed",
+        "estimated",
+        "24.008",
+        "tare-only"
+      ],
+      "must_not_claim": [
+        "All 216.071 kg was weighed.",
+        "A blank raw reading is zero mass.",
+        "An estimated quantity is a cancelled collection.",
+        "The tare is negative net material."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "Tests measurement status independently of the precision of a served quantity."
+    },
+    {
+      "id": "gl-q110",
+      "shape": "status",
+      "question": "How much of Roast Kitchen’s 2025-05 recorded quantity is weighed versus estimated, and what month supplies the estimate?",
+      "answer": "The 2025-05 Roast Kitchen row records 173.002 kg weighed, 605.507 kg estimated and 778.509 kg total, with 2 weighed visits. Its 6 not_weighed visits and 1 tare-only visit use the 2025-05 site mean of 86.501 kg; the total must retain its estimated component (documents/21-monthly-collections.csv, p. 1; documents/24-customer-review.md, p. 7).",
+      "supporting_assertions": [
+        "gl-a1596",
+        "gl-a2171"
+      ],
+      "must_mention": [
+        "Roast Kitchen",
+        "2025-05",
+        "173.002",
+        "605.507",
+        "778.509",
+        "weighed",
+        "estimated",
+        "86.501",
+        "tare-only"
+      ],
+      "must_not_claim": [
+        "All 778.509 kg was weighed.",
+        "A blank raw reading is zero mass.",
+        "An estimated quantity is a cancelled collection.",
+        "The tare is negative net material."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "Tests measurement status independently of the precision of a served quantity."
+    },
+    {
+      "id": "gl-q111",
+      "shape": "status",
+      "question": "How much of Hearth counter’s 2025-05 recorded quantity is weighed versus estimated, and what month supplies the estimate?",
+      "answer": "The 2025-05 Hearth counter row records 20.744 kg weighed, 62.232 kg estimated and 82.976 kg total, with 1 weighed visits. Its 2 not_weighed visits and 1 tare-only visit use the 2025-05 site mean of 20.744 kg; the total must retain its estimated component (documents/21-monthly-collections.csv, p. 1; documents/24-customer-review.md, p. 7).",
+      "supporting_assertions": [
+        "gl-a1626",
+        "gl-a2171"
+      ],
+      "must_mention": [
+        "Hearth counter",
+        "2025-05",
+        "20.744",
+        "62.232",
+        "82.976",
+        "weighed",
+        "estimated",
+        "tare-only"
+      ],
+      "must_not_claim": [
+        "All 82.976 kg was weighed.",
+        "A blank raw reading is zero mass.",
+        "An estimated quantity is a cancelled collection.",
+        "The tare is negative net material."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "Tests measurement status independently of the precision of a served quantity."
+    },
+    {
+      "id": "gl-q112",
+      "shape": "status",
+      "question": "What measurement statuses make up the internal review’s total mass for 2025-01?",
+      "answer": "The internal review records 1016.419 kg weighed and 866.464 kg estimated, totalling 1882.883 kg for 2025-01. Its 20 not_weighed visits remain completed collections with blank raw readings, not measured masses (documents/20-internal-service-review.md, p. 1; documents/24-customer-review.md, p. 7).",
+      "supporting_assertions": [
+        "gl-a2056",
+        "gl-a2061",
+        "gl-a2171"
+      ],
+      "must_mention": [
+        "2025-01",
+        "1016.419",
+        "866.464",
+        "1882.883",
+        "weighed",
+        "estimated",
+        "20"
+      ],
+      "must_not_claim": [
+        "1882.883 kg was all weighed.",
+        "The raw sum can be used as a net treatment total."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "Tests measurement status independently of the precision of a served quantity."
+    },
+    {
+      "id": "gl-q113",
+      "shape": "status",
+      "question": "What measurement statuses make up the internal review’s total mass for 2025-02?",
+      "answer": "The internal review records 766.768 kg weighed and 866.464 kg estimated, totalling 1633.232 kg for 2025-02. Its 20 not_weighed visits remain completed collections with blank raw readings, not measured masses (documents/20-internal-service-review.md, p. 1; documents/24-customer-review.md, p. 7).",
+      "supporting_assertions": [
+        "gl-a2057",
+        "gl-a2061",
+        "gl-a2171"
+      ],
+      "must_mention": [
+        "2025-02",
+        "766.768",
+        "866.464",
+        "1633.232",
+        "weighed",
+        "estimated",
+        "20"
+      ],
+      "must_not_claim": [
+        "1633.232 kg was all weighed.",
+        "The raw sum can be used as a net treatment total."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "Tests measurement status independently of the precision of a served quantity."
+    },
+    {
+      "id": "gl-q114",
+      "shape": "status",
+      "question": "What measurement statuses make up the internal review’s total mass for 2025-04?",
+      "answer": "The internal review records 949.937 kg weighed and 1003.460 kg estimated, totalling 1953.397 kg for 2025-04. Its 23 not_weighed visits remain completed collections with blank raw readings, not measured masses (documents/20-internal-service-review.md, p. 1; documents/24-customer-review.md, p. 7).",
+      "supporting_assertions": [
+        "gl-a2059",
+        "gl-a2061",
+        "gl-a2171"
+      ],
+      "must_mention": [
+        "2025-04",
+        "949.937",
+        "1003.460",
+        "1953.397",
+        "weighed",
+        "estimated",
+        "23"
+      ],
+      "must_not_claim": [
+        "1953.397 kg was all weighed.",
+        "The raw sum can be used as a net treatment total."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "Tests measurement status independently of the precision of a served quantity."
+    },
+    {
+      "id": "gl-q115",
+      "shape": "status",
+      "question": "What measurement statuses make up the internal review’s total mass for 2025-05?",
+      "answer": "The internal review records 771.055 kg weighed and 983.776 kg estimated, totalling 1754.831 kg for 2025-05. It distinguishes 14 blank-reading visits from ten tare-only visits, both estimated, and retains a separate raw sum of 733.015 kg (documents/20-internal-service-review.md, p. 1; documents/24-customer-review.md, p. 7).",
+      "supporting_assertions": [
+        "gl-a2060",
+        "gl-a2061",
+        "gl-a2171",
+        "gl-a2039"
+      ],
+      "must_mention": [
+        "2025-05",
+        "771.055",
+        "983.776",
+        "1754.831",
+        "weighed",
+        "estimated",
+        "14",
+        "733.015",
+        "ten tare-only"
+      ],
+      "must_not_claim": [
+        "1754.831 kg was all weighed.",
+        "The raw sum can be used as a net treatment total."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "Tests measurement status independently of the precision of a served quantity."
+    },
+    {
+      "id": "gl-q116",
+      "shape": "status",
+      "question": "Does the Hearth office record on 2025-01-01 represent an unweighed collection or an explicit empty return?",
+      "answer": "The CSV records an empty return, 0 containers and an explicit raw reading of 0 kg for WT-20250101-HO-AB. This is zero_recorded and not collected, rather than a blank weighing or an estimated removal (documents/22-recorded-visits.csv, p. 1; documents/02-signed-service-agreement.md, p. 2).",
+      "supporting_assertions": [
+        "gl-a0005",
+        "gl-a1644"
+      ],
+      "must_mention": [
+        "empty return",
+        "0 containers",
+        "0 kg",
+        "zero_recorded",
+        "not collected"
+      ],
+      "must_not_claim": [
+        "The raw mass is unknown.",
+        "A container of food waste was collected.",
+        "The zero is an imputed estimate."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Tests measurement status independently of the precision of a served quantity."
+    },
+    {
+      "id": "gl-q117",
+      "shape": "status",
+      "question": "What does the blank raw mass on Mill Road ticket WT-20250107-MR-AL mean?",
+      "answer": "The ticket records one container collected on 2025-01-07 with reading status not_weighed and raw mass blank. The method retains the completed collection and supplies an estimated quantity separately, without filling raw_kg (documents/22-recorded-visits.csv, p. 1; documents/24-customer-review.md, p. 7).",
+      "supporting_assertions": [
+        "gl-a0045",
+        "gl-a2171"
+      ],
+      "must_mention": [
+        "one container",
+        "2025-01-07",
+        "not_weighed",
+        "blank",
+        "estimated"
+      ],
+      "must_not_claim": [
+        "The ticket is cancelled.",
+        "The blank is a zero reading.",
+        "The site-mean estimate was read from the scale."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Tests measurement status independently of the precision of a served quantity."
+    },
+    {
+      "id": "gl-q118",
+      "shape": "status",
+      "question": "Can the -3.170 kg on provisional Quarry Tower ticket WT-GL-QT-MAY-V8K be served as net waste mass?",
+      "answer": "No: the provisional ticket records -3.170 kg as tare only on 2025-05-14, with net contents not established. The May site basis assigns 27.070 kg as an estimated net quantity while preserving the negative raw reading (documents/26-weigh-ticket-quarry-tower-provisional.md, p. 1; documents/22-recorded-visits.csv, p. 1; documents/21-monthly-collections.csv, p. 1; documents/24-customer-review.md, p. 7).",
+      "supporting_assertions": [
+        "gl-a1061",
+        "gl-a1058",
+        "gl-a1601",
+        "gl-a2171"
+      ],
+      "must_mention": [
+        "-3.170",
+        "tare",
+        "provisional",
+        "net contents not established",
+        "27.070",
+        "estimated"
+      ],
+      "must_not_claim": [
+        "-3.170 kg is negative food waste.",
+        "The negative value should be clamped to zero.",
+        "27.070 kg is a measured net reading."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "Tests measurement status independently of the precision of a served quantity."
+    },
+    {
+      "id": "gl-q119",
+      "shape": "status",
+      "question": "What is the status of the 11.735 kg on the final Station House ticket?",
+      "answer": "The final ticket records 11.735 kg as a net scale reading on 2025-03-11. It is a weighed quantity, distinct from a site-mean estimate or a tare-only output (documents/25-weigh-ticket-station-house.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a0569"
+      ],
+      "must_mention": [
+        "11.735",
+        "net scale reading",
+        "2025-03-11",
+        "weighed"
+      ],
+      "must_not_claim": [
+        "11.735 kg is an estimate.",
+        "11.735 kg is a tare reading."
+      ],
+      "difficulty": "easy",
+      "why_it_matters": "Tests measurement status independently of the precision of a served quantity."
+    },
+    {
+      "id": "gl-q120",
+      "shape": "status",
+      "question": "Does the 2024 weighed_kg column establish that all 13334.000 kg was verified by individual weighings?",
+      "answer": "No: the customer review carries 13334.000 kg from the prior-year account schedule in weighed_kg, but the dossier provides no per-visit masses for 2024. The true measured-versus-estimated split of that prior-year assertion remains unknown (documents/24-customer-review.md, p. 4; documents/24-customer-review.md, p. 7; documents/17-collection-register.md, p. 1; documents/20-internal-service-review.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a2072",
+        "gl-a2172",
+        "gl-a1157",
+        "gl-a2388"
+      ],
+      "must_mention": [
+        "13334.000",
+        "prior-year account schedule",
+        "weighed_kg",
+        "no per-visit masses",
+        "unknown"
+      ],
+      "must_not_claim": [
+        "All 13334.000 kg has primary weighing support.",
+        "The true 2024 estimated mass is zero."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "Tests measurement status independently of the precision of a served quantity."
+    },
+    {
+      "id": "gl-q121",
+      "shape": "unknown",
+      "question": "Is there a signed transfer of GL-AG-JTS-K7M from Mosswheel Services Ltd to GreenLoop Collect Ltd?",
+      "answer": "The dossier contains no signed transfer or customer consent from Mosswheel to GreenLoop. Written customer consent and a signed transfer instrument identifying the replaced provision would resolve this (documents/01-contract-summary.md, p. 1; documents/02-signed-service-agreement.md, p. 4; documents/19-transfer-scenario.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a1675",
+        "gl-a1663",
+        "gl-a1664",
+        "gl-a2033"
+      ],
+      "must_mention": [
+        "no signed transfer",
+        "customer consent",
+        "signed transfer instrument"
+      ],
+      "must_not_claim": [
+        "A shared trading name proves transfer.",
+        "GreenLoop automatically inherited the agreement."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "Tests the named unknown gl-u0001 and the evidence needed to resolve it."
+    },
+    {
+      "id": "gl-q122",
+      "shape": "unknown",
+      "question": "Did Juniper Table Services Ltd give written termination notice supporting the closed status at the end of 2025-05?",
+      "answer": "The dossier does not establish such a notice: the register has none attached and the diary says none was received. A dated customer termination notice would resolve this (documents/17-collection-register.md, p. 1; documents/05-contract-notice-diary.md, p. 1; documents/02-signed-service-agreement.md, p. 3).",
+      "supporting_assertions": [
+        "gl-a1161",
+        "gl-a1163",
+        "gl-a1659"
+      ],
+      "must_mention": [
+        "does not establish",
+        "register",
+        "diary",
+        "dated customer termination notice"
+      ],
+      "must_not_claim": [
+        "The inactive flag proves legal termination.",
+        "No notice could ever have existed."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "Tests the named unknown gl-u0002 and the evidence needed to resolve it."
+    },
+    {
+      "id": "gl-q123",
+      "shape": "unknown",
+      "question": "Are the 2024-02 and 2024-08 CSV rows labelled Mill Rd. the Mill Road site?",
+      "answer": "The dossier does not resolve those margin labels: their site codes and transcribed counts are blank. An account statement linking them to SITE-MR or identifying another location would resolve them (documents/21-monthly-collections.csv, p. 1).",
+      "supporting_assertions": [
+        "gl-a1397",
+        "gl-a1399"
+      ],
+      "must_mention": [
+        "does not resolve",
+        "blank",
+        "SITE-MR",
+        "account statement"
+      ],
+      "must_not_claim": [
+        "The spelling proves these are Mill Road.",
+        "The blank counts are zero."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "Tests the named unknown gl-u0003 and the evidence needed to resolve it."
+    },
+    {
+      "id": "gl-q124",
+      "shape": "unknown",
+      "question": "Is the unassigned label Hearth the same location as Hearth office?",
+      "answer": "The dossier does not resolve that identity: the 2025-02-05 Hearth record has no site code or address. A statement identifying the location, or distinguishing it from Hearth office, would resolve it (documents/22-recorded-visits.csv, p. 1; documents/24-customer-review.md, p. 5; documents/24-customer-review.md, p. 7).",
+      "supporting_assertions": [
+        "gl-a0291",
+        "gl-a2085",
+        "gl-a2172"
+      ],
+      "must_mention": [
+        "does not resolve",
+        "2025-02-05",
+        "no site code",
+        "address",
+        "statement"
+      ],
+      "must_not_claim": [
+        "The HO letters in the ticket prove Hearth office.",
+        "The unassigned label is Hearth counter."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "Tests the named unknown gl-u0004 and the evidence needed to resolve it."
+    },
+    {
+      "id": "gl-q125",
+      "shape": "unknown",
+      "question": "What is the export timestamp of the LedgerNest billing index, and as of which instant are statuses such as paid asserted?",
+      "answer": "The dossier does not give the export timestamp, so the billing index’s statuses cannot be anchored to a known export instant. An export timestamp or bank-confirmed status date would resolve this (documents/10-billing-index.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a1889"
+      ],
+      "must_mention": [
+        "does not give",
+        "export timestamp",
+        "bank-confirmed status date"
+      ],
+      "must_not_claim": [
+        "The latest invoice date is the export timestamp.",
+        "Paid means paid as of today."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "Tests the named unknown gl-u0006 and the evidence needed to resolve it."
+    },
+    {
+      "id": "gl-q126",
+      "shape": "unknown",
+      "question": "When was the June 2025 invoice draft prepared, and was it issued?",
+      "answer": "The dossier does not establish preparation or issuance: the preparation date, invoice number and issue timestamp are blank, and review is pending. An issued invoice or dated approval would resolve its preparation and release history (documents/27-june-invoice-preparation.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a2335",
+        "gl-a2345",
+        "gl-a2350"
+      ],
+      "must_mention": [
+        "does not establish",
+        "blank",
+        "review",
+        "issued invoice",
+        "dated approval"
+      ],
+      "must_not_claim": [
+        "The draft was issued in June.",
+        "INV-2025-0xx is an assigned invoice number."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "Tests the named unknown gl-u0007 and the evidence needed to resolve it."
+    },
+    {
+      "id": "gl-q127",
+      "shape": "unknown",
+      "question": "What is Meadow Cup Rooms Ltd's start day, and is there an accepted quotation?",
+      "answer": "The dossier records only commencement month 2025-02 for Meadow Cup Rooms Ltd, with the start day unknown and no accepted quotation attached. An accepted quotation specifying commencement would resolve both matters (documents/05-contract-notice-diary.md, p. 1; documents/27-june-invoice-preparation.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a1705",
+        "gl-a2348"
+      ],
+      "must_mention": [
+        "2025-02",
+        "start day unknown",
+        "no accepted quotation",
+        "accepted quotation"
+      ],
+      "must_not_claim": [
+        "Meadow Cup commenced on 2025-02-01.",
+        "The unsigned quote proves acceptance."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "Tests the named unknown gl-u0008 and the evidence needed to resolve it."
+    },
+    {
+      "id": "gl-q128",
+      "shape": "unknown",
+      "question": "Where is the earlier (pre-Corrected) PDF of GL-CERT-JTS-R4A?",
+      "answer": "The dossier does not contain the earlier certificate PDF; the preparation log marks it absent. The earlier PDF, or a confirmation that it was never filed, would resolve its whereabouts (documents/08-certification-preparation.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a1746"
+      ],
+      "must_mention": [
+        "does not contain",
+        "earlier",
+        "PDF",
+        "confirmation"
+      ],
+      "must_not_claim": [
+        "The corrected certificate is a second independent recovered load.",
+        "The earlier PDF has been inspected."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Tests the named unknown gl-u0009 and the evidence needed to resolve it."
+    },
+    {
+      "id": "gl-q129",
+      "shape": "unknown",
+      "question": "Who is the unnamed buyer in the 2025-08-28 transfer scenario, and at what price?",
+      "answer": "The dossier does not identify the buyer or an agreed price, and records no completion date. A named buyer, agreed price and completion instrument would resolve the proposed transfer (documents/19-transfer-scenario.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a2033"
+      ],
+      "must_mention": [
+        "does not identify",
+        "buyer",
+        "agreed price",
+        "completion instrument"
+      ],
+      "must_not_claim": [
+        "GBP 18187.00 is the purchase price.",
+        "The business transfer was completed."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "Tests the named unknown gl-u0010 and the evidence needed to resolve it."
+    },
+    {
+      "id": "gl-q130",
+      "shape": "unknown",
+      "question": "What bin schedule belongs in Annex A of GL-AG-JTS-K7M?",
+      "answer": "The dossier does not supply a completed Annex A bin schedule: its container column is empty. A completed signed annex or later signed equipment schedule would resolve what belongs there (documents/02-signed-service-agreement.md, p. 4).",
+      "supporting_assertions": [
+        "gl-a1665"
+      ],
+      "must_mention": [
+        "does not supply",
+        "empty",
+        "signed annex",
+        "signed equipment schedule"
+      ],
+      "must_not_claim": [
+        "The later equipment appendix automatically fills the signed annex."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "Tests the named unknown gl-u0014 and the evidence needed to resolve it."
+    },
+    {
+      "id": "gl-q131",
+      "shape": "unknown",
+      "question": "In what order, if any, do the 2025-05-19 worksheet status and the LedgerNest extract status of INV-2025-065 stand?",
+      "answer": "The dossier cannot order these statuses: the worksheet records GBP 1871.42 outstanding on its 2025-05-19 snapshot, while the billing index marks INV-2025-065 paid without an export timestamp. A timestamp for the index or a document stating the succession would resolve their order (documents/04-receivables-worksheet.md, p. 1; documents/10-billing-index.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a1684",
+        "gl-a1907",
+        "gl-a1889"
+      ],
+      "must_mention": [
+        "cannot order",
+        "1871.42",
+        "2025-05-19",
+        "paid",
+        "export timestamp",
+        "succession"
+      ],
+      "must_not_claim": [
+        "The paid index entry is necessarily later.",
+        "The worksheet is necessarily the current status."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "Tests the named unknown gl-u0016 and the evidence needed to resolve it."
+    },
+    {
+      "id": "gl-q132",
+      "shape": "unknown",
+      "question": "On which date was the Mosswheel Services Ltd draft issuer of GL-CERT-JTS-R4A in force?",
+      "answer": "The dossier does not date the Mosswheel draft issuer version of GL-CERT-JTS-R4A. A dated draft naming Mosswheel Services Ltd would resolve this; the dated correction instruction does not date the earlier draft (documents/08-certification-preparation.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a1745",
+        "gl-a1746"
+      ],
+      "must_mention": [
+        "does not date",
+        "Mosswheel",
+        "dated draft"
+      ],
+      "must_not_claim": [
+        "The earlier draft was in force on 2025-05-22.",
+        "The correction date is the earlier draft date."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "Tests the named unknown gl-u0018 and the evidence needed to resolve it."
+    },
+    {
+      "id": "gl-q133",
+      "shape": "unknown",
+      "question": "How much electricity did GreenLoop’s electric van consume during 2024?",
+      "answer": "The dossier does not report the van’s electricity consumption for 2024. Charging-meter records or energy bills attributable to that van and period would resolve it.",
+      "supporting_assertions": [],
+      "must_mention": [
+        "does not report",
+        "electricity consumption",
+        "charging-meter records"
+      ],
+      "must_not_claim": [
+        "21461.23 kWh is the van’s consumption.",
+        "The travel distance determines an exact electricity total."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Checks abstention on a plausible quantity absent from the entire dossier, without fabricating supporting assertions."
+    },
+    {
+      "id": "gl-q134",
+      "shape": "unknown",
+      "question": "Which calibration certificate number covers the scale used for Station House’s 2025-03-11 weighing?",
+      "answer": "The dossier does not give a scale calibration certificate number for that weighing. A calibration certificate linked to the scale used on that date would resolve it.",
+      "supporting_assertions": [],
+      "must_mention": [
+        "does not give",
+        "calibration certificate",
+        "scale",
+        "date"
+      ],
+      "must_not_claim": [
+        "WT-GL-SH-MAR-Q7N is a calibration certificate number.",
+        "A final ticket proves calibration."
+      ],
+      "difficulty": "medium",
+      "why_it_matters": "Tests a wholly absent instrument record and keeps the evidence list empty instead of inventing a citation."
+    },
+    {
+      "id": "gl-q135",
+      "shape": "trajectory",
+      "question": "How do the papers sequence Quarry Tower’s per-visit rate from late 2024 to the September 2025 closing invoice?",
+      "answer": "The rate paper reports GBP 14.83 per visit applied since 2024-11, illustrated by the February-service invoice issued 2025-03-18; the internal schedule uses GBP 24.67 from 2025-09-08, also printed on the September-service invoice issued 2025-10-08. The earlier internal rate versions end at 2025-09-08, while the customer acceptance fields remain blank, so this documentary succession does not establish a signed contractual amendment (documents/07-revised-site-rates.md, p. 1; documents/14-invoice-gl-c-feb-n9d.md, p. 1; documents/16-invoice-gl-c-sep-u6w.md, p. 2; documents/02-signed-service-agreement.md, p. 2; documents/16-invoice-gl-c-sep-u6w.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a1736",
+        "gl-a1997",
+        "gl-a1735",
+        "gl-a2018",
+        "gl-a1737",
+        "gl-a1653",
+        "gl-a2016"
+      ],
+      "must_mention": [
+        "14.83",
+        "24.67",
+        "2024-11",
+        "2025-03-18",
+        "2025-09-08",
+        "2025-10-08",
+        "blank",
+        "internal"
+      ],
+      "must_not_claim": [
+        "The invoice amends the contract.",
+        "24.67 applies retroactively to February.",
+        "The 14.83 rate started on 2024-11-01."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "Follows frozen trajectory gl-tr0004, preserving validity bounds, date precision and documentary authority."
+    },
+    {
+      "id": "gl-q136",
+      "shape": "trajectory",
+      "question": "What transition boundary does the stated Quarry Tower rate sequence give to the earlier rate, and what later invoice carries the new one?",
+      "answer": "In the stated internal sequence, GBP 14.83 ends at the 2025-09-08 boundary and GBP 24.67 begins there under the rate paper, whose instruction says service after 2025-09-08. INV-2025-086, issued 2025-10-08 for September service, also prints GBP 24.67; it does not itself prove customer acceptance (documents/07-revised-site-rates.md, p. 1; documents/14-invoice-gl-c-feb-n9d.md, p. 1; documents/16-invoice-gl-c-sep-u6w.md, p. 1; documents/16-invoice-gl-c-sep-u6w.md, p. 2).",
+      "supporting_assertions": [
+        "gl-a1736",
+        "gl-a1997",
+        "gl-a1735",
+        "gl-a1737",
+        "gl-a2016",
+        "gl-a2018"
+      ],
+      "must_mention": [
+        "14.83",
+        "24.67",
+        "2025-09-08",
+        "after",
+        "INV-2025-086",
+        "2025-10-08"
+      ],
+      "must_not_claim": [
+        "The old rate ends on the March invoice issue date.",
+        "The invoice date is the new rate’s first internal effective date."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "Follows frozen trajectory gl-tr0004, preserving validity bounds, date precision and documentary authority."
+    },
+    {
+      "id": "gl-q137",
+      "shape": "trajectory",
+      "question": "What dated succession of receiving operators is recorded for Copper Kettle’s loads?",
+      "answer": "The customer review identifies Fenroot Recovery Ltd for 2024-01 through 2024-06, followed by Cinderbank Organics Ltd from 2024-07. The internal review records the July change, with month precision and no stated end for the later version (documents/20-internal-service-review.md, p. 1; documents/24-customer-review.md, p. 6).",
+      "supporting_assertions": [
+        "gl-a2052",
+        "gl-a2053",
+        "gl-a2170"
+      ],
+      "must_mention": [
+        "Fenroot Recovery Ltd",
+        "2024-01",
+        "2024-06",
+        "Cinderbank Organics Ltd",
+        "2024-07",
+        "month",
+        "no stated end"
+      ],
+      "must_not_claim": [
+        "The switch occurred on 2024-07-01.",
+        "Both operators received every load concurrently."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "Follows frozen trajectory gl-tr0006, preserving validity bounds, date precision and documentary authority."
+    },
+    {
+      "id": "gl-q138",
+      "shape": "trajectory",
+      "question": "Why can the corrected certificate name two receiving facilities without implying two simultaneous destinations for every load?",
+      "answer": "The account history places Fenroot in 2024-01 through 2024-06, then Cinderbank from 2024-07, and says the certificate’s reporting window spans that change. The certificate names that succession, not proof of two deliveries for each load (documents/20-internal-service-review.md, p. 1; documents/24-customer-review.md, p. 6; documents/23-treatment-certificate-corrected.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a2052",
+        "gl-a2053",
+        "gl-a2170",
+        "gl-a2064"
+      ],
+      "must_mention": [
+        "Fenroot",
+        "2024-01",
+        "2024-06",
+        "Cinderbank",
+        "2024-07",
+        "spans"
+      ],
+      "must_not_claim": [
+        "Every load went to both facilities.",
+        "The corrected certificate duplicates a treatment load."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "Follows frozen trajectory gl-tr0006, preserving validity bounds, date precision and documentary authority."
+    },
+    {
+      "id": "gl-q139",
+      "shape": "trajectory",
+      "question": "How does Copper Kettle’s recorded operational status progress from the May closure to the announced September restart?",
+      "answer": "The register records closure at the end of 2025-05 with sites inactive, followed by the diary’s announced restart of Roast Kitchen and Quarry Tower only from 2025-09-09. The closed-status version ends at that restart boundary; other locations remain inactive, and this is an operational sequence rather than proof of termination or completed September visits (documents/17-collection-register.md, p. 1; documents/05-contract-notice-diary.md, p. 1; documents/02-signed-service-agreement.md, p. 3).",
+      "supporting_assertions": [
+        "gl-a1162",
+        "gl-a1710",
+        "gl-a1163",
+        "gl-a1659"
+      ],
+      "must_mention": [
+        "end of 2025-05",
+        "2025-09-09",
+        "Roast Kitchen",
+        "Quarry Tower",
+        "only",
+        "other locations",
+        "inactive"
+      ],
+      "must_not_claim": [
+        "All sites reopened.",
+        "The closure proves contractual termination.",
+        "A precise May closure day is recorded."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "Follows frozen trajectory gl-tr0008, preserving validity bounds, date precision and documentary authority."
+    },
+    {
+      "id": "gl-q140",
+      "shape": "trajectory",
+      "question": "Where does the June invoice draft sit in the recorded closure-to-restart sequence?",
+      "answer": "The record runs from closure at the end of 2025-05 to an announced two-site restart from 2025-09-09. The undated June draft is a proposed run between those periods, with no completed June visit entered, so it supplies no dated reopening version (documents/17-collection-register.md, p. 1; documents/05-contract-notice-diary.md, p. 1; documents/27-june-invoice-preparation.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a1162",
+        "gl-a1710",
+        "gl-a2335",
+        "gl-a2350"
+      ],
+      "must_mention": [
+        "end of 2025-05",
+        "2025-09-09",
+        "undated",
+        "proposed",
+        "no completed June visit"
+      ],
+      "must_not_claim": [
+        "The account reopened on 2025-06-01.",
+        "The June draft creates an intermediate executed-service version."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "Follows frozen trajectory gl-tr0008, preserving validity bounds, date precision and documentary authority."
+    },
+    {
+      "id": "gl-q141",
+      "shape": "trajectory",
+      "question": "How does the certificate preparation log sequence the March 2025 mass estimate and completed working basis?",
+      "answer": "In the log opened 2025-05-22, the earlier March estimate is 1.287 t; at the 2025-06-18 revision it is followed by a completed basis of 1601.373 kg weighed and 0.000 kg estimated. The earlier version ends at 2025-06-18, while both statements retain their drafting dates and methods rather than becoming two incompatible weighings (documents/08-certification-preparation.md, p. 1).",
+      "supporting_assertions": [
+        "gl-a1744",
+        "gl-a1751",
+        "gl-a1741"
+      ],
+      "must_mention": [
+        "2025-05-22",
+        "1.287",
+        "2025-06-18",
+        "1601.373",
+        "0.000",
+        "estimate",
+        "weighed"
+      ],
+      "must_not_claim": [
+        "Both versions are primary measured weights.",
+        "The comparison changes the date of March service."
+      ],
+      "difficulty": "hard",
+      "why_it_matters": "Follows frozen trajectory gl-tr0011, preserving validity bounds, date precision and documentary authority."
+    }
+  ]
+}

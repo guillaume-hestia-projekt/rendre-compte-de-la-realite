@@ -1,0 +1,479 @@
+{
+  "schema": "dossier-manifest/1.0.0",
+  "id": "greenloop",
+  "language": "en",
+  "sources": [
+    {
+      "id": "gl-01",
+      "file": "documents/01-contract-summary.md",
+      "sha256": "efac65dfa4cdd85555b813b77cb074615d748a313625b193450e84f512432c28",
+      "pages": 1,
+      "date": "2025-08-21",
+      "date_granularity": "day",
+      "authors": [
+        "GreenLoop operations team"
+      ],
+      "recipients": [],
+      "signatories": [],
+      "perspective": "internal-reconstruction",
+      "nature": "internal contract summary",
+      "notes": "Reconstructed account card; not an independently signed agreement. All substance is synthetic; signatures and operational identifiers are non-operational. Documentary claims retain the perspective of their issuer; account conversions are not verified plant outputs."
+    },
+    {
+      "id": "gl-02",
+      "file": "documents/02-signed-service-agreement.md",
+      "sha256": "cdc2c8ab318eb009bcb8c6ec627bbc96d68f7f3cad94ff0dcf9eebd04d6c7b58",
+      "pages": 4,
+      "date": "2023-05-15",
+      "date_granularity": "day",
+      "authors": [],
+      "recipients": [
+        "Mosswheel Services Ltd",
+        "Juniper Table Services Ltd"
+      ],
+      "signatories": [
+        "Daniel Mercer",
+        "Grace Miller"
+      ],
+      "perspective": "contract-parties",
+      "nature": "signed service agreement",
+      "notes": "Original synthetic agreement. Pagination is authored for this dossier; all signatures are fictional. All substance is synthetic; signatures and operational identifiers are non-operational. Documentary claims retain the perspective of their issuer; account conversions are not verified plant outputs."
+    },
+    {
+      "id": "gl-03",
+      "file": "documents/03-receivables-summary.md",
+      "sha256": "1993636907330e66fa4b5a965b16aea4583839ca929423e2671fd74fd02c90ca",
+      "pages": 1,
+      "date": "2025-08-22",
+      "date_granularity": "day",
+      "authors": [
+        "GreenLoop operations team"
+      ],
+      "recipients": [],
+      "signatories": [],
+      "perspective": "internal-reconstruction",
+      "nature": "internal financial summary",
+      "notes": "Secondary account note. Balances are attributed to a historical worksheet, not asserted as current bank facts. All substance is synthetic; signatures and operational identifiers are non-operational. Documentary claims retain the perspective of their issuer; account conversions are not verified plant outputs."
+    },
+    {
+      "id": "gl-04",
+      "file": "documents/04-receivables-worksheet.md",
+      "sha256": "042cd1515f13d7ee433f5a1ac5e6edc57884cf7237b76af3eca9bade82450951",
+      "pages": 1,
+      "date": "2025-05-19",
+      "date_granularity": "day",
+      "authors": [
+        "Mosswheel finance desk"
+      ],
+      "recipients": [],
+      "signatories": [],
+      "perspective": "internal-finance-record",
+      "nature": "receivables spreadsheet representation",
+      "notes": " All substance is synthetic; signatures and operational identifiers are non-operational. Documentary claims retain the perspective of their issuer; account conversions are not verified plant outputs."
+    },
+    {
+      "id": "gl-05",
+      "file": "documents/05-contract-notice-diary.md",
+      "sha256": "123833dcb5b59cddcc5e2fcde455bfc007f986545e20fe8e506a51d633456b2c",
+      "pages": 1,
+      "date": "2025-08-27",
+      "date_granularity": "day",
+      "authors": [
+        "GreenLoop operations team"
+      ],
+      "recipients": [],
+      "signatories": [],
+      "perspective": "internal-reconstruction",
+      "nature": "internal contract and notice summary",
+      "notes": " All substance is synthetic; signatures and operational identifiers are non-operational. Documentary claims retain the perspective of their issuer; account conversions are not verified plant outputs."
+    },
+    {
+      "id": "gl-06",
+      "file": "documents/06-expansion-offer-card.md",
+      "sha256": "f52238cf8e36275af1af82316db26aca574e90e58871685d33ee74b5090b95b1",
+      "pages": 1,
+      "date": "2025-08-21",
+      "date_granularity": "day",
+      "authors": [
+        "GreenLoop operations team"
+      ],
+      "recipients": [],
+      "signatories": [],
+      "perspective": "internal-reconstruction",
+      "nature": "reconstructed commercial proposal and costing",
+      "notes": " All substance is synthetic; signatures and operational identifiers are non-operational. Documentary claims retain the perspective of their issuer; account conversions are not verified plant outputs."
+    },
+    {
+      "id": "gl-07",
+      "file": "documents/07-revised-site-rates.md",
+      "sha256": "96f801c1091d5839c809f55fc8a573b7a9e47b85ca025b0e8084bf30014f75e9",
+      "pages": 1,
+      "date": "2025-09-08",
+      "date_granularity": "day",
+      "authors": [
+        "Emma Bennett"
+      ],
+      "recipients": [
+        "GreenLoop Collect Ltd"
+      ],
+      "signatories": [],
+      "perspective": "internal-management-decision",
+      "nature": "internal tariff revision",
+      "notes": "Internal decision, with no customer signatory. Its effective date describes its own perspective. All substance is synthetic; signatures and operational identifiers are non-operational. Documentary claims retain the perspective of their issuer; account conversions are not verified plant outputs."
+    },
+    {
+      "id": "gl-08",
+      "file": "documents/08-certification-preparation.md",
+      "sha256": "3827cb6e1c9eee3b8910b56dff99c4e5402a109d85c5e0122b135f7c7ae03056",
+      "pages": 1,
+      "date": "2025-06-18",
+      "date_granularity": "day",
+      "authors": [
+        "GreenLoop operations team"
+      ],
+      "recipients": [],
+      "signatories": [],
+      "perspective": "internal-reconstruction",
+      "nature": "internal certificate preparation and revision note",
+      "notes": " All substance is synthetic; signatures and operational identifiers are non-operational. Documentary claims retain the perspective of their issuer; account conversions are not verified plant outputs."
+    },
+    {
+      "id": "gl-09",
+      "file": "documents/09-january-scale-export.md",
+      "sha256": "f56d86f66fa5660ff9610fac8b9293bc71b158d5dda5e3827f4713871ca89825",
+      "pages": 1,
+      "date": "2025-02-04",
+      "date_granularity": "day",
+      "authors": [],
+      "recipients": [
+        "GreenLoop operations team"
+      ],
+      "signatories": [],
+      "perspective": "operational-system-export",
+      "nature": "monthly weighing spreadsheet export",
+      "notes": "Wide, unpaginated spreadsheet representation with separate weight, container and summary sheets. All substance is synthetic; signatures and operational identifiers are non-operational. Documentary claims retain the perspective of their issuer; account conversions are not verified plant outputs."
+    },
+    {
+      "id": "gl-10",
+      "file": "documents/10-billing-index.md",
+      "sha256": "b5b912c280d9df68b4aad6db05418f45a54db927f207ed60c21641b2b2aceec6",
+      "pages": 1,
+      "date": null,
+      "date_granularity": "unknown",
+      "authors": [
+        "LedgerNest"
+      ],
+      "recipients": [
+        "GreenLoop finance desk"
+      ],
+      "signatories": [],
+      "perspective": "billing-system-export",
+      "nature": "internal invoice index",
+      "notes": "Exported statuses are not bank-confirmed current balances. The extract does not supply the line items of documents outside the packet. All substance is synthetic; signatures and operational identifiers are non-operational. Documentary claims retain the perspective of their issuer; account conversions are not verified plant outputs."
+    },
+    {
+      "id": "gl-11",
+      "file": "documents/11-invoice-mw-c-jan-h8k.md",
+      "sha256": "5a0ee10b65ed3e2af1bc51054e0dde7b411a16ad3dbd6bf624296952152be019",
+      "pages": 2,
+      "date": "2025-02-12",
+      "date_granularity": "day",
+      "authors": [
+        "Mosswheel Services Ltd"
+      ],
+      "recipients": [
+        "Juniper Table Services Ltd"
+      ],
+      "signatories": [],
+      "perspective": "provider-invoice",
+      "nature": "customer collection invoice",
+      "notes": " All substance is synthetic; signatures and operational identifiers are non-operational. Documentary claims retain the perspective of their issuer; account conversions are not verified plant outputs."
+    },
+    {
+      "id": "gl-12",
+      "file": "documents/12-invoice-mw-c-nov-l6v.md",
+      "sha256": "b2c0bec2255ac1b4dab4b4515e4ee3e9f87ddf3d231fb52e0f5b3fb5dc9ec4b0",
+      "pages": 2,
+      "date": "2024-12-12",
+      "date_granularity": "day",
+      "authors": [
+        "Mosswheel Services Ltd"
+      ],
+      "recipients": [
+        "Juniper Table Services Ltd"
+      ],
+      "signatories": [],
+      "perspective": "provider-invoice",
+      "nature": "customer collection invoice",
+      "notes": " All substance is synthetic; signatures and operational identifiers are non-operational. Documentary claims retain the perspective of their issuer; account conversions are not verified plant outputs."
+    },
+    {
+      "id": "gl-13",
+      "file": "documents/13-invoice-gl-t-feb-b7z.md",
+      "sha256": "664c4fb4407261f0f320d89142ffdaba7f5b913497628548624e603a4ceb9708",
+      "pages": 1,
+      "date": "2025-03-18",
+      "date_granularity": "day",
+      "authors": [
+        "GreenLoop Collect Ltd"
+      ],
+      "recipients": [
+        "Juniper Table Services Ltd"
+      ],
+      "signatories": [],
+      "perspective": "provider-invoice",
+      "nature": "customer treatment invoice",
+      "notes": " All substance is synthetic; signatures and operational identifiers are non-operational. Documentary claims retain the perspective of their issuer; account conversions are not verified plant outputs."
+    },
+    {
+      "id": "gl-14",
+      "file": "documents/14-invoice-gl-c-feb-n9d.md",
+      "sha256": "cbbe149f03888eea03e9acb543fd7dedebac07c1d2fcf1ab319ceb29bc090988",
+      "pages": 2,
+      "date": "2025-03-18",
+      "date_granularity": "day",
+      "authors": [
+        "GreenLoop Collect Ltd"
+      ],
+      "recipients": [
+        "Juniper Table Services Ltd"
+      ],
+      "signatories": [],
+      "perspective": "provider-invoice",
+      "nature": "customer collection invoice",
+      "notes": " All substance is synthetic; signatures and operational identifiers are non-operational. Documentary claims retain the perspective of their issuer; account conversions are not verified plant outputs."
+    },
+    {
+      "id": "gl-15",
+      "file": "documents/15-invoice-mw-c-dec-r7p.md",
+      "sha256": "30c3ff91ac8a7d586cb6597612831ce2dfb03e4fcf98b4e99f591ddfe8158a15",
+      "pages": 2,
+      "date": "2025-01-16",
+      "date_granularity": "day",
+      "authors": [
+        "Mosswheel Services Ltd"
+      ],
+      "recipients": [
+        "Juniper Table Services Ltd"
+      ],
+      "signatories": [],
+      "perspective": "provider-invoice",
+      "nature": "customer collection invoice",
+      "notes": " All substance is synthetic; signatures and operational identifiers are non-operational. Documentary claims retain the perspective of their issuer; account conversions are not verified plant outputs."
+    },
+    {
+      "id": "gl-16",
+      "file": "documents/16-invoice-gl-c-sep-u6w.md",
+      "sha256": "c02fa351b933cd47a6ca4ebfd1160fb8f9c74384cb48fc84ac2ad9217296dd54",
+      "pages": 2,
+      "date": "2025-10-08",
+      "date_granularity": "day",
+      "authors": [
+        "GreenLoop Collect Ltd"
+      ],
+      "recipients": [
+        "Juniper Table Services Ltd"
+      ],
+      "signatories": [],
+      "perspective": "provider-invoice",
+      "nature": "customer collection invoice",
+      "notes": " All substance is synthetic; signatures and operational identifiers are non-operational. Documentary claims retain the perspective of their issuer; account conversions are not verified plant outputs."
+    },
+    {
+      "id": "gl-17",
+      "file": "documents/17-collection-register.md",
+      "sha256": "cc64bd791611f51b94c43836eea8c6e3af383d4b4d6d89052fd6d51155e0adf3",
+      "pages": 1,
+      "date": "2025-06-17",
+      "date_granularity": "day",
+      "authors": [
+        "GreenLoop operations team"
+      ],
+      "recipients": [],
+      "signatories": [],
+      "perspective": "internal-reconstruction",
+      "nature": "reconstructed collection register",
+      "notes": "Large unpaginated working register. It is secondary to the cited operational and billing records. All substance is synthetic; signatures and operational identifiers are non-operational. Documentary claims retain the perspective of their issuer; account conversions are not verified plant outputs. A second file is byte-identical and represents the same source.",
+      "representations": [
+        {
+          "file": "documents/17-collection-register.md",
+          "sha256": "cc64bd791611f51b94c43836eea8c6e3af383d4b4d6d89052fd6d51155e0adf3",
+          "relation": "canonical_path_for_annotation"
+        },
+        {
+          "file": "documents/28-collection-register-file-copy.md",
+          "sha256": "cc64bd791611f51b94c43836eea8c6e3af383d4b4d6d89052fd6d51155e0adf3",
+          "relation": "byte_identical_representation"
+        }
+      ]
+    },
+    {
+      "id": "gl-18",
+      "file": "documents/18-weigh-ticket-index.md",
+      "sha256": "d0a47de39757dda592c26b4eccdb6a55e1cb7a3662e924cbf764e826682651d0",
+      "pages": 1,
+      "date": "2025-06-17",
+      "date_granularity": "day",
+      "authors": [
+        "GreenLoop operations team"
+      ],
+      "recipients": [],
+      "signatories": [],
+      "perspective": "internal-reconstruction",
+      "nature": "reconstructed weigh ticket index",
+      "notes": " All substance is synthetic; signatures and operational identifiers are non-operational. Documentary claims retain the perspective of their issuer; account conversions are not verified plant outputs."
+    },
+    {
+      "id": "gl-19",
+      "file": "documents/19-transfer-scenario.md",
+      "sha256": "8315b0ec27699bf6475efe3ec7e0350d1a0da768c62f0426e6e9a65a843af88d",
+      "pages": 1,
+      "date": "2025-08-28",
+      "date_granularity": "day",
+      "authors": [
+        "Emma Bennett"
+      ],
+      "recipients": [
+        "GreenLoop Collect Ltd"
+      ],
+      "signatories": [],
+      "perspective": "internal-management-decision",
+      "nature": "internal business transfer scenario",
+      "notes": " All substance is synthetic; signatures and operational identifiers are non-operational. Documentary claims retain the perspective of their issuer; account conversions are not verified plant outputs."
+    },
+    {
+      "id": "gl-20",
+      "file": "documents/20-internal-service-review.md",
+      "sha256": "f66405369031cab2f179e1022f769f207e341a9dbdfecade6ebf5107a90ee1d5",
+      "pages": 1,
+      "date": "2025-06",
+      "date_granularity": "month",
+      "authors": [
+        "GreenLoop operations team"
+      ],
+      "recipients": [],
+      "signatories": [],
+      "perspective": "internal-reconstruction",
+      "nature": "reconstructed internal service report",
+      "notes": " All substance is synthetic; signatures and operational identifiers are non-operational. Documentary claims retain the perspective of their issuer; account conversions are not verified plant outputs."
+    },
+    {
+      "id": "gl-21",
+      "file": "documents/21-monthly-collections.csv",
+      "sha256": "832a9e66a2eb84a9e0b1a0d3ef058adbfa61113b198564812dd214938d415775",
+      "pages": 1,
+      "date": "2025-06",
+      "date_granularity": "month",
+      "authors": [
+        "GreenLoop operations team"
+      ],
+      "recipients": [],
+      "signatories": [],
+      "perspective": "internal-reconstruction",
+      "nature": "monthly collection and mass aggregates",
+      "notes": "Prior-year invoice counts retain unknown mass fields; later site-month aggregates derive from the included ticket events and the stated site-mean method. CSV is one unpaginated sheet; cite its row number. All substance is synthetic."
+    },
+    {
+      "id": "gl-22",
+      "file": "documents/22-recorded-visits.csv",
+      "sha256": "fe03887481268a5240bad632ab3ae101d21afafad32cf6f1b15b02b07b47da70",
+      "pages": 1,
+      "date": "2025-06-17",
+      "date_granularity": "day",
+      "authors": [
+        "GreenLoop operations team"
+      ],
+      "recipients": [],
+      "signatories": [],
+      "perspective": "operational-system-export",
+      "nature": "per-visit weighing table",
+      "notes": "Raw negative and zero readings are retained. A not_weighed ticket has a blank raw mass. The run reference groups all stops on a dated round. CSV is one unpaginated sheet; cite its row number. All substance is synthetic."
+    },
+    {
+      "id": "gl-23",
+      "file": "documents/23-treatment-certificate-corrected.md",
+      "sha256": "d9b4f95785d10bc61503a9ee7e957941d42d37758a37e97529efae4e285bb672",
+      "pages": 1,
+      "date": "2025-06",
+      "date_granularity": "month",
+      "authors": [
+        "GreenLoop Collect Ltd"
+      ],
+      "recipients": [
+        "Juniper Table Services Ltd"
+      ],
+      "signatories": [
+        "Emma Bennett"
+      ],
+      "perspective": "client-deliverable",
+      "nature": "customer treatment certification",
+      "notes": "Single-page Markdown fallback: Pandoc and WeasyPrint are unavailable. It is the corrected reissue, not another independently certified load. All substance is synthetic; signatures and operational identifiers are non-operational. Documentary claims retain the perspective of their issuer; account conversions are not verified plant outputs."
+    },
+    {
+      "id": "gl-24",
+      "file": "documents/24-customer-review.md",
+      "sha256": "c02a58c272750c4e2455731f027418335cd381cca9bfdfde9bef9c955b7b8153",
+      "pages": 16,
+      "date": "2025-06-19",
+      "date_granularity": "day",
+      "authors": [
+        "GreenLoop Collect Ltd"
+      ],
+      "recipients": [
+        "Juniper Table Services Ltd"
+      ],
+      "signatories": [],
+      "perspective": "client-deliverable",
+      "nature": "sixteen-page customer collection and treatment report",
+      "notes": "Sixteen explicit page markers, including six pages of visit-level tables. Customer working edition. All substance is synthetic; signatures and operational identifiers are non-operational. Documentary claims retain the perspective of their issuer; account conversions are not verified plant outputs."
+    },
+    {
+      "id": "gl-25",
+      "file": "documents/25-weigh-ticket-station-house.md",
+      "sha256": "0a1b48b99d0347d2bdd44274b4ef4610217f1c34f92d7573250aaf0e57028cb7",
+      "pages": 1,
+      "date": "2025-03-11",
+      "date_granularity": "day",
+      "authors": [
+        "GreenLoop"
+      ],
+      "recipients": [],
+      "signatories": [],
+      "perspective": "carrier-ticket",
+      "nature": "final weigh ticket and handover form",
+      "notes": "Single-page Markdown fallback because Pandoc and WeasyPrint are unavailable. Carrier brand and printed operator record are preserved as separate fields. All substance is synthetic; signatures and operational identifiers are non-operational. Documentary claims retain the perspective of their issuer; account conversions are not verified plant outputs."
+    },
+    {
+      "id": "gl-26",
+      "file": "documents/26-weigh-ticket-quarry-tower-provisional.md",
+      "sha256": "06e7904969b8a8891713934927b6ff5de72a6a640cec6270fe6fc6b883b8c31a",
+      "pages": 1,
+      "date": "2025-05-14",
+      "date_granularity": "day",
+      "authors": [
+        "GreenLoop"
+      ],
+      "recipients": [],
+      "signatories": [],
+      "perspective": "carrier-ticket",
+      "nature": "provisional weigh ticket",
+      "notes": "Single-page Markdown fallback because Pandoc and WeasyPrint are unavailable. No receiving-operator block is present. All substance is synthetic; signatures and operational identifiers are non-operational. Documentary claims retain the perspective of their issuer; account conversions are not verified plant outputs."
+    },
+    {
+      "id": "gl-27",
+      "file": "documents/27-june-invoice-preparation.md",
+      "sha256": "a1fe96b8b93dce0e1b8792dadc5d1c6282209148472f5a731af21c425fa4dd64",
+      "pages": 1,
+      "date": null,
+      "date_granularity": "unknown",
+      "authors": [
+        "Finance preparation assistant"
+      ],
+      "recipients": [],
+      "signatories": [],
+      "perspective": "finance-preparation-draft",
+      "nature": "internal invoice preparation draft",
+      "notes": "Undated draft. The proposed service month is known; preparation and issue days remain unknown. All substance is synthetic; signatures and operational identifiers are non-operational. Documentary claims retain the perspective of their issuer; account conversions are not verified plant outputs."
+    }
+  ]
+}

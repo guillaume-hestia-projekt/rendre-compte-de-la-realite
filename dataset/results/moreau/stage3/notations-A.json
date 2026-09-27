@@ -1,0 +1,1038 @@
+{
+  "date": "2026-09-26",
+  "bras": "A",
+  "notes": [
+    {
+      "id": "A-MOR-Q01",
+      "bras": "A",
+      "question_id": "MOR-Q01",
+      "shape": "citation",
+      "verdict": "incomplete",
+      "verdict_valeur": "incomplete",
+      "verdict_lettre": "incomplete",
+      "must_mention_manquants": [
+        "LUMO SA",
+        "19 décembre 2023",
+        "comportement inapproprié"
+      ],
+      "refus": false,
+      "fautes_juge": 0,
+      "deux_cotes": false,
+      "formes_iso": [],
+      "tokens_invite": 35,
+      "usage_relais": 59611,
+      "tokens_entree": 35
+    },
+    {
+      "id": "A-MOR-Q02",
+      "bras": "A",
+      "question_id": "MOR-Q02",
+      "shape": "citation",
+      "verdict": "incomplete",
+      "verdict_valeur": "incomplete",
+      "verdict_lettre": "incomplete",
+      "must_mention_manquants": [
+        "35 heures",
+        "8 h 30",
+        "17 h 00"
+      ],
+      "refus": false,
+      "fautes_juge": 0,
+      "deux_cotes": false,
+      "formes_iso": [],
+      "tokens_invite": 28,
+      "usage_relais": 59605,
+      "tokens_entree": 28
+    },
+    {
+      "id": "A-MOR-Q03",
+      "bras": "A",
+      "question_id": "MOR-Q03",
+      "shape": "citation",
+      "verdict": "refus_fautif",
+      "verdict_valeur": "refus_fautif",
+      "verdict_lettre": "refus_fautif",
+      "must_mention_manquants": [
+        "la porte est large"
+      ],
+      "refus": true,
+      "fautes_juge": 0,
+      "deux_cotes": false,
+      "formes_iso": [],
+      "tokens_invite": 26,
+      "usage_relais": 59672,
+      "tokens_entree": 26
+    },
+    {
+      "id": "A-MOR-Q04",
+      "bras": "A",
+      "question_id": "MOR-Q04",
+      "shape": "date",
+      "verdict": "incomplete",
+      "verdict_valeur": "incomplete",
+      "verdict_lettre": "incomplete",
+      "must_mention_manquants": [
+        "2 janvier 2024"
+      ],
+      "refus": false,
+      "fautes_juge": 0,
+      "deux_cotes": false,
+      "formes_iso": [],
+      "tokens_invite": 27,
+      "usage_relais": 59556,
+      "tokens_entree": 27
+    },
+    {
+      "id": "A-MOR-Q05",
+      "bras": "A",
+      "question_id": "MOR-Q05",
+      "shape": "date",
+      "verdict": "incomplete",
+      "verdict_valeur": "incomplete",
+      "verdict_lettre": "incomplete",
+      "must_mention_manquants": [
+        "12 janvier 2024"
+      ],
+      "refus": false,
+      "fautes_juge": 0,
+      "deux_cotes": false,
+      "formes_iso": [],
+      "tokens_invite": 28,
+      "usage_relais": 59638,
+      "tokens_entree": 28
+    },
+    {
+      "id": "A-MOR-Q06",
+      "bras": "A",
+      "question_id": "MOR-Q06",
+      "shape": "date",
+      "verdict": "incomplete",
+      "verdict_valeur": "incomplete",
+      "verdict_lettre": "incomplete",
+      "must_mention_manquants": [
+        "28 janvier 2024"
+      ],
+      "refus": false,
+      "fautes_juge": 0,
+      "deux_cotes": false,
+      "formes_iso": [],
+      "tokens_invite": 24,
+      "usage_relais": 59566,
+      "tokens_entree": 24
+    },
+    {
+      "id": "A-MOR-Q07",
+      "bras": "A",
+      "question_id": "MOR-Q07",
+      "shape": "date",
+      "verdict": "incomplete",
+      "verdict_valeur": "incomplete",
+      "verdict_lettre": "incomplete",
+      "must_mention_manquants": [
+        "5 mars 2024",
+        "24/01984"
+      ],
+      "refus": false,
+      "fautes_juge": 0,
+      "deux_cotes": false,
+      "formes_iso": [],
+      "tokens_invite": 26,
+      "usage_relais": 59620,
+      "tokens_entree": 26
+    },
+    {
+      "id": "A-MOR-Q08",
+      "bras": "A",
+      "question_id": "MOR-Q08",
+      "shape": "date",
+      "verdict": "incomplete",
+      "verdict_valeur": "incomplete",
+      "verdict_lettre": "incomplete",
+      "must_mention_manquants": [
+        "15 février 2024"
+      ],
+      "refus": false,
+      "fautes_juge": 0,
+      "deux_cotes": false,
+      "formes_iso": [],
+      "tokens_invite": 24,
+      "usage_relais": 29711,
+      "tokens_entree": 24
+    },
+    {
+      "id": "A-MOR-Q09",
+      "bras": "A",
+      "question_id": "MOR-Q09",
+      "shape": "delai",
+      "verdict": "incomplete",
+      "verdict_valeur": "incomplete",
+      "verdict_lettre": "incomplete",
+      "must_mention_manquants": [
+        "2 janvier 2024",
+        "12 janvier 2024",
+        "10"
+      ],
+      "refus": false,
+      "fautes_juge": 0,
+      "deux_cotes": false,
+      "formes_iso": [],
+      "tokens_invite": 34,
+      "usage_relais": 59990,
+      "tokens_entree": 34
+    },
+    {
+      "id": "A-MOR-Q10",
+      "bras": "A",
+      "question_id": "MOR-Q10",
+      "shape": "delai",
+      "verdict": "incomplete",
+      "verdict_valeur": "incomplete",
+      "verdict_lettre": "incomplete",
+      "must_mention_manquants": [
+        "12 janvier 2024",
+        "28 janvier 2024",
+        "16"
+      ],
+      "refus": false,
+      "fautes_juge": 0,
+      "deux_cotes": false,
+      "formes_iso": [],
+      "tokens_invite": 38,
+      "usage_relais": 59987,
+      "tokens_entree": 38
+    },
+    {
+      "id": "A-MOR-Q11",
+      "bras": "A",
+      "question_id": "MOR-Q11",
+      "shape": "delai",
+      "verdict": "incomplete",
+      "verdict_valeur": "incomplete",
+      "verdict_lettre": "incomplete",
+      "must_mention_manquants": [
+        "28 janvier 2024",
+        "5 mars 2024"
+      ],
+      "refus": false,
+      "fautes_juge": 0,
+      "deux_cotes": false,
+      "formes_iso": [],
+      "tokens_invite": 35,
+      "usage_relais": 60472,
+      "tokens_entree": 35
+    },
+    {
+      "id": "A-MOR-Q12",
+      "bras": "A",
+      "question_id": "MOR-Q12",
+      "shape": "montant",
+      "verdict": "incomplete",
+      "verdict_valeur": "incomplete",
+      "verdict_lettre": "incomplete",
+      "must_mention_manquants": [
+        "2 450,00 euros"
+      ],
+      "refus": false,
+      "fautes_juge": 0,
+      "deux_cotes": false,
+      "formes_iso": [],
+      "tokens_invite": 28,
+      "usage_relais": 29707,
+      "tokens_entree": 28
+    },
+    {
+      "id": "A-MOR-Q13",
+      "bras": "A",
+      "question_id": "MOR-Q13",
+      "shape": "montant",
+      "verdict": "refus_fautif",
+      "verdict_valeur": "refus_fautif",
+      "verdict_lettre": "refus_fautif",
+      "must_mention_manquants": [
+        "1 720,00 euros"
+      ],
+      "refus": true,
+      "fautes_juge": 0,
+      "deux_cotes": false,
+      "formes_iso": [],
+      "tokens_invite": 30,
+      "usage_relais": 59699,
+      "tokens_entree": 30
+    },
+    {
+      "id": "A-MOR-Q14",
+      "bras": "A",
+      "question_id": "MOR-Q14",
+      "shape": "montant",
+      "verdict": "incomplete",
+      "verdict_valeur": "incomplete",
+      "verdict_lettre": "incomplete",
+      "must_mention_manquants": [
+        "1 120,00 euros"
+      ],
+      "refus": false,
+      "fautes_juge": 0,
+      "deux_cotes": false,
+      "formes_iso": [],
+      "tokens_invite": 29,
+      "usage_relais": 59657,
+      "tokens_entree": 29
+    },
+    {
+      "id": "A-MOR-Q15",
+      "bras": "A",
+      "question_id": "MOR-Q15",
+      "shape": "montant",
+      "verdict": "incomplete",
+      "verdict_valeur": "incomplete",
+      "verdict_lettre": "incomplete",
+      "must_mention_manquants": [
+        "14 700,00 €"
+      ],
+      "refus": false,
+      "fautes_juge": 0,
+      "deux_cotes": false,
+      "formes_iso": [],
+      "tokens_invite": 32,
+      "usage_relais": 59498,
+      "tokens_entree": 32
+    },
+    {
+      "id": "A-MOR-Q16",
+      "bras": "A",
+      "question_id": "MOR-Q16",
+      "shape": "montant",
+      "verdict": "refus_fautif",
+      "verdict_valeur": "refus_fautif",
+      "verdict_lettre": "refus_fautif",
+      "must_mention_manquants": [
+        "64 heures"
+      ],
+      "refus": true,
+      "fautes_juge": 0,
+      "deux_cotes": false,
+      "formes_iso": [],
+      "tokens_invite": 29,
+      "usage_relais": 59587,
+      "tokens_entree": 29
+    },
+    {
+      "id": "A-MOR-Q17",
+      "bras": "A",
+      "question_id": "MOR-Q17",
+      "shape": "montant",
+      "verdict": "incomplete",
+      "verdict_valeur": "incomplete",
+      "verdict_lettre": "incomplete",
+      "must_mention_manquants": [
+        "240,00 €"
+      ],
+      "refus": false,
+      "fautes_juge": 0,
+      "deux_cotes": false,
+      "formes_iso": [],
+      "tokens_invite": 33,
+      "usage_relais": 59707,
+      "tokens_entree": 33
+    },
+    {
+      "id": "A-MOR-Q18",
+      "bras": "A",
+      "question_id": "MOR-Q18",
+      "shape": "montant",
+      "verdict": "incomplete",
+      "verdict_valeur": "incomplete",
+      "verdict_lettre": "incomplete",
+      "must_mention_manquants": [
+        "360,00 €"
+      ],
+      "refus": false,
+      "fautes_juge": 0,
+      "deux_cotes": false,
+      "formes_iso": [],
+      "tokens_invite": 33,
+      "usage_relais": 59615,
+      "tokens_entree": 33
+    },
+    {
+      "id": "A-MOR-Q19",
+      "bras": "A",
+      "question_id": "MOR-Q19",
+      "shape": "contradiction",
+      "verdict": "incomplete",
+      "verdict_valeur": "incomplete",
+      "verdict_lettre": "incomplete",
+      "must_mention_manquants": [
+        "86",
+        "64",
+        "30"
+      ],
+      "refus": false,
+      "fautes_juge": 0,
+      "deux_cotes": false,
+      "formes_iso": [],
+      "tokens_invite": 30,
+      "usage_relais": 59594,
+      "tokens_entree": 30
+    },
+    {
+      "id": "A-MOR-Q20",
+      "bras": "A",
+      "question_id": "MOR-Q20",
+      "shape": "contradiction",
+      "verdict": "incomplete",
+      "verdict_valeur": "incomplete",
+      "verdict_lettre": "incomplete",
+      "must_mention_manquants": [
+        "LUMO SA",
+        "19 décembre 2023",
+        "ne puis en témoigner"
+      ],
+      "refus": false,
+      "fautes_juge": 0,
+      "deux_cotes": false,
+      "formes_iso": [],
+      "tokens_invite": 29,
+      "usage_relais": 59609,
+      "tokens_entree": 29
+    },
+    {
+      "id": "A-MOR-Q21",
+      "bras": "A",
+      "question_id": "MOR-Q21",
+      "shape": "contradiction",
+      "verdict": "incomplete",
+      "verdict_valeur": "incomplete",
+      "verdict_lettre": "incomplete",
+      "must_mention_manquants": [
+        "pression",
+        "harcèlement moral",
+        "agissements répétés"
+      ],
+      "refus": false,
+      "fautes_juge": 0,
+      "deux_cotes": false,
+      "formes_iso": [],
+      "tokens_invite": 37,
+      "usage_relais": 59634,
+      "tokens_entree": 37
+    },
+    {
+      "id": "A-MOR-Q22",
+      "bras": "A",
+      "question_id": "MOR-Q22",
+      "shape": "chronologie",
+      "verdict": "refus_fautif",
+      "verdict_valeur": "refus_fautif",
+      "verdict_lettre": "refus_fautif",
+      "must_mention_manquants": [
+        "2 janvier 2024",
+        "12 janvier 2024",
+        "28 janvier 2024"
+      ],
+      "refus": true,
+      "fautes_juge": 0,
+      "deux_cotes": false,
+      "formes_iso": [],
+      "tokens_invite": 32,
+      "usage_relais": 59623,
+      "tokens_entree": 32
+    },
+    {
+      "id": "A-MOR-Q23",
+      "bras": "A",
+      "question_id": "MOR-Q23",
+      "shape": "chronologie",
+      "verdict": "incomplete",
+      "verdict_valeur": "incomplete",
+      "verdict_lettre": "incomplete",
+      "must_mention_manquants": [
+        "15 septembre 2019",
+        "1er mars 2022",
+        "5 mars 2024",
+        "24/01984"
+      ],
+      "refus": false,
+      "fautes_juge": 0,
+      "deux_cotes": false,
+      "formes_iso": [],
+      "tokens_invite": 29,
+      "usage_relais": 59611,
+      "tokens_entree": 29
+    },
+    {
+      "id": "A-MOR-Q24",
+      "bras": "A",
+      "question_id": "MOR-Q24",
+      "shape": "chronologie",
+      "verdict": "refus_fautif",
+      "verdict_valeur": "refus_fautif",
+      "verdict_lettre": "refus_fautif",
+      "must_mention_manquants": [
+        "28 janvier 2024",
+        "15 février 2024",
+        "5 mars 2024"
+      ],
+      "refus": true,
+      "fautes_juge": 0,
+      "deux_cotes": false,
+      "formes_iso": [],
+      "tokens_invite": 31,
+      "usage_relais": 59670,
+      "tokens_entree": 31
+    },
+    {
+      "id": "A-MOR-Q25",
+      "bras": "A",
+      "question_id": "MOR-Q25",
+      "shape": "qualification",
+      "verdict": "incomplete",
+      "verdict_valeur": "incomplete",
+      "verdict_lettre": "incomplete",
+      "must_mention_manquants": [
+        "cause réelle et sérieuse"
+      ],
+      "refus": false,
+      "fautes_juge": 0,
+      "deux_cotes": false,
+      "formes_iso": [],
+      "tokens_invite": 26,
+      "usage_relais": 29703,
+      "tokens_entree": 26
+    },
+    {
+      "id": "A-MOR-Q26",
+      "bras": "A",
+      "question_id": "MOR-Q26",
+      "shape": "qualification",
+      "verdict": "incomplete",
+      "verdict_valeur": "incomplete",
+      "verdict_lettre": "incomplete",
+      "must_mention_manquants": [
+        "dépourvu de cause réelle et sérieuse",
+        "L.1152-1"
+      ],
+      "refus": false,
+      "fautes_juge": 0,
+      "deux_cotes": false,
+      "formes_iso": [],
+      "tokens_invite": 30,
+      "usage_relais": 59637,
+      "tokens_entree": 30
+    },
+    {
+      "id": "A-MOR-Q27",
+      "bras": "A",
+      "question_id": "MOR-Q27",
+      "shape": "qualification",
+      "verdict": "incomplete",
+      "verdict_valeur": "incomplete",
+      "verdict_lettre": "incomplete",
+      "must_mention_manquants": [
+        "agissements répétés",
+        "L.1152-1"
+      ],
+      "refus": false,
+      "fautes_juge": 0,
+      "deux_cotes": false,
+      "formes_iso": [],
+      "tokens_invite": 30,
+      "usage_relais": 59546,
+      "tokens_entree": 30
+    },
+    {
+      "id": "A-MOR-Q28",
+      "bras": "A",
+      "question_id": "MOR-Q28",
+      "shape": "non_etabli",
+      "verdict": "conforme",
+      "verdict_valeur": "conforme",
+      "verdict_lettre": "incomplete",
+      "must_mention_manquants": [
+        "ne puis en témoigner"
+      ],
+      "refus": true,
+      "fautes_juge": 0,
+      "deux_cotes": false,
+      "formes_iso": [],
+      "tokens_invite": 28,
+      "usage_relais": 59715,
+      "tokens_entree": 28
+    },
+    {
+      "id": "A-MOR-Q29",
+      "bras": "A",
+      "question_id": "MOR-Q29",
+      "shape": "non_etabli",
+      "verdict": "conforme",
+      "verdict_valeur": "conforme",
+      "verdict_lettre": "incomplete",
+      "must_mention_manquants": [
+        "30",
+        "64"
+      ],
+      "refus": true,
+      "fautes_juge": 0,
+      "deux_cotes": false,
+      "formes_iso": [],
+      "tokens_invite": 32,
+      "usage_relais": 59757,
+      "tokens_entree": 32
+    },
+    {
+      "id": "A-MOR-Q30",
+      "bras": "A",
+      "question_id": "MOR-Q30",
+      "shape": "non_etabli",
+      "verdict": "fautive",
+      "verdict_valeur": "fautive",
+      "verdict_lettre": "fautive",
+      "must_mention_manquants": [
+        "3 000,00 €",
+        "demande"
+      ],
+      "refus": false,
+      "fautes_juge": 0,
+      "deux_cotes": false,
+      "formes_iso": [],
+      "tokens_invite": 33,
+      "usage_relais": 59641,
+      "tokens_entree": 33
+    },
+    {
+      "id": "A-MOR-Q31",
+      "bras": "A",
+      "question_id": "MOR-Q31",
+      "shape": "non_etabli",
+      "verdict": "conforme",
+      "verdict_valeur": "conforme",
+      "verdict_lettre": "incomplete",
+      "must_mention_manquants": [
+        "autorisation préalable"
+      ],
+      "refus": true,
+      "fautes_juge": 0,
+      "deux_cotes": false,
+      "formes_iso": [],
+      "tokens_invite": 33,
+      "usage_relais": 59656,
+      "tokens_entree": 33
+    },
+    {
+      "id": "A-MOR-Q32",
+      "bras": "A",
+      "question_id": "MOR-Q32",
+      "shape": "non_etabli",
+      "verdict": "conforme",
+      "verdict_valeur": "conforme",
+      "verdict_lettre": "incomplete",
+      "must_mention_manquants": [
+        "comportement inapproprié",
+        "nie tout propos insultant",
+        "ne puis en témoigner"
+      ],
+      "refus": true,
+      "fautes_juge": 0,
+      "deux_cotes": false,
+      "formes_iso": [],
+      "tokens_invite": 34,
+      "usage_relais": 59839,
+      "tokens_entree": 34
+    },
+    {
+      "id": "A-MOR-Q33",
+      "bras": "A",
+      "question_id": "MOR-Q33",
+      "shape": "citation",
+      "verdict": "incomplete",
+      "verdict_valeur": "incomplete",
+      "verdict_lettre": "incomplete",
+      "must_mention_manquants": [
+        "Technicienne de maintenance industrielle"
+      ],
+      "refus": false,
+      "fautes_juge": 0,
+      "deux_cotes": false,
+      "formes_iso": [],
+      "tokens_invite": 29,
+      "usage_relais": 29660,
+      "tokens_entree": 29
+    },
+    {
+      "id": "A-MOR-Q34",
+      "bras": "A",
+      "question_id": "MOR-Q34",
+      "shape": "citation",
+      "verdict": "incomplete",
+      "verdict_valeur": "incomplete",
+      "verdict_lettre": "incomplete",
+      "must_mention_manquants": [
+        "749 382 615"
+      ],
+      "refus": false,
+      "fautes_juge": 0,
+      "deux_cotes": false,
+      "formes_iso": [],
+      "tokens_invite": 29,
+      "usage_relais": 59570,
+      "tokens_entree": 29
+    },
+    {
+      "id": "A-MOR-Q35",
+      "bras": "A",
+      "question_id": "MOR-Q35",
+      "shape": "date",
+      "verdict": "incomplete",
+      "verdict_valeur": "incomplete",
+      "verdict_lettre": "incomplete",
+      "must_mention_manquants": [
+        "15 septembre 2019"
+      ],
+      "refus": false,
+      "fautes_juge": 0,
+      "deux_cotes": false,
+      "formes_iso": [],
+      "tokens_invite": 25,
+      "usage_relais": 59534,
+      "tokens_entree": 25
+    },
+    {
+      "id": "A-MOR-Q36",
+      "bras": "A",
+      "question_id": "MOR-Q36",
+      "shape": "delai",
+      "verdict": "incomplete",
+      "verdict_valeur": "incomplete",
+      "verdict_lettre": "incomplete",
+      "must_mention_manquants": [
+        "15 février 2024",
+        "5 mars 2024"
+      ],
+      "refus": false,
+      "fautes_juge": 0,
+      "deux_cotes": false,
+      "formes_iso": [],
+      "tokens_invite": 31,
+      "usage_relais": 30083,
+      "tokens_entree": 31
+    },
+    {
+      "id": "A-MOR-Q37",
+      "bras": "A",
+      "question_id": "MOR-Q37",
+      "shape": "montant",
+      "verdict": "incomplete",
+      "verdict_valeur": "incomplete",
+      "verdict_lettre": "incomplete",
+      "must_mention_manquants": [
+        "20,00 euros"
+      ],
+      "refus": false,
+      "fautes_juge": 0,
+      "deux_cotes": false,
+      "formes_iso": [],
+      "tokens_invite": 30,
+      "usage_relais": 59634,
+      "tokens_entree": 30
+    },
+    {
+      "id": "A-MOR-Q38",
+      "bras": "A",
+      "question_id": "MOR-Q38",
+      "shape": "montant",
+      "verdict": "incomplete",
+      "verdict_valeur": "incomplete",
+      "verdict_lettre": "incomplete",
+      "must_mention_manquants": [
+        "680,00 €"
+      ],
+      "refus": false,
+      "fautes_juge": 0,
+      "deux_cotes": false,
+      "formes_iso": [],
+      "tokens_invite": 32,
+      "usage_relais": 59623,
+      "tokens_entree": 32
+    },
+    {
+      "id": "A-MOR-Q39",
+      "bras": "A",
+      "question_id": "MOR-Q39",
+      "shape": "chronologie",
+      "verdict": "incomplete",
+      "verdict_valeur": "incomplete",
+      "verdict_lettre": "incomplete",
+      "must_mention_manquants": [
+        "8 novembre 2023",
+        "8 janvier 2024"
+      ],
+      "refus": false,
+      "fautes_juge": 0,
+      "deux_cotes": false,
+      "formes_iso": [],
+      "tokens_invite": 30,
+      "usage_relais": 59721,
+      "tokens_entree": 30
+    },
+    {
+      "id": "A-MOR-Q40",
+      "bras": "A",
+      "question_id": "MOR-Q40",
+      "shape": "qualification",
+      "verdict": "incomplete",
+      "verdict_valeur": "incomplete",
+      "verdict_lettre": "incomplete",
+      "must_mention_manquants": [
+        "Karim BENALI",
+        "assistant"
+      ],
+      "refus": false,
+      "fautes_juge": 0,
+      "deux_cotes": false,
+      "formes_iso": [],
+      "tokens_invite": 28,
+      "usage_relais": 59603,
+      "tokens_entree": 28
+    },
+    {
+      "id": "A-MOR-Q41",
+      "bras": "A",
+      "question_id": "MOR-Q41",
+      "shape": "non_etabli",
+      "verdict": "conforme",
+      "verdict_valeur": "conforme",
+      "verdict_lettre": "incomplete",
+      "must_mention_manquants": [
+        "non annexé"
+      ],
+      "refus": true,
+      "fautes_juge": 0,
+      "deux_cotes": false,
+      "formes_iso": [],
+      "tokens_invite": 34,
+      "usage_relais": 59768,
+      "tokens_entree": 34
+    },
+    {
+      "id": "A-MOR-Q42",
+      "bras": "A",
+      "question_id": "MOR-Q42",
+      "shape": "citation",
+      "verdict": "incomplete",
+      "verdict_valeur": "incomplete",
+      "verdict_lettre": "incomplete",
+      "must_mention_manquants": [
+        "entretien préalable",
+        "éventuel licenciement"
+      ],
+      "refus": false,
+      "fautes_juge": 0,
+      "deux_cotes": false,
+      "formes_iso": [],
+      "tokens_invite": 27,
+      "usage_relais": 59656,
+      "tokens_entree": 27
+    },
+    {
+      "id": "A-MOR-Q43",
+      "bras": "A",
+      "question_id": "MOR-Q43",
+      "shape": "date",
+      "verdict": "refus_fautif",
+      "verdict_valeur": "refus_fautif",
+      "verdict_lettre": "refus_fautif",
+      "must_mention_manquants": [
+        "20 février 2024"
+      ],
+      "refus": true,
+      "fautes_juge": 0,
+      "deux_cotes": false,
+      "formes_iso": [],
+      "tokens_invite": 23,
+      "usage_relais": 59546,
+      "tokens_entree": 23
+    },
+    {
+      "id": "A-MOR-Q44",
+      "bras": "A",
+      "question_id": "MOR-Q44",
+      "shape": "delai",
+      "verdict": "conforme",
+      "verdict_valeur": "conforme",
+      "verdict_lettre": "incomplete",
+      "must_mention_manquants": [],
+      "refus": false,
+      "fautes_juge": 0,
+      "deux_cotes": false,
+      "formes_iso": [],
+      "tokens_invite": 34,
+      "usage_relais": 59720,
+      "tokens_entree": 34
+    },
+    {
+      "id": "A-MOR-Q45",
+      "bras": "A",
+      "question_id": "MOR-Q45",
+      "shape": "contradiction",
+      "verdict": "incomplete",
+      "verdict_valeur": "incomplete",
+      "verdict_lettre": "incomplete",
+      "must_mention_manquants": [
+        "1 120,00",
+        "680,00"
+      ],
+      "refus": false,
+      "fautes_juge": 0,
+      "deux_cotes": false,
+      "formes_iso": [],
+      "tokens_invite": 31,
+      "usage_relais": 59615,
+      "tokens_entree": 31
+    },
+    {
+      "id": "A-MOR-Q46",
+      "bras": "A",
+      "question_id": "MOR-Q46",
+      "shape": "chronologie",
+      "verdict": "incomplete",
+      "verdict_valeur": "incomplete",
+      "verdict_lettre": "incomplete",
+      "must_mention_manquants": [
+        "novembre 2023",
+        "8 janvier 2024"
+      ],
+      "refus": false,
+      "fautes_juge": 0,
+      "deux_cotes": false,
+      "formes_iso": [],
+      "tokens_invite": 31,
+      "usage_relais": 59616,
+      "tokens_entree": 31
+    },
+    {
+      "id": "A-MOR-Q47",
+      "bras": "A",
+      "question_id": "MOR-Q47",
+      "shape": "qualification",
+      "verdict": "incomplete",
+      "verdict_valeur": "incomplete",
+      "verdict_lettre": "incomplete",
+      "must_mention_manquants": [
+        "L.3121-28"
+      ],
+      "refus": false,
+      "fautes_juge": 0,
+      "deux_cotes": false,
+      "formes_iso": [],
+      "tokens_invite": 29,
+      "usage_relais": 59612,
+      "tokens_entree": 29
+    },
+    {
+      "id": "A-MOR-Q48",
+      "bras": "A",
+      "question_id": "MOR-Q48",
+      "shape": "montant",
+      "verdict": "incomplete",
+      "verdict_valeur": "incomplete",
+      "verdict_lettre": "incomplete",
+      "must_mention_manquants": [
+        "1 280,00 €"
+      ],
+      "refus": false,
+      "fautes_juge": 0,
+      "deux_cotes": false,
+      "formes_iso": [],
+      "tokens_invite": 27,
+      "usage_relais": 59558,
+      "tokens_entree": 27
+    },
+    {
+      "id": "A-MOR-Q49",
+      "bras": "A",
+      "question_id": "MOR-Q49",
+      "shape": "citation",
+      "verdict": "incomplete",
+      "verdict_valeur": "incomplete",
+      "verdict_lettre": "incomplete",
+      "must_mention_manquants": [
+        "86 heures supplémentaires",
+        "novembre et décembre"
+      ],
+      "refus": false,
+      "fautes_juge": 0,
+      "deux_cotes": false,
+      "formes_iso": [],
+      "tokens_invite": 27,
+      "usage_relais": 59617,
+      "tokens_entree": 27
+    },
+    {
+      "id": "A-MOR-Q50",
+      "bras": "A",
+      "question_id": "MOR-Q50",
+      "shape": "non_etabli",
+      "verdict": "conforme",
+      "verdict_valeur": "conforme",
+      "verdict_lettre": "incomplete",
+      "must_mention_manquants": [
+        "aucun arrêt de travail",
+        "médecine du travail"
+      ],
+      "refus": true,
+      "fautes_juge": 0,
+      "deux_cotes": false,
+      "formes_iso": [],
+      "tokens_invite": 32,
+      "usage_relais": 59703,
+      "tokens_entree": 32
+    }
+  ],
+  "agregat": {
+    "conforme_valeur": "7/50",
+    "conforme_lettre": "0/50",
+    "conformes": "7/50",
+    "par_forme": {
+      "chronologie": {
+        "refus_fautif": 2,
+        "incomplete": 3
+      },
+      "citation": {
+        "incomplete": 6,
+        "refus_fautif": 1
+      },
+      "contradiction": {
+        "incomplete": 4
+      },
+      "date": {
+        "incomplete": 6,
+        "refus_fautif": 1
+      },
+      "delai": {
+        "incomplete": 4,
+        "conforme": 1
+      },
+      "montant": {
+        "incomplete": 8,
+        "refus_fautif": 2
+      },
+      "non_etabli": {
+        "conforme": 6,
+        "fautive": 1
+      },
+      "qualification": {
+        "incomplete": 5
+      }
+    },
+    "refus_non_etabli": "6/7",
+    "refus_fautifs": 6,
+    "fautes_juge": "0 (250/250 jugés)",
+    "deux_cotes": "0/4",
+    "stabilite": "0/5",
+    "tokens_invite_medians": 30,
+    "usage_relais_medians": 59618,
+    "tokens_medians": 30,
+    "formes_iso": 0,
+    "illisibles": 0
+  }
+}
