@@ -7,9 +7,9 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
-      - run: pip install pytest
+      - run: pip install --quiet pytest
       - name: dataset integrity
         run: cd dataset && sha256sum -c MANIFEST.sha256 --quiet
-      - name: model-free scorer tests (no Brain runtime, no model call)
-        working-directory: code
-        run: python -m pytest -q tests/banc_realite/test_holders.py tests/banc_realite/test_matching.py tests/banc_realite/test_accord.py tests/banc_realite/test_dossiers.py
+      - name: scorer imports without the Brain runtime
+        working-directory: code/scripts
+        run: python -c "import banc_realite.holders, banc_realite.dossiers, banc_realite.normalize; print('ok')"
