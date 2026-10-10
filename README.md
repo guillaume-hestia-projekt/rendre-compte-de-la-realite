@@ -10,6 +10,13 @@ without error or omission, compared with a plain hybrid RAG over the same docume
 - **Dataset and results**: [`dataset/`](dataset/) — integrity: `sha256sum -c dataset/MANIFEST.sha256`
 - **Bench code**: [`code/`](code/) — verbatim snapshot of `scripts/banc_realite/` and its tests (see `code/README.md`, `BRAIN_COMMIT`)
 
+## Interim paper (10 October 2026): what the bench has measured so far
+
+Three cases (GreenLoop, MOREAU, and Les Granges — a real tenant's Drive read in place, not published), more than twenty retrieval lines at equal budget, no model call at query time. Three results hold: retrieval alone does not detect contradictions; reconstruction at ingestion is worth nothing alone and changes everything in composition (24/34 on Les Granges against 3/34 for plain RAG); the filter does all the work and must come from the structure of the content, not from the question — an ontology filter without reconstruction reaches only 5/34.
+
+- **English**: [`paper.intermediaire-2026-10-10.en.md`](paper.intermediaire-2026-10-10.en.md)
+- **Français**: [`paper.intermediaire-2026-10-10.fr.md`](paper.intermediaire-2026-10-10.fr.md)
+
 ## What is compared
 
 | Provider | What it is |
