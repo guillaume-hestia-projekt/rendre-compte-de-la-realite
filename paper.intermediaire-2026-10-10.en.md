@@ -1,7 +1,7 @@
 ---
 title: Reporting Reality — interim paper
 authors: Hestia. (Guillaume Aubry)
-date: 2026-10-10
+date: 2026-10-11
 lang: en
 ---
 
@@ -19,7 +19,7 @@ We are looking for the best way to give a language model the context it needs to
 2. **Reconstruction at ingestion, that is re-reading the documents entity by entity and writing out facts, rules, disagreements and the not-established with the exact line, is worth nothing alone, and changes everything in composition.** Alone: a net margin of 37 on GreenLoop, 1 on MOREAU, 15/34 on Les Granges. Composed with retrieval: the best line on all three cases.
 3. **The filter does all the work.** With a perfect filter that knows the right documents, retrieval holds 113 questions out of 141; no real filter built from the questions comes close. The only filter that works comes from the structure of the content, not from the question.
 
-This last point converges, by experiment, with the "composite retrieval" Jonas Roman describes in production: filter by structure, hybrid search on the reduced space, relations afterwards. The difference is where the structure comes from: for him a schema set by hand; for us an ontology proposed from the content and then decided in conversation with the user. That is what we measure next.
+This last point converges, by experiment, with the "composite retrieval" Jonas Roman describes in production: filter by structure, hybrid search on the reduced space, relations afterwards. The difference is where the structure comes from: for him a schema set by hand; for us an ontology proposed from the content and then decided in conversation with the user. First measure of that path: reconstruction guided by the decided ontology yields 25/34 against 24 without it, and 20/34 alone against 15.
 
 ## 1. The bench
 
@@ -94,6 +94,8 @@ On this short case (30,000 characters of documents for 52,000 of evidence), plai
 | Filter by meaning then RAG | 8 | 17 | 2 | 5 | 0 | 1 |
 | **Objects by meaning then filtered RAG** | **24** | **26** | **6** | **10** | **4** | 2 |
 | Composite RAG filtered by ontology v1, no reconstruction | 5 | 16 | 0 | 4 | 0 | 1 |
+| Reconstruction guided by ontology v1, alone | 20 | 20 | 7 | 10 | 2 | 0 |
+| **Reconstruction guided by ontology v1, objects by meaning then filtered RAG** | **25** | **26** | 6 | **11** | **4** | 2 |
 
 On a case made of spreadsheets, retrieval alone holds almost nothing: a table row without its header says nothing, and chunking into passages separates it from what gives it meaning. Reconstruction holds the amounts; the composition holds the rest. The remaining gap: citations from "plain reading" documents (articles of association, lease, accounts), which are in no reconstructed object.
 
@@ -136,9 +138,11 @@ Three bench lines separate three questions:
 |---|---|
 | Composite RAG filtered by the ontology, no reconstruction | what the ontology alone is worth (Jonas Roman's path, no model call after tagging) |
 | Reconstruction guided by the ontology, then filtered composite RAG | what reconstruction adds to the ontology |
-| Objects by meaning then filtered RAG (24/34, current) | the reference without ontology; the gap with the previous line is the price, or the gain, of the conversation |
+| Objects by meaning then filtered RAG (24/34) | the reference without ontology; the gap with the previous line is the price, or the gain, of the conversation |
 
-The first is measured: 5/34. Without reconstruction, the ontology only lifts plain RAG from 3 to 5: 14 questions out of 37 name no entity (fallback), and 443 passages out of 888, the table rows, carry none. The ontology says *what* a document is about; only reconstruction attaches a row to its entity. The second line becomes the decisive measure. The rule is unchanged: no filter inferred from the meaning of the question; only ontology keys found literally.
+The first is measured: 5/34. Without reconstruction, the ontology only lifts plain RAG from 3 to 5: 14 questions out of 37 name no entity (fallback), and 443 passages out of 888, the table rows, carry none. The ontology says *what* a document is about; only reconstruction attaches a row to its entity.
+
+The second was measured on 11 October: **25/34**, against 24 for the reference. The entity census no longer goes through a model; it comes from the decided ontology (38 entities, two merges); periods are taken from the previous register; 54 units out of 302 are reused without a call, 238 reconstructed, 10 fail. The net gain is on **reconstruction alone: from 15 to 20** (four more contradictions and one more amount), because the entities decided by the user group documents that the model's census kept apart. Behind it, the composite gains only one question (an amount): the filtered RAG was already catching most of the gaps. What v1 does not fix: the month boundaries of units (hence the low reuse) and the citations from documents read as-is (2/6, unchanged). The rule is unchanged: no filter inferred from the meaning of the question; only ontology keys found literally.
 
 ## 8. Reproducing
 
