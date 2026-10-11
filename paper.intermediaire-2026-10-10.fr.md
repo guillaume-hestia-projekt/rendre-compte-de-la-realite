@@ -1,7 +1,7 @@
 ---
 title: Rendre compte de la réalité — papier intermédiaire
 authors: Hestia. (Guillaume Aubry)
-date: 2026-10-10
+date: 2026-10-11
 lang: fr
 ---
 
@@ -19,7 +19,7 @@ Nous cherchons la meilleure façon de donner à un modèle de langage le context
 2. **La reconstitution à l'ingestion, c'est-à-dire relire les pièces entité par entité et écrire les faits, les règles, les désaccords et le non établi avec la ligne exacte, ne vaut rien seule, et change tout en composition.** Seule : 37 d'écart sur GreenLoop, 1 sur MOREAU, 15/34 sur Les Granges. Composée avec le RAG : la meilleure ligne sur les trois dossiers.
 3. **Le filtre fait tout.** Avec un filtre parfait qui connaît les bonnes pièces, le RAG tient 113 questions sur 141 ; aucun filtre réel construit à partir des questions ne s'en approche. Le seul filtre qui marche vient de la structure du contenu, pas de la question.
 
-Ce dernier point rejoint, par l'expérience, le « composite retrieval » que Jonas Roman décrit en production : filtre par structure, hybride sur l'espace réduit, relations ensuite. La différence est l'origine de la structure : chez lui un schéma posé à la main ; chez nous, une ontologie proposée par le contenu puis décidée en conversation avec l'utilisateur. C'est ce que nous mesurons ensuite.
+Ce dernier point rejoint, par l'expérience, le « composite retrieval » que Jonas Roman décrit en production : filtre par structure, hybride sur l'espace réduit, relations ensuite. La différence est l'origine de la structure : chez lui un schéma posé à la main ; chez nous, une ontologie proposée par le contenu puis décidée en conversation avec l'utilisateur. Première mesure de cette voie : la reconstitution guidée par l'ontologie décidée rend 25/34 contre 24 sans elle, et 20/34 seule contre 15.
 
 ## 1. Le banc
 
@@ -94,6 +94,8 @@ Sur ce dossier court (30 000 caractères de pièces pour 52 000 de preuves), le 
 | Filtre par le sens puis RAG | 8 | 17 | 2 | 5 | 0 | 1 |
 | **Objets par le sens puis RAG filtré** | **24** | **26** | **6** | **10** | **4** | 2 |
 | RAG composite filtré par l'ontologie v1, sans reconstitution | 5 | 16 | 0 | 4 | 0 | 1 |
+| Reconstitution guidée par l'ontologie v1, seule | 20 | 20 | 7 | 10 | 2 | 0 |
+| **Reconstitution guidée par l'ontologie v1, objets par le sens puis RAG filtré** | **25** | **26** | 6 | **11** | **4** | 2 |
 
 Sur un dossier de tableurs, le RAG seul ne tient presque rien : une ligne de tableau sans son en-tête ne dit rien, et le découpage en passages la sépare de ce qui lui donne sens. La reconstitution tient les montants ; la composition tient le reste. Le trou restant : les citations des pièces « en lecture simple » (statuts, bail, bilans), qui ne sont dans aucun objet reconstitué.
 
@@ -136,9 +138,11 @@ Trois lignes de banc séparent trois questions :
 |---|---|
 | RAG composite filtré par l'ontologie, sans reconstitution | ce que vaut l'ontologie seule (la voie de Jonas Roman, aucun appel de modèle après l'étiquetage) |
 | Reconstitution guidée par l'ontologie, puis RAG composite filtré | ce que la reconstitution ajoute à l'ontologie |
-| Objets par le sens puis RAG filtré (24/34, actuel) | la référence sans ontologie ; l'écart avec la ligne précédente est le prix, ou le gain, de la conversation |
+| Objets par le sens puis RAG filtré (24/34) | la référence sans ontologie ; l'écart avec la ligne précédente est le prix, ou le gain, de la conversation |
 
-La première est mesurée : 5/34. Sans reconstitution, l'ontologie ne fait que remonter le RAG naïf de 3 à 5 : 14 questions sur 37 ne nomment aucune entité (repli), et 443 passages sur 888, les lignes de tableaux, n'en portent aucune. L'ontologie dit *de quoi* parle une pièce ; seule la reconstitution rattache une ligne à son entité. La deuxième ligne devient la mesure décisive. Règle inchangée : aucun filtre déduit du sens de la question ; seules des clés de l'ontologie trouvées littéralement.
+La première est mesurée : 5/34. Sans reconstitution, l'ontologie ne fait que remonter le RAG naïf de 3 à 5 : 14 questions sur 37 ne nomment aucune entité (repli), et 443 passages sur 888, les lignes de tableaux, n'en portent aucune. L'ontologie dit *de quoi* parle une pièce ; seule la reconstitution rattache une ligne à son entité.
+
+La deuxième est mesurée le 11 octobre : **25/34**, contre 24 pour la référence. Le recensement des entités ne passe plus par un modèle, il vient de l'ontologie décidée (38 entités, deux fusions) ; les périodes sont reprises du registre antérieur ; 54 unités sur 302 sont réemployées sans appel, 238 reconstituées, 10 échouent. Le gain net est sur la **reconstitution seule : de 15 à 20** (quatre contradictions et un montant de plus), parce que les entités décidées par l'utilisateur regroupent des pièces que le recensement par modèle séparait. Derrière, le composite ne gagne qu'une question (un montant) : le RAG filtré rattrapait déjà la plupart des écarts. Ce que v1 ne fixe pas : les bornes de mois des unités (d'où le faible réemploi) et les citations des pièces en lecture simple (2/6, inchangé). Règle inchangée : aucun filtre déduit du sens de la question ; seules des clés de l'ontologie trouvées littéralement.
 
 ## 8. Reproduire
 
